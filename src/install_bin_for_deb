@@ -15,5 +15,5 @@ echo
 echo "Now run build for .DEB package with the command"
 
 echo "cd ../releases"
-echo "dpkg-deb --build gxe-ispf-1.29-armhf/"
+echo "dpkg-deb --build gxe-ispf-1.29/  gxe-ispf-1.29-armhf.deb"
 echo
