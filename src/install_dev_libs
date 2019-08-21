@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# install dependancies for XE IFPS Editor on Debian
+
+sudo apt install xaw3dg libxaw7-dev libxaw3dxft8-dev
+sudo apt install ncurses-base libncurses6
+sudo apt install cups-devel
+sudo apt install cups-dev
+sudo apt install libcupsys2-dev
+sudo apt search  libcup
+sudo apt install libcups2 libcups2-dev
+sudo apt install gtk2.0
+sudo apt install libgnomeui-dev
+
+echo "Now run         './configure'"
+echo "Then run        'make'"
+echo "And finally     'sudo make install'"
+

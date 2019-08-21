@@ -1,0 +1,2 @@
+xmodmap /h/objlinux/sample/xexmap.rh9
+xe --k/h/objlinux/sample/xelnxkey.rh9 $1 $2 $3 $4

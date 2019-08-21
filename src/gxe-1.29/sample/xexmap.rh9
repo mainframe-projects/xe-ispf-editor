@@ -1,0 +1,25 @@
+!***********************************************************************************
+!****** xexmap.rh9 ***** xmodmap input to assing string to key event
+!****** usage under RedHat v9
+!******    "xmodmap xexmap.rh9"
+!***********************************************************************************
+!
+!keycode  22 = BackSpace F15
+!keycode  36 = Return    F16
+!keycode  99 = Prior     F17
+!keycode 103 = End       F18
+!keycode 105 = Next      F19
+!keycode 106 = Insert    F20
+!keysym BackSpace = BackSpace F15
+!keysym Return    = Return    F16
+!keysym Prior     = Prior     F17
+!keysym End       = End       F18
+!keysym Next      = Next      F19
+!keysym Insert    = Insert    F20
+ keysym Control_R = yacute Control_R
+ keysym BackSpace = BackSpace eth
+ keysym Return    = Return    ntilde
+ keysym Insert    = Insert    ograve
+ keysym End       = End       oacute
+ keysym Prior     = Prior     ocircumflex
+ keysym Next      = Next      otilde

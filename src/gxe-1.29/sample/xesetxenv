@@ -1,0 +1,22 @@
+#####################################################
+# called from xegt,xekt,xext
+# input:parm1:optional exec pgmname specification(pgm=xxxx)
+# setup variable for xegt.xxx ,xekt.xxx, xext.xxx
+#####################################################
+
+PGM=${1#*pgm=}            #chk pgm name parm
+if [ x"$PGM" = x"$1" ]; then #no pgmname parm
+     PGM=xe
+    #PGM=xekbchk
+else
+    PGMP=1                #id of shift out parm1
+fi
+VER=$DISTVER
+DATADIR=/h/objlinux/sample  <====== Change This Line
+#BINDIR=/h/objlinux/bin
+
+XRES=$DATADIR/xelnxres.$VER
+KEYF=$DATADIR/xelnxkey.$VER
+KEYMAP=$DATADIR/xexmap.$VER                 #for xegt
+KEYMAPRESTORE=$DATADIR/xexmap.restore.$VER  #for xegt
+

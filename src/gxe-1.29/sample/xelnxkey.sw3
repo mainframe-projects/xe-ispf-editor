@@ -1,0 +1,30 @@
+##########################################################################
+# xelnxkey.sw3
+# Key & EscString mapping table for xe under "Slackware v3.5"
+#        Usage: xe --kthis.file
+#   for Console
+#   	xe chk terminfo Key,so specify only required.
+#       chk terminfo assignment by xekbchk utility.
+#   for X
+#   	xe defines default for gnome-terminal/xterm/kterm.
+#   	see it by xekbchk utility,then specify additional key-string conbination.
+#       for the key terminal emulator dose not generate,
+#       setup by xrdb linux utility.(see xelnxe.doc or xelnxj.doc for japanese) 
+#   [section]:section is terminal emulator name,[common] is for all type.
+#             XETERM environment valiable is used if it is set.
+#             Or,emulator anme is checked,gnome-terminal/xterm/kterm is supported.
+#             for others,it use terminal name of TERM environment variable
+#   Keyname: F1<-->F12, Home, End, Insert, Delete, PageUp, PageDown,
+#            Up, Down, Left, Right, Esc, BackSpace, Tab, Enter, 2, KP_Enter  
+##########################################################################
+[common]
+##########################################################################
+[gnome-terminal]
+##########################################################################
+[xterm]
+##########################################################################
+[kterm]
+  KeyString:End         =^[[X        #kterm generate,string assing by xrdb is effect on both w/o and with Shift+
+##########################################################################
+[xeterm]          # e.g for XETERM=xeterm case
+##########################################################################

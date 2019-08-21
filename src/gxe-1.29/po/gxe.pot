@@ -1,0 +1,1097 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-28 19:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/support.c:80 src/support.c:105
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("New"),                                  //~vbdiR~
+#. *   name     stock id         	label       	accelerator		tooltip	callback							is_active//~var8R~
+#. ~var8R~
+#. {"New",		GTK_STOCK_NEW,		"_New",			"<control>N",	NULL,	G_CALLBACK(on_new_activate)			},//~var8R~//~vbdiR~
+#: src/interface.c:206 src/interface.c:707
+msgid "New(_N)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Open"),                                 //~vbdiR~
+#. ~vbdiI~
+#. {"Open",	GTK_STOCK_OPEN, 	"_Open",		"<control>O",	NULL,	G_CALLBACK(on_open_activate) 		},//~var8R~//~vbdiR~
+#: src/interface.c:215 src/interface.c:709
+msgid "Open(_O)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Save"),                                 //~vbdiR~
+#. ~vbdiI~
+#. {"Save",	GTK_STOCK_SAVE, 	"_Save",		"<control>S",	NULL,	G_CALLBACK(on_save_activate) 		},//~var8R~//~vbdiR~
+#. type,label//~vbd2M~
+#. hint  //~vbd2M~
+#. callback,callback parm(table index),reseved//~vbd2M~
+#. pixmap type and id//~vbd2M~
+#. acc key,acc key modifier,output menuitem widget//~vbd2M~
+#. ~vXXEI~
+#. ~vXXER~
+#. ~vXXEI~
+#: src/interface.c:224 src/interface.c:711 src/gxemfrm.c:282
+msgid "Save(_S)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("SaveAs"),                               //~vbdiR~
+#. ~vbdiI~
+#. {"SaveAs",  GTK_STOCK_SAVE_AS,  "Save_As",      "<control>A",   NULL,   G_CALLBACK(on_saveas_activate)      },//~var8R~//~vbd2R~
+#. {"SaveAs",  GTK_STOCK_SAVE_AS,  "Save_As",      "<control><shift>A",   NULL,   G_CALLBACK(on_saveas_activate)      },//~vbd2I~//~vbdiR~
+#: src/interface.c:233 src/interface.c:714
+msgid "SaveAs(_A)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Print"),                                //~vbdiR~
+#. {"Print",  	GTK_STOCK_PRINT,	"_Print",  		"<control>P",	NULL,	G_CALLBACK(on_print_activate) 		},//~var8R~//~vbdiR~
+#: src/interface.c:243 src/interface.c:719
+msgid "Print(_P)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("PrtScr"),                               //~vbdiR~
+#. ~vbdiI~
+#. {"PrtScr", 	GTK_STOCK_PRINT,	"_PrtScr",  	"<control>H",	NULL,	G_CALLBACK(on_prtscr_activate) 		},//~var8R~//~vbdiR~
+#: src/interface.c:252 src/interface.c:721
+msgid "PrtScr(_H)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Home"),                                 //~vbdiR~
+#. {"Home",   	GTK_STOCK_HOME,		"Home",  		"<control>E",	NULL,	G_CALLBACK(on_home_activate) 		},//~var8R~//~vbdiR~
+#: src/interface.c:262 src/interface.c:726
+msgid "Home(_E)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Term"),                                 //~vbdiR~
+#. ~vbdiI~
+#. {"Term",   	GTK_STOCK_HOME,		"Term",   		"<control>M",	NULL,	G_CALLBACK(on_terminal_activate) 	},//~var8R~//~vbdiR~
+#: src/interface.c:271 src/interface.c:728
+msgid "Term(_M)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Exit"),                                 //~vbdiR~
+#. ~vbdiI~
+#. {"Exit",   	GTK_STOCK_QUIT,		"Exit",   		"<control>X",	NULL,	G_CALLBACK(on_exit_activate) 		},//~var8R~//~vbdiR~
+#: src/interface.c:280 src/interface.c:730
+msgid "Exit(_X)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Cut"),                                  //~vbdiR~
+#. ~vbdiI~
+#. ~var8R~
+#. ~var8R~
+#. {"Cut",		GTK_STOCK_CUT,		"Cut",			"<control>T",	NULL,	G_CALLBACK(on_cut_activate) 		},//~var8R~//~vbdiR~
+#. ~vXXER~
+#. ~vXXEI~
+#. ~vXXEI~
+#. ~vXXEI~
+#. ~vXXEI~
+#. ~vbd2I~
+#. ~vXXEI~
+#. ~v66pR~//~vbd2R~
+#. ~vXXEI~
+#. ~vXXER~
+#. ~vXXER~
+#. ~vXXEI~
+#. ~vXXEI~
+#. *CHL ***                                                         //~vbj2I~
+#. ~vbj2I~
+#. ~vbj2I~
+#. ~vbj2I~
+#. type,label//~vbj2I~
+#. hint  //~vbj2I~
+#. callback,callback parm(table index),reseved//~vbj2R~
+#. stock//~vbj2R~
+#. acc key,acc key modifier,output menuitem widget//~vbj2I~
+#. type,label//~vbj2I~
+#. hint  //~vbj2I~
+#. callback,callback parm(table index),reseved//~vbj2R~
+#. stock//~vbj2R~
+#. acc key,acc key modifier,output menuitem widget//~vbj2I~
+#. type,label//~vbj2I~
+#. hint  //~vbj2I~
+#. callback,callback parm(table index),reseved//~vbj2R~
+#. stock//~vbj2R~
+#. acc key,acc key modifier,output menuitem widget//~vbj2I~
+#. type,label//~vbj2I~
+#. hint  //~vbj2I~
+#. callback,callback parm(table index),reseved//~vbj2R~
+#. stock//~vbj2R~
+#. acc key,acc key modifier,output menuitem widget//~vbj2I~
+#. type,label//~vbj2I~
+#. hint  //~vbj2I~
+#. callback,callback parm(table index),reseved//~vbj2R~
+#. stock//~vbj2R~
+#. acc key,acc key modifier,output menuitem widget//~vbj2I~
+#. type,label//~vbj2I~
+#. hint  //~vbj2I~
+#. callback,callback parm(table index),reseved//~vbj2R~
+#. stock//~vbj2R~
+#. acc key,acc key modifier,output menuitem widget//~vbj2I~
+#. ~vbj2I~
+#. ~vbj2I~
+#. ~vbj2I~
+#: src/interface.c:294 src/interface.c:734 src/gxemfrm.c:244 src/gxemfrm.c:343
+msgid "Cut(_T)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Copy"),                                 //~vbdiR~
+#. ~vbdiI~
+#. {"Copy",	GTK_STOCK_COPY, 	"Copy",			"<control>C",	NULL,	G_CALLBACK(on_copy_activate) 		},//~var8R~//~vbdiR~
+#. type,label//~vXXER~
+#. hint  //~vXXEI~
+#. callback,callback parm(table index),reseved//~vXXER~
+#. pixmap type and id//~vXXEI~
+#. acc key,acc key modifier,output menuitem widget//~vXXER~
+#. type,label//~vbj2I~
+#. hint  //~vbj2I~
+#. callback,callback parm(table index),reseved//~vbj2R~
+#. pixmap type and id//~vbj2R~
+#. acc key,acc key modifier,output menuitem widget//~vbj2I~
+#: src/interface.c:303 src/interface.c:736 src/gxemfrm.c:249 src/gxemfrm.c:348
+msgid "Copy(_C)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Clear"),                                //~vbdiR~
+#. ~vbdiI~
+#. {"Clear",   GTK_STOCK_CLEAR,	"Clear",   		"<control>L",	NULL,	G_CALLBACK(on_clear_activate) 		},//~var8R~//~vbdiR~
+#. ~vXXER~
+#. ~vXXEI~
+#. ~vXXER~
+#. ~vXXEI~
+#. ~vXXER~
+#. ~vbj2I~
+#. ~vbj2I~
+#. ~vbj2R~
+#. ~vbj2R~
+#. ~vbj2I~
+#: src/interface.c:312 src/interface.c:738 src/gxemfrm.c:254 src/gxemfrm.c:353
+msgid "Clear(_L)"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Paste"),                                //~vbdiR~
+#. ~vbdiI~
+#. {"Paste",   GTK_STOCK_PASTE,	"Paste",   		"<control>V",	NULL,	G_CALLBACK(on_PasteV_activate) 		},//~var8R~//~vbdiR~
+#. ~vXXER~
+#. ~vXXEI~
+#. ~vXXER~
+#. ~vXXEI~
+#. ~vXXER~
+#. ~vbj2I~
+#. ~vbj2I~
+#. ~vbj2R~
+#. ~vbj2R~
+#. ~vbj2I~
+#: src/interface.c:321 src/interface.c:740 src/gxemfrm.c:259 src/gxemfrm.c:358
+msgid "Paste(_V)"
+msgstr ""
+
+#. ~vbdiI~
+#: src/interface.c:322
+msgid "Standard Paste"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Paste-Insert"),                         //~vbdiR~
+#. ~vbdiI~
+#. {"Paste-Insert",NULL,			"Paste-Insert","<control>I",	NULL,	G_CALLBACK(on_paste_insert_activate)},//~var8R~//~vbdiR~
+#: src/interface.c:330 src/interface.c:742
+msgid "Paste-Insert(_I)"
+msgstr ""
+
+#. ~vbdiI~
+#: src/interface.c:331
+msgid "BlockInsert"
+msgstr ""
+
+#. GNOME_APP_UI_ITEM, N_("Paste-Replace"),                        //~vbdiR~
+#. ~vbdiI~
+#. {"Paste-Replace",NULL,			"Paste-Replace","<control>R",	NULL,	G_CALLBACK(on_paste_replace_activate)},//~var8R~//~vbdiR~
+#: src/interface.c:339 src/interface.c:744
+msgid "Paste-Replace(_R)"
+msgstr ""
+
+#. ~vbdiI~
+#: src/interface.c:340
+msgid "BlockReplace"
+msgstr ""
+
+#. ~vbdjR~
+#. ~vbd2M~
+#. GNOME_APP_UI_ITEM, N_("SelectAll"),                            //~vbd2M~//~vbdiR~
+#. ~vbdiI~
+#. {"SelectAll",GTK_STOCK_SELECT_ALL,	"SelectAll","<control>A",	NULL,	G_CALLBACK(on_selectall_activate) 		},//~vbd2M~//~vbdiR~
+#. ~vXXER~
+#. ~vXXEI~
+#. ~v66pR~
+#. ~vXXEI~
+#. ~vXXER~
+#. ~vbj2I~
+#. ~vbj2I~
+#. ~vbj2R~
+#. ~vbj2R~
+#. ~vbj2I~
+#: src/interface.c:348 src/interface.c:746 src/gxemfrm.c:274 src/gxemfrm.c:373
+msgid "SelectAll(_A)"
+msgstr ""
+
+#: src/interface.c:360
+msgid "HelpDoc"
+msgstr ""
+
+#: src/interface.c:367
+msgid "Version"
+msgstr ""
+
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#. ~vawFI~
+#: src/interface.c:380 src/interface.c:391
+msgid "Open Dialog"
+msgstr ""
+
+#: src/interface.c:403
+msgid "_File "
+msgstr ""
+
+#: src/interface.c:410
+msgid "_Edit "
+msgstr ""
+
+#. ~vawFI~
+#: src/interface.c:420 src/interface.c:440
+msgid "_Setup"
+msgstr ""
+
+#. ~vawFI~
+#: src/interface.c:449 src/interface.c:457
+msgid "_Preview"
+msgstr ""
+
+#: src/interface.c:465
+msgid "_Help "
+msgstr ""
+
+#: src/interface.c:683
+msgid "_Open"
+msgstr ""
+
+#. ~vb7tI~
+#: src/interface.c:684
+msgid "_Cancel"
+msgstr ""
+
+#. ~vb7tI~
+#: src/interface.c:685
+msgid "_Close"
+msgstr ""
+
+#. ~vb7tI~
+#: src/interface.c:686
+msgid "_OK"
+msgstr ""
+
+#. ~vb7tI~
+#: src/interface.c:687
+msgid "_Yes"
+msgstr ""
+
+#. ~vb7tI~
+#: src/interface.c:688
+msgid "_New"
+msgstr ""
+
+#: src/interface.c:905
+msgid "gxe"
+msgstr ""
+
+#: src/interface.c:965
+msgid "Open"
+msgstr ""
+
+#: src/interface.c:971
+msgid "Open File"
+msgstr ""
+
+#: src/interface.c:984
+msgid "Save"
+msgstr ""
+
+#: src/interface.c:990
+msgid "Save File"
+msgstr ""
+
+#: src/interface.c:1003
+msgid "End"
+msgstr ""
+
+#: src/interface.c:1009
+msgid "Save then Close"
+msgstr ""
+
+#: src/interface.c:1022
+msgid "Can"
+msgstr ""
+
+#: src/interface.c:1028
+msgid "Discard"
+msgstr ""
+
+#: src/interface.c:1041
+msgid "Prt"
+msgstr ""
+
+#: src/interface.c:1047 src/interface.c:3438 src/interface.c:3495
+msgid "Print"
+msgstr ""
+
+#: src/interface.c:1060 src/interface.c:1067
+msgid "Home"
+msgstr ""
+
+#: src/interface.c:1069
+msgid "nautilus Home"
+msgstr ""
+
+#: src/interface.c:1083
+msgid "Term"
+msgstr ""
+
+#: src/interface.c:1089
+msgid "Open Terminal Window"
+msgstr ""
+
+#: src/interface.c:1102 src/interface.c:1108
+msgid "Cut"
+msgstr ""
+
+#: src/interface.c:1121 src/interface.c:1127
+msgid "Copy"
+msgstr ""
+
+#: src/interface.c:1140
+msgid "Clr"
+msgstr ""
+
+#: src/interface.c:1146
+msgid "Clear"
+msgstr ""
+
+#: src/interface.c:1159
+msgid "Paste"
+msgstr ""
+
+#: src/interface.c:1165
+msgid "Paste(Like Windows Ctrl+v)"
+msgstr ""
+
+#: src/interface.c:1178
+msgid "Ins"
+msgstr ""
+
+#: src/interface.c:1184
+msgid "Paste(BlockInsert)"
+msgstr ""
+
+#: src/interface.c:1197
+msgid "Rep"
+msgstr ""
+
+#: src/interface.c:1203
+msgid "Paste(BlockReplace)"
+msgstr ""
+
+#: src/interface.c:1562
+msgid "File Selection"
+msgstr ""
+
+#. //************************************************************************//~var8R~
+#. void response_colorselectiondialog(GtkDialog Pdialog,gint Prespid,gpointer Ppdata)//~var8R~
+#. {                                                                //~var8R~
+#. //******************************                                 //~var8R~
+#. if (Prespid==GTK_RESPONSE_OK)                                //~var8R~
+#. {                                                            //~var8R~
+#. gxedlg_Color_OnOK(NULL/*button*/,NULL/*user_data*/);     //~var8R~
+#. }                                                            //~var8R~
+#. else                                                         //~var8R~
+#. {                                                            //~var8R~
+#. gxedlg_Color_OnCancel(NULL/*button*/,NULL/*user_data*/); //~var8R~
+#. }                                                            //~var8R~
+#. }//response_colorselectiondialog                                 //~var8R~
+#. ************************************************************************//~var8R~
+#. ~var8R~
+#. ~var8R~
+#. ~var8R~
+#. ~var8R~
+#. *******************************                                  //~var8R~
+#: src/interface.c:1695 src/interface.c:1769
+msgid "Color Selection"
+msgstr ""
+
+#. //************************************************************************//~var8R~
+#. void response_fontselectiondialog(GtkDialog Pdialog,gint Prespid,gpointer Ppdata)//~var8R~
+#. {                                                                //~var8R~
+#. //******************************                                 //~var8R~
+#. dprintf("response_fontselectiondialog responseid=%d\n",Prespid);//~var8R~
+#. if (Prespid==GTK_RESPONSE_OK)                                //~var8R~
+#. {                                                            //~var8R~
+#. gxedlg_Font_OnOK(NULL/*button*/,NULL/*user_data*/);      //~var8R~
+#. }                                                            //~var8R~
+#. else                                                         //~var8R~
+#. {                                                            //~var8R~
+#. gxedlg_Font_OnCancel(NULL/*button*/,NULL/*user_data*/);  //~var8R~
+#. }                                                            //~var8R~
+#. }//response_fontselectiondialog                                  //~var8R~
+#. ************************************************************************//~var8R~
+#. ~var8R~
+#. ~var8R~
+#. ~var8R~
+#. ********************************                                 //~var8R~
+#: src/interface.c:1790 src/interface.c:1873
+msgid "Font Selection"
+msgstr ""
+
+#: src/interface.c:1895
+msgid "About gxe"
+msgstr ""
+
+#: src/interface.c:1914
+msgid "label2"
+msgstr ""
+
+#: src/interface.c:2100
+msgid "Setup Options"
+msgstr ""
+
+#: src/interface.c:2194
+msgid "Current Font Style"
+msgstr ""
+
+#. #endif                                                           //~var8R~
+#: src/interface.c:2203
+msgid "Font Change"
+msgstr ""
+
+#: src/interface.c:2207
+msgid "push to change Font Style"
+msgstr ""
+
+#: src/interface.c:2213
+msgid " Font-H "
+msgstr ""
+
+#. #else   //OPTGTK3                                                //~var8R~
+#. geomhint(optiondlg,option_entry_fonth,10,5);                   //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:2233
+msgid "Average Height of the current Font "
+msgstr ""
+
+#: src/interface.c:2238
+msgid " Font-W "
+msgstr ""
+
+#. #else   //OPTGTK3                                                //~var8R~
+#. geomhint(optiondlg,option_entry_fontw,10,5);                   //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:2258
+msgid "Average Width of the current Font"
+msgstr ""
+
+#. #endif                                                           //~var8R~
+#: src/interface.c:2282
+msgid "Row-H"
+msgstr ""
+
+#: src/interface.c:2300
+msgid "Row Height"
+msgstr ""
+
+#: src/interface.c:2302
+msgid " Col-W"
+msgstr ""
+
+#: src/interface.c:2320
+msgid "Column Width"
+msgstr ""
+
+#. ~vam7I
+#: src/interface.c:2322 src/interface.c:3341
+msgid "Ligature"
+msgstr ""
+
+#: src/interface.c:2325
+msgid ""
+"accept Ligature if the font supports(combine to a glyph such as 'fi'), keep "
+"mono-spacing if chk-Off"
+msgstr ""
+
+#: src/interface.c:2327 src/interface.c:3185
+msgid "Font"
+msgstr ""
+
+#. #endif                                                           //~var8R~
+#: src/interface.c:2351
+msgid "Sample Display Window"
+msgstr ""
+
+#: src/interface.c:2357
+msgid "BGC"
+msgstr ""
+
+#: src/interface.c:2361
+msgid "Change Background Color"
+msgstr ""
+
+#: src/interface.c:2363
+msgid "Ruler"
+msgstr ""
+
+#: src/interface.c:2367
+msgid "Change Crosshair Cursor Color(toggle key:S+C+F1,F2,F3)"
+msgstr ""
+
+#: src/interface.c:2369
+msgid "BackGroundColor"
+msgstr ""
+
+#: src/interface.c:2380
+msgid " Scroll ctr"
+msgstr ""
+
+#: src/interface.c:2388
+msgid "Scroll Line Count for each MouseWheel "
+msgstr ""
+
+#: src/interface.c:2390
+msgid "  Interval"
+msgstr ""
+
+#: src/interface.c:2398
+msgid ""
+"Scroll in each Intervaltime when continue to push L-Button at the edge of "
+"screen"
+msgstr ""
+
+#: src/interface.c:2400
+msgid "0.1sec"
+msgstr ""
+
+#: src/interface.c:2414
+msgid "Ruler:S+C+"
+msgstr ""
+
+#. #else   //OPTGTK3                                                //~var8R~
+#. geomhint(optiondlg,option_entry_rulerkey,10,2);                //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:2435
+msgid ""
+"Upper letter for 3 ruler trigger keys with Shift-Control-. ex).\"!\" for "
+"key-1,\"Q\" for key-q,\"F1\" for key-F1. \"F10,\" for key-F10"
+msgstr ""
+
+#: src/interface.c:2438
+msgid "                 "
+msgstr ""
+
+#: src/interface.c:2451
+msgid "Accelerator"
+msgstr ""
+
+#: src/interface.c:2456
+msgid "Use Shortcut key(Ctl+x) for Menuitem activation"
+msgstr ""
+
+#: src/interface.c:2458
+msgid "Menu key"
+msgstr ""
+
+#: src/interface.c:2463
+msgid "Use Alt+x key to pulldown MenuItem"
+msgstr ""
+
+#: src/interface.c:2465
+msgid "R-Ctrl"
+msgstr ""
+
+#: src/interface.c:2470
+msgid "Use Right-Control Key for \"Execute\" function"
+msgstr ""
+
+#: src/interface.c:2472
+msgid "FreeCursor"
+msgstr ""
+
+#: src/interface.c:2477
+msgid "Wrap Cursor at the edge of screen"
+msgstr ""
+
+#: src/interface.c:2479
+msgid "Beep"
+msgstr ""
+
+#: src/interface.c:2484
+msgid "sound Beep when error"
+msgstr ""
+
+#. #ifndef OPTGTK3                                                    //+var8~//~var8R~
+#. #else   //OPTGTK3                                                //~var8R~
+#. {                                                              //~var8R~
+#. GtkWidget *label1223;                                          //~var8R~
+#. label1223 = gtk_label_new (" ");                               //~var8R~
+#. gtk_widget_show (label1223);                                   //~var8R~
+#. gtk_table_attach (GTK_TABLE (table1), label1223, 1, 2, 2, 3,   //~var8R~
+#. (GtkAttachOptions) (GTK_FILL),               //~var8R~
+#. (GtkAttachOptions) (0), 0, 0);               //~var8R~
+#. }                                                              //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:2497
+msgid ""
+"Use \"OPT\" cmd\n"
+"for other options"
+msgstr ""
+
+#: src/interface.c:2508
+msgid "Q-exit"
+msgstr ""
+
+#: src/interface.c:2513
+msgid "Quiet(without confirmation dialog) Exit"
+msgstr ""
+
+#: src/interface.c:2832
+msgid "PageSetup"
+msgstr ""
+
+#: src/interface.c:2866
+msgid "Printer  "
+msgstr ""
+
+#: src/interface.c:2890
+msgid "            "
+msgstr ""
+
+#: src/interface.c:2902
+msgid "PaperSize "
+msgstr ""
+
+#: src/interface.c:2904
+msgid "Paper   "
+msgstr ""
+
+#: src/interface.c:2924
+msgid "Form name"
+msgstr ""
+
+#: src/interface.c:2929
+msgid "Landscape"
+msgstr ""
+
+#: src/interface.c:2932
+msgid "Portrait's right margin is Landscape's top."
+msgstr ""
+
+#: src/interface.c:2945
+msgid "  Left"
+msgstr ""
+
+#: src/interface.c:2956
+msgid "  Top"
+msgstr ""
+
+#: src/interface.c:2967
+msgid "  Right"
+msgstr ""
+
+#: src/interface.c:2978
+msgid "  Bottom"
+msgstr ""
+
+#: src/interface.c:3004
+msgid "Top margin"
+msgstr ""
+
+#: src/interface.c:3022
+msgid "Right margin"
+msgstr ""
+
+#: src/interface.c:3040
+msgid "Bottom margin"
+msgstr ""
+
+#. #else                                                            //~var8R~
+#. gtk_entry_set_width_chars(GTK_ENTRY(page_spin_left),2);        //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:3058
+msgid "Left Margin"
+msgstr ""
+
+#. page_label_margin = gtk_label_new (_("Margin(mm)"));             //~vam7R//~vamtR
+#: src/interface.c:3062
+msgid "Margin(mm) as portrait"
+msgstr ""
+
+#. ~vamtI
+#: src/interface.c:3067
+msgid "by milimeter"
+msgstr ""
+
+#: src/interface.c:3071
+msgid "Form"
+msgstr ""
+
+#: src/interface.c:3089
+msgid "Current Font for print"
+msgstr ""
+
+#: src/interface.c:3096
+msgid "FontChange"
+msgstr ""
+
+#: src/interface.c:3099
+msgid "Push when change print Font"
+msgstr ""
+
+#: src/interface.c:3101
+msgid " Font-H"
+msgstr ""
+
+#: src/interface.c:3113
+msgid "Average charcter Height of the Font"
+msgstr ""
+
+#: src/interface.c:3115
+msgid " Font-W"
+msgstr ""
+
+#: src/interface.c:3127
+msgid "Average char Width of the Font"
+msgstr ""
+
+#: src/interface.c:3141
+msgid "Col/Row by Cell-H/W"
+msgstr ""
+
+#: src/interface.c:3145
+msgid "Determin Row/Column of page from CellH/Cell-W parameter"
+msgstr ""
+
+#: src/interface.c:3155
+msgid " Cell-H"
+msgstr ""
+
+#. #else   //OPTGTK3                                                //~var8R~
+#. gtk_entry_set_width_chars(GTK_ENTRY(page_spinbutton_cellh),2); //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:3168
+msgid "height of Row"
+msgstr ""
+
+#: src/interface.c:3170
+msgid " Cell-W"
+msgstr ""
+
+#. #else   //OPTGTK3                                                //~var8R~
+#. gtk_entry_set_width_chars(GTK_ENTRY(page_spinbutton_cellw),2); //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:3183
+msgid "Width of Column"
+msgstr ""
+
+#: src/interface.c:3197
+msgid "Col"
+msgstr ""
+
+#. #else   //OPTGTK3                                                //~var8R~
+#. gtk_entry_set_width_chars(GTK_ENTRY(page_spin_col),2);         //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:3211
+msgid "Columns per Line;if 0 Col is determined by longest line of the file"
+msgstr ""
+
+#: src/interface.c:3214
+msgid "Row"
+msgstr ""
+
+#. #else   //OPTGTK3                                                //~var8R~
+#. gtk_entry_set_width_chars(GTK_ENTRY(page_spin_row),2);         //~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:3229
+msgid "Rows per page;if 0 determined by Col & Font Height/Width rate"
+msgstr ""
+
+#: src/interface.c:3236
+msgid "         maximum Cell-H  "
+msgstr ""
+
+#. #else   //OPTGTK3                                                //~var8R~
+#. gtk_entry_set_width_chars(GTK_ENTRY(page_spinbutton_cellhmax),2);//~var8R~
+#. #endif                                                           //~var8R~
+#: src/interface.c:3249
+msgid "maixmum Row Height applied when both Col & Row is 0"
+msgstr ""
+
+#: src/interface.c:3260
+msgid "LineNumber"
+msgstr ""
+
+#: src/interface.c:3265
+msgid "Print LineNumber"
+msgstr ""
+
+#: src/interface.c:3267
+msgid "2p"
+msgstr ""
+
+#: src/interface.c:3273
+msgid "Print 2 pages per sheet"
+msgstr ""
+
+#: src/interface.c:3275
+msgid "Header"
+msgstr ""
+
+#: src/interface.c:3281
+msgid "Print Header Line(FileName)"
+msgstr ""
+
+#: src/interface.c:3283
+msgid "FileTime"
+msgstr ""
+
+#: src/interface.c:3288
+msgid "Print File Timestamp on Header line"
+msgstr ""
+
+#: src/interface.c:3290
+msgid "Footer"
+msgstr ""
+
+#: src/interface.c:3296
+msgid "Print Footer Line(PageNumber)"
+msgstr ""
+
+#: src/interface.c:3298
+msgid "WW ScrPrt"
+msgstr ""
+
+#: src/interface.c:3304
+msgid ""
+"WysiWig ScreenPrint(print as you see in the whole of screen,else expand up "
+"to page width or height)"
+msgstr ""
+
+#: src/interface.c:3306
+msgid "SysTime"
+msgstr ""
+
+#: src/interface.c:3311
+msgid "Print Current Time on the Footer line"
+msgstr ""
+
+#: src/interface.c:3313
+msgid "FillPage"
+msgstr ""
+
+#: src/interface.c:3318
+msgid "print expanded to whole of page(height and width)"
+msgstr ""
+
+#: src/interface.c:3338
+msgid "Columns between page when 2p option"
+msgstr ""
+
+#: src/interface.c:3352
+msgid ""
+"Print allows ligature.\n"
+"(for PrtScr,applied \"Ligature\" of \"Setup Options\" dialog)"
+msgstr ""
+
+#: src/interface.c:3388
+msgid "Preview window"
+msgstr ""
+
+#: src/interface.c:3396
+msgid "FileName"
+msgstr ""
+
+#: src/interface.c:3408
+msgid "Curent preview PageNumber"
+msgstr ""
+
+#: src/interface.c:3410
+msgid "page"
+msgstr ""
+
+#: src/interface.c:3442
+msgid "Preview FilePrint"
+msgstr ""
+
+#: src/interface.c:3448
+msgid "NP"
+msgstr ""
+
+#: src/interface.c:3452
+msgid "Preview NextPage"
+msgstr ""
+
+#: src/interface.c:3458
+msgid "PP"
+msgstr ""
+
+#: src/interface.c:3462
+msgid "Preview PreviousPage"
+msgstr ""
+
+#: src/interface.c:3464 src/interface.c:3509
+msgid "PrtScr"
+msgstr ""
+
+#: src/interface.c:3468
+msgid "Preview ScreenPrint"
+msgstr ""
+
+#: src/interface.c:3470
+msgid "Preview"
+msgstr ""
+
+#: src/interface.c:3491
+msgid "PrintpageRange. ex) 2-3,5,7,9-"
+msgstr ""
+
+#: src/interface.c:3493
+msgid "all pages"
+msgstr ""
+
+#: src/interface.c:3499
+msgid "Execute FilePrint"
+msgstr ""
+
+#: src/interface.c:3505 src/interface.c:3546
+msgid "    "
+msgstr ""
+
+#. gtk_tooltips_set_tip (tooltips, page_button_prtscr, _("Execute ScreenPrint"), NULL);//~vam7R
+#: src/interface.c:3514
+msgid "Execute ScreenPrint using Font of \"Setup Options\" dialog"
+msgstr ""
+
+#: src/interface.c:3529
+msgid "  "
+msgstr ""
+
+#: src/interface.c:3534
+msgid "Cancel"
+msgstr ""
+
+#: src/interface.c:3538
+msgid "Discard Changes and exit"
+msgstr ""
+
+#: src/interface.c:3540
+msgid "OK"
+msgstr ""
+
+#: src/interface.c:3544
+msgid "Save Changes and exit"
+msgstr ""
+
+#. ~v66pI~
+#. ~v66pI~
+#. ~v66pI~
+#. ~v66pI~
+#. ~v66pI~
+#. ~vbj2I~
+#. ~vbj2I~
+#. ~vbj2R~
+#. ~vbj2R~
+#. ~vbj2I~
+#: src/gxemfrm.c:264 src/gxemfrm.c:363
+msgid "PasteIns(_I)"
+msgstr ""
+
+#. ~vXXER~
+#. ~vXXEI~
+#. ~v66pR~
+#. ~vXXEI~
+#. ~vXXER~
+#. ~vbj2I~
+#. ~vbj2I~
+#. ~vbj2R~
+#. ~vbj2R~
+#. ~vbj2I~
+#: src/gxemfrm.c:269 src/gxemfrm.c:368
+msgid "PasteRep(_R)"
+msgstr ""
+
+#. ~vXXER~
+#. ~vXXEI~
+#. ~v66pR~//~vbd2R~
+#. ~vXXEI~
+#. ~vXXER~
+#: src/gxemfrm.c:287
+msgid "End(_E)"
+msgstr ""
+
+#. ~vXXER~
+#: src/gxemfrm.c:288
+msgid "Save,then Close"
+msgstr ""
+
+#. ~vXXEI~
+#. ~v66pR~//~vbd2R~
+#. ~vXXEI~
+#. ~vXXER~
+#. type,label//~vbj2I~
+#. hint  //~vbj2I~
+#. callback,callback parm(table index),reseved//~vbj2R~
+#. pixmap type and id//~vbj2R~
+#. acc key,acc key modifier,output menuitem widget//~vbj2I~
+#. ~vbj2I~
+#. ~vbj2I~
+#. ~vbj2I~
+#: src/gxemfrm.c:292 src/gxemfrm.c:381
+msgid "Discard(_D)"
+msgstr ""
+
+#. ~vXXER~
+#. ~vbj2I~
+#: src/gxemfrm.c:293 src/gxemfrm.c:382
+msgid "Cancel,then Close"
+msgstr ""
+
+#. ~vXXEI~
+#. ~v66pR~//~vbd2R~
+#. ~vXXEI~
+#. ~vXXER~
+#. {GNOME_APP_UI_ITEM, N_("OpenWidthA(_A)"),                      //~vXXER~//~vbd2R~
+#: src/gxemfrm.c:298
+msgid "OpenWidth(_W)"
+msgstr ""

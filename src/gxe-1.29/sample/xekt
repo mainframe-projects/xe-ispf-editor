@@ -1,0 +1,23 @@
+## kick xe under kterm
+. xegetdv        #get distribution id to XEDISTID
+. xesetxenv $1   #setup environment variable 
+#
+SW1ST=`xrdb -query|grep xekt`
+if [ x"$SW1ST" = x ]; then
+    xrdb -merge $XRES
+fi
+if [ $DISTVER != sw3 ]; then
+#see chk supported font by "xlsfonts" cmd
+    FONTSZ="-fn 8x16kana -fr rk16 -fk kanji16"          #small
+#   FONTSZ="-fn 9x18kana -fr rk18 -fk kanji18"          #medium
+#   FONTSZ="-fn 12x24kana -fr rk24 -fk kanji24"         #large
+fi
+if [ x"$PGMP" != x ]; then 	#pgm= parm detected at xsetxenv
+	shift                   #drop parm1
+fi
+if [ x"$PGM" != x ]; then
+	echo kterm  -name xekt -title kterm-xe $FONTSZ -e $PGM --k$KEYF "$@"
+	kterm  -name xekt -title kterm-xe $FONTSZ -e $PGM --k$KEYF "$@" &
+else
+	kterm  -name xekt -title kterm-xe $FONTSZ &
+fi

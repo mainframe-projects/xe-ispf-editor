@@ -1,0 +1,45 @@
+######################################
+# for PL/1
+######################################
+environment comment delim "/*" "*/" multiline nested begin
+      include "url.lang"
+end
+######################################
+# numbers
+######################################
+number = '\<[+-]?(([[:digit:]]*\.)?[[:digit:]]+([eE][+-]?[[:digit:]]+)?)\>'
+number = "[']((0|1)+[_]?)+['](B|b|XN|xn|XU|xu)"
+######################################
+string delim "'" "'" escape "''"
+string delim "\"" "\"" escape "\"\""
+######################################
+preproc ="%PAGE|%SKIP|%INCLUDE|%DCL|%DECLARE|%IF|%THEN|%DO|%END"
+preproc ="%page|%skip|%include|%dcl|%declare|%if|%then|%do|%end"
+
+
+######################################
+# keyword from VIM  2008/02/26
+######################################
+type='(FIXED|fixed)[[:blank:]]+(BINARY|binary|BIN|bin|DECIMAL|decimal|DEC|dec)[[:blank:]]*\([,\-[:blank:][:digit:]]+\)'
+type='(CHAR|CHARACTER|BIT|char|character|bit)[[:blank:]]*\([[:digit:]]+\)'
+type="ADDR|ALIGNED|BASED|BINARY|BIN|BIT|CHAR|CHARACTER|DEC|FIXED",
+		"FLOAT|NULL|PIC|STRING|UNALIGNED|VARYING"
+type="addr|aligned|based|binary|bit|char|character|dec",
+		"float|null|pic|string|unaligned|varying"
+keyword="BEGIN|BY|CALL|CLOSE|CTL|CONTROLLED|DEFAULT|DELAY|DELETE|DISPLAY|DO",
+		"ELSE|END|ENDFILE|EXEC|EXEC|SQL|EXIT|FORMAT|FREE|GET|GO|GOTO|IF|LEAVE",
+		"LOCATE|ON|OPEN|OPTIONS|OFFSET|OTHERWISE|OTHER|POINTER|PUT|PROCEDURE|PROC",
+		"READLINE|READ|REC|REPEAT|RETURN|REVERT|REWRITE|SELECT|SIGNAL|STOP|THEN",
+		"TO|UNTIL|WAIT|WHEN|WHILE|WRITE|WRITELINE" 
+keyword="begin|by|call|close|ctl|controlled|default|delay|delete|display|do",
+		"else|end|endfile|exec|exec|sql|exit|format|free|get|go|goto|if|leave",
+		"locate|on|open|options|offset|otherwise|other|pointer|put|procedure|proc",
+		"readline|read|rec|repeat|return|revert|rewrite|select|signal|stop|then",
+		"to|until|wait|when|while|write|writeline" 
+keyword="DECLARE|DCL|INIT|DEF|REFER"
+keyword="declare|dcl|init|def|refer"
+keyword="INTO|FILE|RECORD|OUTPUT"
+keyword="into|file|record|output"
+
+######################################
+include "symbols.lang"

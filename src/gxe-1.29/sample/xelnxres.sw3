@@ -1,0 +1,133 @@
+!***********************************************************************************
+!****** xelnxres.sw3 ***** resource file for xe under xterm/kterm              *****
+!****** usage under RedHat v8.0
+!****** (1) merge keyboard translation to X-resource
+!******     (1-1) merge this file into ~/.Xresources or /etc/X11/Xresources
+!******     or  
+!******     (1-2) add the line into /etc/X11/xinit/xinitrc 
+!******           XERES=/h/objlinux/sample/xelnxres.sw3
+!******           "xrdb -merge $XERES" 
+!****** (2) open terminal emulater specifying application name
+!******     "xterm -name xext"           for xterm
+!******     "kterm -name xekt"           for kterm
+!*****      (gnome-terminal dose not support -name)
+!****** (3) start xe with native key translation file
+!******     XEKEY=xelnxxt.key          for xterm   
+!******     or 
+!******     XEKEY=xelnxkt.key          for kterm   
+!******     or 
+!******     XEKEY=xelnxgt.key          for gnome-terminal
+!******     "xe --k$XEKEY"   
+!***********************************************************************************
+!***********************************************************************************
+!** xterm  
+!***********************************************************************************
+!       	     <Key>Prior:	string(\033~49000)\n\
+!       	     <Key>Next:		string(\033~51000)\n\
+! continued line
+xext*background: Black
+xext*foreground: Wheat
+xext*cursorColor: blue
+xext*reverseVideo: false
+xext*scrollBar: true
+xext*reverseWrap: true
+xext*font: fixed
+xext*fullCursor: true
+xext*scrollTtyOutput: off
+xext*scrollKey: on
+xext*titleBar: true
+xext*vt100.Translations:	#override \n\
+			Shift<Key>F1:		string(\033~54001)\n\
+			Shift<Key>F2:		string(\033~55001)\n\
+			Shift<Key>F3:		string(\033~56001)\n\
+			Shift<Key>F4:		string(\033~57001)\n\
+			Shift<Key>F5:		string(\033~58001)\n\
+			Shift<Key>F6:		string(\033~59001)\n\
+			Shift<Key>F7:		string(\033~5A001)\n\
+			Shift<Key>F8:		string(\033~5B001)\n\
+			Shift<Key>F9:		string(\033~5C001)\n\
+			Shift<Key>F10:		string(\033~5D001)\n\
+			Shift<Key>F11:		string(\033~87001)\n\
+			Shift<Key>F12:		string(\033~88001)\n\
+			Ctrl<Key>F7:		string(\033~64002)\n\
+			Ctrl<Key>F8:		string(\033~65002)\n\
+			Ctrl<Key>F9:		string(\033~66002)\n\
+			Ctrl<Key>F10:   	string(\033~67002)\n\
+			Ctrl<Key>F11:   	string(\033~89002)\n\
+			Ctrl<Key>F12:   	string(\033~8a002)\n\
+			Shift<Key>Prior:	string(\033~49001)\n\
+			Shift<Key>Next:		string(\033~51001)\n\
+			Shift<Key>Insert:	string(\033~52001)\n\
+			Ctrl<Key>Insert:	string(\033~92002)\n\
+			Shift<Key>Delete:	string(\033~53001)\n\
+			Ctrl<Key>Delete:	string(\033~93002)\n\
+			Shift<Key>Up:		string(\033~48001)\n\
+			Shift<Key>Down:		string(\033~50001)\n\
+			Shift<Key>Left:		string(\033~4B001)\n\
+			Shift<Key>Right:	string(\033~4D001)\n\
+			Shift<Key>Home:		string(\033~47001)\n\
+			Shift<Key>End:		string(\033~4F001)\n\
+			Shift<Key>Escape:	string(\033~011B1)\n\
+			Shift<Key>BackSpace:string(\033~0E081)\n\
+			Shift<Key>Tab:		string(\033~0F001)\n\
+			Shift<Key>Return:	string(\033~1C0D1)\n\
+			     <Key>KP_Enter:	string(\033~E00D0)\n\
+			Shift<Key>KP_Enter:	string(\033~E00D1)\n\
+			Ctrl<Key>KP_Enter:	string(\033~E00A2)
+!***********************************************************************************
+!** kterm  
+!***********************************************************************************
+!       		Shift<Key>Home:	string(\033~47001)\n\
+!       		     <Key>End:	string(\033~4F000)\n\
+! continued line
+xekt*EightBitInput:	True
+xekt*background: Black
+xekt*foreground: Wheat
+xekt*cursorColor: blue
+xekt*reverseVideo: false
+xekt*scrollBar: true
+xekt*reverseWrap: true
+xekt*font: fixed
+xekt*fullCursor: true
+xekt*scrollTtyOutput: off
+xekt*scrollKey: on
+xekt*titleBar: true
+xekt*vt100.Translations:	#override \n\
+	Shift<Key>space:     begin-conversion(_JAPANESE_CONVERSION)\n\
+			Shift<Key>F1:		string(\033~54001)\n\
+			Shift<Key>F2:		string(\033~55001)\n\
+			Shift<Key>F3:		string(\033~56001)\n\
+			Shift<Key>F4:		string(\033~57001)\n\
+			Shift<Key>F5:		string(\033~58001)\n\
+			Shift<Key>F6:		string(\033~59001)\n\
+			Shift<Key>F7:		string(\033~5A001)\n\
+			Shift<Key>F8:		string(\033~5B001)\n\
+			Shift<Key>F9:		string(\033~5C001)\n\
+			Shift<Key>F10:		string(\033~5D001)\n\
+			Shift<Key>F11:		string(\033~87001)\n\
+			Shift<Key>F12:		string(\033~88001)\n\
+			Ctrl<Key>F7:		string(\033~64002)\n\
+			Ctrl<Key>F8:		string(\033~65002)\n\
+			Ctrl<Key>F9:		string(\033~66002)\n\
+			Ctrl<Key>F10:   	string(\033~67002)\n\
+			Ctrl<Key>F11:   	string(\033~89002)\n\
+			Ctrl<Key>F12:   	string(\033~8a002)\n\
+			Shift<Key>Prior:	string(\033~49001)\n\
+			Shift<Key>Next:		string(\033~51001)\n\
+			Shift<Key>Insert:	string(\033~52001)\n\
+			Ctrl<Key>Insert:	string(\033~92002)\n\
+			Shift<Key>Delete:	string(\033~53001)\n\
+			Ctrl<Key>Delete:	string(\033~93002)\n\
+			Shift<Key>Up:		string(\033~48001)\n\
+			Shift<Key>Down:		string(\033~50001)\n\
+			Shift<Key>Left:		string(\033~4B001)\n\
+			Shift<Key>Right:	string(\033~4D001)\n\
+			     <Key>Home:		string(\033~47000)\n\
+			Shift<Key>End:		string(\033~4F001)\n\
+			Shift<Key>Escape:	string(\033~011B1)\n\
+			Shift<Key>BackSpace:string(\033~0E081)\n\
+			Shift<Key>Tab:		string(\033~0F001)\n\
+			Shift<Key>Return:	string(\033~1C0D1)\n\
+			     <Key>KP_Enter:	string(\033~E00D0)\n\
+			Shift<Key>KP_Enter:	string(\033~E00D1)\n\
+			Ctrl<Key>KP_Enter:	string(\033~E00A2)

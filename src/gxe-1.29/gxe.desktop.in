@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Name=gxe
+Comment=gxe  @PACKAGE_VCERSIO@  ; $(PACKAGE_VERSION)
+Exec=gxe
+Icon=@PACKAGE_PIXMAPS_DIR@/wxe.png
+Terminal=false
+MultipleArgs=false
+Type=Application
+

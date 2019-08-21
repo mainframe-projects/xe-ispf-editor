@@ -1,0 +1,56 @@
+##########################################################################
+# xelnxkey.rh9
+# Key & EscString mapping table for xe under "RedHat v9"
+#        Usage: xe --kthis.file
+#   for Console
+#   	xe chk terminfo Key,so specify only required.
+#       chk terminfo assignment by xekbchk utility.
+#   for X
+#   	xe defines default for gnome-terminal/xterm/kterm.
+#   	see it by xekbchk utility,then specify additional key-string combination.
+#       for the key terminal emulator dose not generate,
+#       setup by xrdb linux utility .for xterm/kterm(see xelnxe.txt or xelnxj.txt for Japanese) 
+#   [section]:section is terminal emulator name,[common] is for all type.
+#             XETERM environment valiable is used if it is set.
+#             Or,emulator anme is checked,gnome-terminal/xterm/kterm is supported.
+#             for others,it use terminal name of TERM environment variable
+#   Keyname: F1<-->F12, Home, End, Insert, Delete, PageUp, PageDown,
+#            Up, Down, Left, Right, Esc, BackSpace, Tab, Enter, 2, KP_Enter  
+##########################################################################
+[common]
+##########################################################################
+[gnome-terminal]
+# xmodmap issued for gnome-terminal to detect Shift+
+# KeyString:S+BackSpace =^[[28;2~    #assigned F15 to S+BackSpace by xmodmap
+# KeyString:S+Enter     =^[[29;2~    #assigned F16 to S+Return    by xmodmap
+# KeyString:S+Insert    =^[[34;2~    #assigned F20 to S+Insert    by xmodmap
+# KeyString:S+End       =^[[32;2~    #assigned F18 to S+End       by xmodmap
+# KeyString:S+PageUp    =^[[31;2~    #assigned F17 to S+Prior     by xmodmap
+# KeyString:S+PageDown  =^[[33;2~    #assigned F19 to S+Next      by xmodmap
+  KeyString:R-Ctl       =\x8f\xab\xf2   #string by yacute
+  KeyString:R-Ctl       =\xc3\xbd       #UTF8 string for yacute
+  KeyString:R-Ctl       =\xfd           #ISo-8859-1  for yacute
+  KeyString:S+Enter     =\x8f\xab\xd0 #by EUC_JP for xmodmap -e "keycode  36 = Return    ntilde"
+  KeyString:S+Enter     =\xc3\xb1     #by UTF8
+  KeyString:S+Enter     =\xf1         #by ISO-8859-1
+  KeyString:S+Insert    =\x8f\xab\xd2 #by EUC_JP for xmodmap -e "keycode 106 = Insert    ograve"
+  KeyString:S+Insert    =\xc3\xb2     #by UTF8
+  KeyString:S+Insert    =\xf2         #by ISO-8859-1
+  KeyString:S+End       =\x8f\xab\xd1 #by EUC_JP for xmodmap -e "keycode 103 = End       oacute"
+  KeyString:S+End       =\xc3\xb3     #by UTF8
+  KeyString:S+End       =\xf3         #by ISO-8859-1
+  KeyString:S+PageUp    =\x8f\xab\xd4 #by EUC_JP for xmodmap -e "keycode  99 = Prior     ocircumflex"
+  KeyString:S+PageUp    =\xc3\xb4     #by UTF8
+  KeyString:S+PageUp    =\xf4         #by ISO-8859-1
+  KeyString:S+PageDown  =\x8f\xab\xd8 #by EUC_JP for xmodmap -e "keycode 105 = Next      otilde"
+  KeyString:S+PageDown  =\xc3\xb5     #by UTF8
+  KeyString:S+PageDown  =\xf5         #by ISO-8859-1
+##########################################################################
+[xterm]
+  KeyString:S+End       =^[[32;2~    #assigned F18 to S+End       by xmodmap
+##########################################################################
+[kterm]
+  KeyString:End         =^[[\x00     #kterm generate,string assign by xrdb is effect on both w/o and with Shift+
+##########################################################################
+[xeterm]          # e.g for XETERM=xeterm case
+##########################################################################

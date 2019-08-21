@@ -1,0 +1,43 @@
+# List of source files containing translatable strings.
+
+## Created by Anjuta - will be overwritten
+## If you don't want it to overwrite it,
+## 	Please disable it in the Anjuta project configuration
+
+# Source files
+src/support.h
+src/support.c
+src/main.c
+src/interface.h
+src/interface.c
+src/callbacks.h
+src/callbacks.c
+src/gxeview.c
+src/gxeview.h
+src/gxedlg.c
+src/gxedlg.h
+src/gxe.h
+src/gxe.c
+src/xxemain.c
+src/xxemain.h
+src/gxemfrm.c
+src/gxemfrm.h
+src/xxecsub.h
+src/xxecsub.c
+src/xxexei.h
+src/xxexei.c
+src/xxekbd.c
+src/xxeres.h
+src/xxescr.c
+src/xxexei3.c
+src/xxexei3.h
+src/xxemouse.c
+src/xxexei2.c
+src/xxecsub2.c
+src/xxefile.c
+src/xxefile.h
+src/gxepage.c
+src/gxepage.h
+src/xxeprt.c
+
+

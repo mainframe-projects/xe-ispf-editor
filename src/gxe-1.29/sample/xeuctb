@@ -1,0 +1,12 @@
+#################################################
+# Unicode character type specification file
+#   Specify file name on ini file
+#   You need specify only to change default
+## Line Format ##################################
+# unicode character type specification file
+# type start-end
+# type     : 0:Unprintable, 1:printable single column character, 2:printable wide(double column) character,
+#            #:comment
+# start-end: unicode range by hex digit notation. Lines should be accendant sequence.
+# Ex) 2 01cb-01e3
+1 01c4-01c4

@@ -1,0 +1,20 @@
+## kick xe under xterm
+. xegetdv        #get distribution id to XEDISTID
+. xesetxenv $1   #setup environment variable 
+
+SW1ST=`xrdb -query|grep xext`
+if [ x"$SW1ST" = x ]; then
+    xrdb -merge $XRES
+fi
+if [ $DISTVER != sw3 ]; then
+    FONTSZ="-fn 10x20"
+fi
+if [ x"$PGMP" != x ]; then 	#pgm= parm detected at xsetxenv
+	shift                   #drop parm1
+fi
+if [ x"$PGM" != x ]; then
+	echo xterm  -name xext -title xterm-xe $FONTSZ -e $PGM --k$KEYF "$@"
+	xterm  -name xext -title xterm-xe $FONTSZ -e $PGM --k$KEYF "$@" &
+else
+	xterm  -name xext -title xterm-xe $FONTSZ &
+fi

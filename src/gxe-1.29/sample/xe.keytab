@@ -1,0 +1,138 @@
+# [xe.keytab] Konsole Keyboard Table (xe console keys)
+#
+# --------------------------------------------------------------
+
+keyboard "XE"
+
+# --------------------------------------------------------------
+#
+# This configuration table allows to customize the
+# meaning of the keys.
+#
+# The syntax is that each entry has the form : 
+#
+#   "key" Keyname { ("+"|"-") Modename } ":" (String|Operation)
+#
+# Keynames are those defined in <qnamespace.h> with the
+# "Qt::Key_" removed. (We'd better insert the list here)
+#
+# Mode names are : 
+#
+# - Shift
+# - Alt
+# - Control
+#
+#   The VT100 emulation has two modes that can affect the
+#   sequences emitted by certain keys. These modes are
+#   under control of the client program.
+#   
+# - Newline     : effects Return and Enter key.
+# - Application : effects Up and Down key.
+#
+# - Ansi        : effects Up and Down key (This is for VT52, really).
+#
+# Operations are
+#
+# - scrollUpLine
+# - scrollUpPage
+# - scrollDownLine
+# - scrollDownPage
+#
+# - emitSelection
+#
+# If the key is not found here, the text of the
+# key event as provided by QT is emitted, possibly
+# preceeded by ESC if the Alt key is pressed.
+#
+# --------------------------------------------------------------
+
+key Escape : "\E"
+key Tab           : "\t"
+key Backtab+Shift : "\E[Z"
+
+# VT100 can add an extra \n after return.
+# The NewLine mode is set by an escape sequence.
+
+key Return-NewLine : "\r"  
+key Return+NewLine : "\r\n"
+
+# Some desperately try to save the ^H.
+
+key Backspace : "\x7f"
+
+
+key Up   -AnyMod : "\E[A"
+key Down -AnyMod : "\E[B"
+key Right-AnyMod : "\E[C"
+key Left -AnyMod : "\E[D"
+
+key Up   +AnyMod : "\E[1;*A"
+key Down +AnyMod : "\E[1;*B"
+key Left +AnyMod : "\E[1;*D"
+key Right+AnyMod : "\E[1;*C"
+
+# linux functions keys F1-F5 differ from xterm
+
+key F1 -Shift-Alt-Control : "\E[[A" 
+key F2 -Shift-Alt-Control : "\E[[B" 
+key F3 -Shift-Alt-Control : "\E[[C" 
+key F4 -Shift-Alt-Control : "\E[[D" 
+key F5 -Shift-Alt-Control : "\E[[E" 
+key F6 -AnyMod            : "\E[17~" 
+key F7 -AnyMod            : "\E[18~" 
+key F8 -AnyMod            : "\E[19~" 
+key F9 -AnyMod            : "\E[20~" 
+key F10-AnyMod            : "\E[21~" 
+key F11-AnyMod            : "\E[23~" 
+key F12-AnyMod            : "\E[24~" 
+
+key F1 +Shift-Alt-Control : "\EO2P" 
+key F2 +Shift-Alt-Control : "\EO2Q" 
+key F3 +Shift-Alt-Control : "\EO2R" 
+key F4 +Shift-Alt-Control : "\EO2S" 
+key F5 +Shift-Alt-Control : "\E[15;2~" 
+
+key F6  +AnyMod    : "\E[17;*~"
+key F7  +AnyMod    : "\E[18;*~"
+key F8  +AnyMod    : "\E[19;*~"
+key F9  +AnyMod    : "\E[20;*~"
+key F10 +AnyMod    : "\E[21;*~"
+key F11 +AnyMod    : "\E[23;*~"
+key F12 +AnyMod    : "\E[24;*~"
+
+key Home  -AnyMod : "\E[H"  
+key End   -AnyMod : "\E[F"  
+key Prior -AnyMod : "\E[5~"  
+key Next  -AnyMod : "\E[6~"  
+key Insert-AnyMod : "\E[2~"  
+key Delete-AnyMod : "\E[3~"  
+
+key Home  +AnyMod : "\E[1;*H"  
+key End   +AnyMod : "\E[1;*F"  
+key Prior +AnyMod : "\E[5;*~"  
+key Next  +AnyMod : "\E[6;*~"  
+key Insert+AnyMod : "\E[2;*~"  
+key Delete+AnyMod : "\E[3;*~"  
+
+# Keypad-Enter. See comment on Return above.
+
+key Enter+NewLine : "\r\n"
+key Enter-NewLine : "\r"  
+
+key Space +Control : "\x00"
+key 2 -Control : "2"
+key 2 +Control : "\x00"
+
+# some of keys are used by konsole.
+
+
+key ScrollLock     : scrollLock
+
+#----------------------------------------------------------
+
+# keypad characters as offered by Qt
+# cannot be recognized as such.
+
+#----------------------------------------------------------
+
+# Following other strings as emitted by konsole.

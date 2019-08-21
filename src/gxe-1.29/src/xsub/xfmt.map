@@ -1,0 +1,2984 @@
+Archive member included to satisfy reference by file (symbol)
+
+../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+                              xfmt.o (umalloc)
+../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+                              xfmt.o (ucalc_gettimevalue)
+../ulib/libuserxe.a(libuserxe_a-ucalc2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucalc.o) (bc_getxdw)
+../ulib/libuserxe.a(libuserxe_a-uedit.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucalc.o) (unumedit)
+../ulib/libuserxe.a(libuserxe_a-uerr.o)
+                              xfmt.o (Guerropt)
+../ulib/libuserxe.a(libuserxe_a-ufemsg.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uallocl.o) (ufileapierr)
+../ulib/libuserxe.a(libuserxe_a-ufile.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufemsg.o) (Gufile_opt)
+../ulib/libuserxe.a(libuserxe_a-ufile1f.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile.o) (uftpdirlistsub)
+../ulib/libuserxe.a(libuserxe_a-ufile1l.o)
+                              xfmt.o (ufstat)
+../ulib/libuserxe.a(libuserxe_a-ufile1l2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile1l.o) (ufstat_mdos)
+../ulib/libuserxe.a(libuserxe_a-ufile2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uerr.o) (uremove)
+../ulib/libuserxe.a(libuserxe_a-ufile2f.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2.o) (uftpremove)
+../ulib/libuserxe.a(libuserxe_a-ufile2l.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2.o) (urmdir)
+../ulib/libuserxe.a(libuserxe_a-ufile2l2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2l.o) (umkdir_mdos)
+../ulib/libuserxe.a(libuserxe_a-ufile3.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o) (udoscopy)
+../ulib/libuserxe.a(libuserxe_a-ufile3f.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile3.o) (uftpxmove)
+../ulib/libuserxe.a(libuserxe_a-ufile4.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o) (utempnam)
+../ulib/libuserxe.a(libuserxe_a-ufile5.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2.o) (udoseditname)
+../ulib/libuserxe.a(libuserxe_a-uftp.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile1f.o) (uftpfstatudl)
+../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uftp.o) (Gftpopt)
+../ulib/libuserxe.a(libuserxe_a-uftp3.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uftp.o) (uftp3setssh)
+../ulib/libuserxe.a(libuserxe_a-ugcclib.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uedit.o) (memicmp)
+../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ugcclib.o) (ukbdl_getch_init)
+../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ukbdl.o) (ukbdlnxc_init)
+../ulib/libuserxe.a(libuserxe_a-ukbdlnxm.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o) (ukbdlnxm_mouseinit)
+../ulib/libuserxe.a(libuserxe_a-uparse.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uftp.o) (uparsev)
+../ulib/libuserxe.a(libuserxe_a-uproc.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ukbdl.o) (uproc_getpsinfo)
+../ulib/libuserxe.a(libuserxe_a-uproc2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2f.o) (uproc_rsh)
+../ulib/libuserxe.a(libuserxe_a-uproc4.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o) (uproc_select)
+../ulib/libuserxe.a(libuserxe_a-uque.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uftp.o) (uenq)
+../ulib/libuserxe.a(libuserxe_a-ustrcpy.o)
+                              xfmt.o (ustring_memcpy)
+../ulib/libuserxe.a(libuserxe_a-ustring.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile.o) (ustrnlen)
+../ulib/libuserxe.a(libuserxe_a-utf.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile1l.o) (Gulibutfmode)
+../ulib/libuserxe.a(libuserxe_a-utf2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile1l.o) (utfcvl2fany)
+../ulib/libuserxe.a(libuserxe_a-utf22.o)
+                              ../ulib/libuserxe.a(libuserxe_a-utf2.o) (utfgetwcw)
+../ulib/libuserxe.a(libuserxe_a-utf3.o)
+                              ../ulib/libuserxe.a(libuserxe_a-utf2.o) (utfmb2wc)
+../ulib/libuserxe.a(libuserxe_a-utf4.o)
+                              ../ulib/libuserxe.a(libuserxe_a-utf3.o) (mk_wcwidth)
+../ulib/libuserxe.a(libuserxe_a-utrace.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uftp2.o) (Gtracehdr)
+../ulib/libuserxe.a(libuserxe_a-uunxsub.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2l.o) (ugetugid)
+../ulib/libuserxe.a(libuserxe_a-uviol.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uerr.o) (Guviol_flag)
+../ulib/libuserxe.a(libuserxe_a-u3270.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile1f.o) (u3270fstat)
+../ulib/libuserxe.a(libuserxe_a-u32702.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile2f.o) (u3270mkdir)
+../ulib/libuserxe.a(libuserxe_a-u32703.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile3.o) (u3270xmove)
+../ulib/libuserxe.a(libuserxe_a-uabend.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ukbdl.o) (uabend)
+../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uerr.o) (Gucvebc_stat)
+../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucvebc.o) (ucvebc2_stre2s)
+../ulib/libuserxe.a(libuserxe_a-ucvebct.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o) (ucvebc2gettbl)
+../ulib/libuserxe.a(libuserxe_a-ucvext.o)
+                              ../ulib/libuserxe.a(libuserxe_a-utf2.o) (ucvext_icuclose)
+../ulib/libuserxe.a(libuserxe_a-ucvext12.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucvext.o) (ucvext12_init)
+../ulib/libuserxe.a(libuserxe_a-ucvext2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucvext.o) (ucvext_iconvmapinit)
+../ulib/libuserxe.a(libuserxe_a-ucvucs.o)
+                              ../ulib/libuserxe.a(libuserxe_a-utf2.o) (uccvucs2utf)
+../ulib/libuserxe.a(libuserxe_a-ucvucst.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucvucs.o) (ugetcp932tbl)
+../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uerr.o) (Gudbcschk_flag)
+../ulib/libuserxe.a(libuserxe_a-udbcsck2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uerr.o) (ushift2euc)
+../ulib/libuserxe.a(libuserxe_a-udos2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile1l2.o) (udos_setenv)
+../ulib/libuserxe.a(libuserxe_a-uedit2.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ufemsg.o) (ueditfattr)
+../ulib/libuserxe.a(libuserxe_a-uehl.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o) (uehl_setsh)
+../ulib/libuserxe.a(libuserxe_a-uproc22.o)
+                              ../ulib/libuserxe.a(libuserxe_a-utrace.o) (ucriticalsection)
+../ulib/libuserxe.a(libuserxe_a-uproc3.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uproc4.o) (usleepms)
+../ulib/libuserxe.a(libuserxe_a-uviom.o)
+                              ../ulib/libuserxe.a(libuserxe_a-uviol.o) (Guviomopt)
+../ulib/libuserxe.a(libuserxe_a-ucvebc3.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucvext2.o) (ucvebc3_b2dd)
+../ulib/libuserxe.a(libuserxe_a-ucvebc4.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucvext.o) (ucvebc4_init)
+/usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_divsi3.o)
+                              ../ulib/libuserxe.a(libuserxe_a-ucalc.o) (__aeabi_idiv)
+/usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_aeabi_ldivmod.o)
+                              ../ulib/libuserxe.a(libuserxe_a-u32703.o) (__aeabi_ldivmod)
+/usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_dvmd_lnx.o)
+                              /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+/usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_udivmoddi4.o)
+                              /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+//usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o (__libc_csu_init)
+//usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat64.oS)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile1l.o) (stat64)
+//usr/lib/arm-linux-gnueabihf/libc_nonshared.a(lstat64.oS)
+                              ../ulib/libuserxe.a(libuserxe_a-ufile1l.o) (lstat64)
+
+Allocating common symbols
+Common symbol       size              file
+
+Gucs2ddmap_i2u      0x20000           ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+Guviombuffu         0x4               ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+Gufile_opt          0x4               ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+Sphiconv            0x4               ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+Snewoldctr          0x4               ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+Gftperr             0x4               ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+Gulibutfmode        0x4               ../ulib/libuserxe.a(libuserxe_a-utf.o)
+Se2stctr            0x4               ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+Gtracehdr           0x100             ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+Sfdpiper            0x4               ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+Gutfrc              0x4               ../ulib/libuserxe.a(libuserxe_a-utf.o)
+Gualloc_amount      0x4               ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+Guviomopt           0x4               ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+Slockhandle         0x4               ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+Gucvebchctr         0x4               ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+Gudbcschk_flag      0x4               ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+Guerropt2           0x4               ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+Sduptctr            0x4               ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+Gukbdl_flag         0x4               ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+Ss2etctr            0x4               ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+Gucvebch            0x9c40            ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+Gucalc_result       0x140             ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+Guviol_flag         0x4               ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+Guviomoptstr        0x4               ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+Gftpopt             0x4               ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+Gufile_nomsg        0x4               ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+Gualloc16_amount    0x4               ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+Gudbcschk_width0top
+                    0x4               ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+Gucvebc_stat        0x4               ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+Gftpclient          0x80              ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+Guviomopt2          0x4               ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+Sdbcschk_hkopt      0x4               ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+Gutfcombaltch       0x4               ../ulib/libuserxe.a(libuserxe_a-utf.o)
+Gucs2ddmap          0x40000           ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+Gw95buffopt         0x4               ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+Guerropt            0x1               ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+Guviomoptstrucs     0x10              ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+Sfdpipew            0x4               ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 xfmt.o
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucalc2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uedit.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufemsg.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile1f.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile1l.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile1l2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2f.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2l.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile3.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile3f.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile4.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile5.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uftp.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uftp3.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ugcclib.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxm.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uparse.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uproc2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uproc4.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uque.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ustrcpy.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ustring.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-utf.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-utf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-utf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-utf4.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uunxsub.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-u3270.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-u32702.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-u32703.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uabend.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvebct.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvext.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvext12.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvext2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvucs.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvucst.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-udbcsck2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-udos2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uedit2.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uehl.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uproc22.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uproc3.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvebc3.o)
+ .note.GNU-stack
+                0x00000000        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvebc4.o)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_aeabi_ldivmod.o)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_udivmoddi4.o)
+ .note.GNU-stack
+                0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat64.oS)
+ .note.GNU-stack
+                0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(lstat64.oS)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+LOAD xfmt.o
+LOAD ../ulib/libuserxe.a
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgnomeui-2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libSM.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libICE.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libbonoboui-2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgnome-2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libpopt.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libbonobo-2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libbonobo-activation.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libORBit-2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgnomecanvas-2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libart_lgpl_2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgnomevfs-2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgconf-2.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgthread-2.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgmodule-2.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgtk-x11-2.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgdk-x11-2.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libpangocairo-1.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libatk-1.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libcairo.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgdk_pixbuf-2.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgio-2.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libpangoft2-1.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libpango-1.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libgobject-2.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libglib-2.0.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libfontconfig.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libfreetype.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libdl.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libncursesw.so
+LOAD /lib/arm-linux-gnueabihf/libncursesw.so.6
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libtinfo.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libcups.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc_s.so.1
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libpthread.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libc.so
+START GROUP
+LOAD //lib/arm-linux-gnueabihf/libc.so.6
+LOAD //usr/lib/arm-linux-gnueabihf/libc_nonshared.a
+LOAD //lib/arm-linux-gnueabihf/ld-linux-armhf.so.3
+END GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc_s.so.1
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+                [!provide]                PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x10000))
+                0x00010154                . = (SEGMENT_START ("text-segment", 0x10000) + SIZEOF_HEADERS)
+
+.interp         0x00010154       0x19
+ *(.interp)
+ .interp        0x00010154       0x19 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.note.ABI-tag   0x00010170       0x20
+ .note.ABI-tag  0x00010170       0x20 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.note.gnu.build-id
+                0x00010190       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00010190       0x24 linker stubs
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x000101b4      0x738
+ *(.gnu.hash)
+ .gnu.hash      0x000101b4      0x738 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.dynsym         0x000108ec      0xc90
+ *(.dynsym)
+ .dynsym        0x000108ec      0xc90 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.dynstr         0x0001157c      0x9b5
+ *(.dynstr)
+ .dynstr        0x0001157c      0x9b5 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.gnu.version    0x00011f32      0x192
+ *(.gnu.version)
+ .gnu.version   0x00011f32      0x192 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.gnu.version_d  0x000120c4        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x000120c4        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.gnu.version_r  0x000120c4       0xc0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x000120c4       0xc0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.rel.dyn        0x00012184       0x60
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00012184        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00012184        0x8 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0001218c       0x58 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                [!provide]                PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+ .rel.iplt      0x000121e4        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                [!provide]                PROVIDE (__rel_iplt_end = .)
+
+.rela.dyn       0x000121e4        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                PROVIDE (__rela_iplt_end = .)
+
+.rel.plt        0x000121e4      0x5a0
+ *(.rel.plt)
+ .rel.plt       0x000121e4      0x5a0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x00012784        0xc
+ *(SORT_NONE(.init))
+ .init          0x00012784        0x8 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+                0x00012784                _init
+ .init          0x0001278c        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+
+.plt            0x00012790      0x884
+ *(.plt)
+ .plt           0x00012790      0x884 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x000127a4                gethostname@@GLIBC_2.4
+                0x000127b0                getuid@@GLIBC_2.4
+                0x000127bc                fopen64@@GLIBC_2.4
+                0x000127c8                endwin@@NCURSESW6_5.1.20000708
+                0x000127d4                fwrite@@GLIBC_2.4
+                0x000127e0                mbrtowc@@GLIBC_2.4
+                0x000127ec                toupper@@GLIBC_2.4
+                0x000127f8                __isoc99_sscanf@@GLIBC_2.7
+                0x00012804                fprintf@@GLIBC_2.4
+                0x00012810                waddnstr@@NCURSESW6_5.1.20000708
+                0x0001281c                strstr@@GLIBC_2.4
+                0x00012828                isatty@@GLIBC_2.4
+                0x00012834                getppid@@GLIBC_2.4
+                0x00012840                wbkgdset@@NCURSESW6_5.1.20000708
+                0x0001284c                execvp@@GLIBC_2.4
+                0x00012858                write@@GLIBC_2.4
+                0x00012864                wctomb@@GLIBC_2.4
+                0x00012870                can_change_color@@NCURSESW6_5.1.20000708
+                0x0001287c                opendir@@GLIBC_2.4
+                0x00012888                printf@@GLIBC_2.4
+                0x00012894                gnome_vfs_mime_get_default_application
+                0x000128a0                bsearch@@GLIBC_2.4
+                0x000128ac                fclose@@GLIBC_2.4
+                0x000128b8                atoll@@GLIBC_2.4
+                0x000128c4                qsort@@GLIBC_2.4
+                0x000128d0                getgid@@GLIBC_2.4
+                0x000128dc                wclear@@NCURSESW6_5.1.20000708
+                0x000128e8                __ctype_b_loc@@GLIBC_2.4
+                0x000128f4                strnlen@@GLIBC_2.4
+                0x00012900                nonl@@NCURSESW6_5.1.20000708
+                0x0001290c                getmntent@@GLIBC_2.4
+                0x00012918                iconv@@GLIBC_2.4
+                0x00012924                fputc@@GLIBC_2.4
+                0x00012930                dlclose@@GLIBC_2.4
+                0x0001293c                beep@@NCURSESW6_5.1.20000708
+                0x00012948                __xstat64@@GLIBC_2.4
+                0x00012954                chown@@GLIBC_2.4
+                0x00012960                strpbrk@@GLIBC_2.4
+                0x0001296c                fseek@@GLIBC_2.4
+                0x00012978                strerror@@GLIBC_2.4
+                0x00012984                color_content@@NCURSESW6_5.1.20000708
+                0x00012990                tolower@@GLIBC_2.4
+                0x0001299c                putchar@@GLIBC_2.4
+                0x000129a8                has_colors@@NCURSESW6_5.1.20000708
+                0x000129b4                puts@@GLIBC_2.4
+                0x000129c0                init_pair@@NCURSESW6_5.1.20000708
+                0x000129cc                __libc_start_main@@GLIBC_2.4
+                0x000129e4                setupterm@@NCURSES6_TINFO_5.0.19991023
+                0x000129f0                strchr@@GLIBC_2.4
+                0x000129fc                __errno_location@@GLIBC_2.4
+                0x00012a08                keypad@@NCURSES6_TINFO_5.0.19991023
+                0x00012a14                lutimes@@GLIBC_2.4
+                0x00012a20                atol@@GLIBC_2.4
+                0x00012a2c                ftello64@@GLIBC_2.4
+                0x00012a38                tcsetattr@@GLIBC_2.4
+                0x00012a44                curs_set@@NCURSES6_TINFO_5.0.19991023
+                0x00012a50                symlink@@GLIBC_2.4
+                0x00012a5c                setenv@@GLIBC_2.4
+                0x00012a68                mkdir@@GLIBC_2.4
+                0x00012a74                pthread_mutex_lock@@GLIBC_2.4
+                0x00012a80                pipe@@GLIBC_2.4
+                0x00012a8c                noecho@@NCURSESW6_5.1.20000708
+                0x00012a98                gnome_vfs_get_mime_type
+                0x00012aa4                waddchnstr@@NCURSESW6_5.1.20000708
+                0x00012ab0                pthread_cond_wait@@GLIBC_2.4
+                0x00012abc                free@@GLIBC_2.4
+                0x00012ac8                iconv_close@@GLIBC_2.4
+                0x00012ad4                wcwidth@@GLIBC_2.4
+                0x00012ae0                close@@GLIBC_2.4
+                0x00012aec                clearok@@NCURSESW6_5.1.20000708
+                0x00012af8                memcpy@@GLIBC_2.4
+                0x00012b04                wcstombs@@GLIBC_2.4
+                0x00012b10                iconv_open@@GLIBC_2.4
+                0x00012b1c                memmove@@GLIBC_2.4
+                0x00012b28                strncpy@@GLIBC_2.4
+                0x00012b34                winchnstr@@NCURSESW6_5.1.20000708
+                0x00012b40                win_wchnstr@@NCURSESW6_5.3.20021019
+                0x00012b4c                access@@GLIBC_2.4
+                0x00012b58                unlink@@GLIBC_2.4
+                0x00012b64                ferror@@GLIBC_2.4
+                0x00012b70                strcpy@@GLIBC_2.4
+                0x00012b7c                execv@@GLIBC_2.4
+                0x00012b88                raise@@GLIBC_2.4
+                0x00012b94                getgrgid@@GLIBC_2.4
+                0x00012ba0                start_color@@NCURSESW6_5.1.20000708
+                0x00012bac                atoi@@GLIBC_2.4
+                0x00012bb8                dlsym@@GLIBC_2.4
+                0x00012bc4                ftime@@GLIBC_2.4
+                0x00012bd0                fork@@GLIBC_2.4
+                0x00012bdc                signal@@GLIBC_2.4
+                0x00012be8                gettimeofday@@GLIBC_2.4
+                0x00012bf4                getpwuid@@GLIBC_2.4
+                0x00012c00                system@@GLIBC_2.4
+                0x00012c0c                malloc@@GLIBC_2.4
+                0x00012c18                localtime@@GLIBC_2.4
+                0x00012c24                getcwd@@GLIBC_2.4
+                0x00012c30                tcgetattr@@GLIBC_2.4
+                0x00012c3c                pthread_cond_init@@GLIBC_2.4
+                0x00012c48                kill@@GLIBC_2.4
+                0x00012c54                strdup@@GLIBC_2.4
+                0x00012c60                strlen@@GLIBC_2.4
+                0x00012c6c                pthread_mutex_destroy@@GLIBC_2.4
+                0x00012c78                chdir@@GLIBC_2.4
+                0x00012c84                chmod@@GLIBC_2.4
+                0x00012c90                mktime@@GLIBC_2.4
+                0x00012c9c                wadd_wchnstr@@NCURSESW6_5.3.20021019
+                0x00012ca8                closedir@@GLIBC_2.4
+                0x00012cb4                getpid@@GLIBC_2.4
+                0x00012cc0                winnstr@@NCURSESW6_5.1.20000708
+                0x00012ccc                __lxstat64@@GLIBC_2.4
+                0x00012cd8                select@@GLIBC_2.4
+                0x00012ce4                readlink@@GLIBC_2.4
+                0x00012cf0                iswalpha@@GLIBC_2.4
+                0x00012cfc                fseeko64@@GLIBC_2.4
+                0x00012d08                dup@@GLIBC_2.4
+                0x00012d14                sprintf@@GLIBC_2.4
+                0x00012d20                snprintf@@GLIBC_2.4
+                0x00012d2c                fflush@@GLIBC_2.4
+                0x00012d38                mbtowc@@GLIBC_2.4
+                0x00012d44                curses_version@@NCURSES6_TINFO_5.0.19991023
+                0x00012d50                perror@@GLIBC_2.4
+                0x00012d5c                setlocale@@GLIBC_2.4
+                0x00012d68                vfprintf@@GLIBC_2.4
+                0x00012d74                mousemask@@NCURSESW6_5.1.20000708
+                0x00012d80                gnome_vfs_mime_application_free
+                0x00012d8c                strcmp@@GLIBC_2.4
+                0x00012d98                initscr@@NCURSESW6_5.1.20000708
+                0x00012da4                memcmp@@GLIBC_2.4
+                0x00012db0                memset@@GLIBC_2.4
+                0x00012dbc                wrefresh@@NCURSESW6_5.1.20000708
+                0x00012dc8                getenv@@GLIBC_2.4
+                0x00012dd4                rename@@GLIBC_2.4
+                0x00012de0                flock@@GLIBC_2.4
+                0x00012dec                mkfifo@@GLIBC_2.4
+                0x00012df8                time@@GLIBC_2.4
+                0x00012e04                meta@@NCURSES6_TINFO_5.0.19991023
+                0x00012e10                wait@@GLIBC_2.4
+                0x00012e1c                statfs64@@GLIBC_2.4
+                0x00012e28                pthread_cond_broadcast@@GLIBC_2.4
+                0x00012e34                fread@@GLIBC_2.4
+                0x00012e40                gnome_vfs_init
+                0x00012e4c                pthread_create@@GLIBC_2.4
+                0x00012e58                strcat@@GLIBC_2.4
+                0x00012e64                abort@@GLIBC_2.4
+                0x00012e70                init_color@@NCURSESW6_5.1.20000708
+                0x00012e7c                gnome_vfs_get_uri_from_local_path
+                0x00012e88                waitpid@@GLIBC_2.4
+                0x00012e94                gnome_vfs_get_file_info
+                0x00012ea0                pthread_cond_timedwait@@GLIBC_2.4
+                0x00012eac                exit@@GLIBC_2.4
+                0x00012eb8                calloc@@GLIBC_2.4
+                0x00012ec4                setmntent@@GLIBC_2.4
+                0x00012ed0                rmdir@@GLIBC_2.4
+                0x00012edc                strrchr@@GLIBC_2.4
+                0x00012ee8                wmove@@NCURSESW6_5.1.20000708
+                0x00012ef4                dup2@@GLIBC_2.4
+                0x00012f00                getmntent_r@@GLIBC_2.4
+                0x00012f0c                fgets@@GLIBC_2.4
+                0x00012f18                raw@@NCURSES6_TINFO_5.0.19991023
+                0x00012f24                utimes@@GLIBC_2.4
+                0x00012f30                endmntent@@GLIBC_2.4
+                0x00012f3c                memchr@@GLIBC_2.4
+                0x00012f48                read@@GLIBC_2.4
+                0x00012f54                readdir64@@GLIBC_2.4
+                0x00012f60                pthread_mutex_unlock@@GLIBC_2.4
+                0x00012f6c                wcrtomb@@GLIBC_2.4
+                0x00012f78                nl_langinfo@@GLIBC_2.4
+                0x00012f84                pthread_mutex_init@@GLIBC_2.4
+                0x00012f90                fileno@@GLIBC_2.4
+                0x00012f9c                mkstemp64@@GLIBC_2.4
+                0x00012fa8                strspn@@GLIBC_2.4
+                0x00012fb4                open64@@GLIBC_2.4
+                0x00012fc0                ioctl@@GLIBC_2.4
+                0x00012fcc                fputs@@GLIBC_2.4
+                0x00012fd8                nanosleep@@GLIBC_2.4
+                0x00012fe4                iswprint@@GLIBC_2.4
+                0x00012ff0                putenv@@GLIBC_2.4
+                0x00012ffc                ttyname@@GLIBC_2.4
+                0x00013008                dlopen@@GLIBC_2.4
+
+.iplt           0x00013014        0x0
+ *(.iplt)
+ .iplt          0x00013014        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.text           0x00013018    0xafa8c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00013018       0x3c /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x00013018                _start
+ .text          0x00013054       0x24 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .text          0x00013078       0x90 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .text          0x00013108     0x5f18 xfmt.o
+                0x00013108                main
+                0x000133c4                openoutfile
+                0x0001357c                parmprechk
+                0x00013724                opdchk
+                0x00013a84                tc_fmtopdchk2
+                0x000144f0                fmtfldstrparmchk
+                0x000147ac                fmtopdchk3
+                0x000148d0                fmtopdchk4
+                0x00015098                splitmain
+                0x00015184                fmtmain
+                0x0001569c                tc_fmtdatasub
+                0x00016354                getsubstrbyfldstr
+                0x000164b8                getsubstrbyfldstr2
+                0x00016600                extractdata
+                0x000167d8                tc_chkfieldwidth
+                0x00016d74                getsubstrfieldlen
+                0x00017008                tc_getfieldendaddr
+                0x000174b4                tc_getfieldendaddrquote
+                0x00017768                tc_chknonfmtfieldwidth
+                0x00017980                xfmt_getline
+                0x00018174                seandchk
+                0x00018308                writeout2
+                0x000183b0                opderr
+                0x000183e4                confirm
+                0x000184bc                help
+ .text          0x00019020      0xe50 ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+                0x00019020                ualloc_init
+                0x00019274                ugetallocdata
+                0x000193ac                ualloc_chk
+                0x00019574                umalloc
+                0x000197b8                ucalloc
+                0x00019a28                ufree
+                0x00019c58                uallocsz
+                0x00019ca4                ufreesz
+                0x00019cf4                uallocmapset
+                0x00019e08                ufreesizeerr
+                0x00019e3c                umallocsizeerr
+ .text          0x00019e70     0x5de8 ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+                0x00019e70                ucalc_bcmain
+                0x0001acf0                bc_opdchk
+                0x0001bbd4                getvarname
+                0x0001bcb4                ucalc_chkvrparm
+                0x0001be40                bc_getvalue
+                0x0001c534                ucalc_vrajust
+                0x0001c858                ucalc_o2l
+                0x0001c940                ucalc_gettimevalue
+                0x0001cd68                ucalc_getunderpointdata
+                0x0001cecc                bc_opdcopy
+                0x0001d18c                bc_putwordordword
+                0x0001d264                bc_expand2dword
+                0x0001d300                ucalc_binop
+                0x0001d89c                ucalc_binopsub
+                0x0001e350                ucalc_underpoint
+                0x0001e638                ucalc_editnum
+                0x0001e800                ucalc_editevenhex
+                0x0001e88c                ucalc_dwtime
+                0x0001ea74                ucalc_time
+                0x0001ef6c                ucalc_timeedit
+                0x0001f2fc                ucalc_shiftdown
+                0x0001f448                ucalc_shiftup
+                0x0001f588                bc_getbase
+                0x0001f5cc                calcuperr1
+                0x0001f5f4                calcuperr2
+                0x0001f61c                calcuperr3
+                0x0001f644                calcerrinvalid
+                0x0001f67c                calcerrinvalid_dw
+                0x0001f6b4                calcerrformat
+                0x0001f6dc                calcerrunderflow
+                0x0001f708                calcerrwordovf
+                0x0001f74c                calcerrminus
+                0x0001f774                calcerr0div
+                0x0001f79c                calcerrtimeop
+                0x0001f7c4                bc_getvalue3
+                0x0001fa78                bc_setconvtype3
+ .text          0x0001fc58     0x417c ../ulib/libuserxe.a(libuserxe_a-ucalc2.o)
+                0x0001fc58                bc_getxdw
+                0x0001fdac                bc_getld
+                0x0001fffc                bc_dwbinop
+                0x000205b4                bc_twbinop
+                0x00020ad4                bc_edittod
+                0x00020c48                bc_dweditnum64
+                0x00020cb0                bc_dweditnum
+                0x00020fcc                bc_dwupeditnum
+                0x00021194                ucalc_dwmult
+                0x000213e8                ucalc_twmult
+                0x000218b0                ucalc_dwdiv
+                0x00021b90                ucalc_dwdiv2
+                0x00021ec8                ucalc_twdiv
+                0x00022050                ucalc_twdivbyup
+                0x00022194                ucalc_twshiftup
+                0x000222b0                ucalc_dwshiftdown
+                0x000223e0                ucalc_ltime
+                0x00022800                ucalc_getdate
+                0x000229ec                ucalc_nextday
+                0x00022c9c                ucalc_ld2dw
+                0x00023234                ucalc_dw2ld
+                0x00023340                ucalc_nsadd
+                0x000235a8                ucalc_ldedit
+                0x000236e8                ucalc_dwupinit
+                0x00023748                ucalc_dwupset
+                0x00023878                bc_numfmt2dw
+                0x00023928                bc_dw2numfmt
+                0x00023a00                ucalc_dwup2dwandup
+                0x00023ba4                bc_dword2word
+                0x00023ca0                ucalc_dw2err
+                0x00023cd8                ucalc_dw2errresidual
+                0x00023d4c                ucalc_dwuperr
+                0x00023d74                ucalc_dwmaxerr
+                0x00023dac                ucalcerrdwordovf
+ .text          0x00023dd4     0x3fe8 ../ulib/libuserxe.a(libuserxe_a-uedit.o)
+                0x00023dd4                uedit
+                0x00023dec                unumedit
+                0x00024124                utimeedit
+                0x00024c9c                uitoa10
+                0x00024cd0                ucmdparmedit
+                0x000253f8                ueditenv
+                0x00025824                uwordrep
+                0x00025ed0                ugethex
+                0x00026030                ugethexdump
+                0x00026210                ux2FILESZ
+                0x00026240                ux2l
+                0x000263d4                ux2ll
+                0x000264bc                ua2ll
+                0x000264ec                ux2s
+                0x00026648                ugetnumrange3
+                0x000267c0                ugetnumrange2
+                0x000268bc                ugetnumrange2XFILESZ
+                0x00026990                ugetnumrange
+                0x00026b9c                ugetxnumrange
+                0x00026fc0                ugetxnumrangeLL
+                0x000273ec                unumlen
+                0x0002762c                uatoin
+                0x000276ac                getKMGTB
+                0x00027834                ueditFILESZ
+                0x00027aa8                ueditLONGHANDLE
+                0x00027cb0                ueditKMG
+ .text          0x00027dbc     0x29f8 ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+                0x00027dbc                uerr
+                0x00027dd4                ubell_init
+                0x00027e14                ubell_init2
+                0x00027e44                ubell
+                0x00027f5c                uerrexit_init
+                0x00028024                uerrexit_optinit
+                0x00028054                uerrsetopt2
+                0x000280b8                uerrexit
+                0x000282b0                uerrmsg_init
+                0x00028490                uerrmsg
+                0x000286a0                uerrmsg2
+                0x00028820                uerrmsgcat
+                0x0002892c                uerrsprintf
+                0x00028a18                uerrfprintfutf
+                0x00028e84                uerrhelpmsg
+                0x00029370                uerrscrheight
+                0x00029420                useterrmsg
+                0x00029494                ugeterrmsg
+                0x000294e0                ugeterrmsg2
+                0x00029520                uerrmsgedit
+                0x00029eb4                uconfirmmsg
+                0x0002a1cc                uerrornomsg
+                0x0002a1f4                ugeterrdescription
+                0x0002a278                uerrapi1
+                0x0002a2c0                uerrapi1x
+                0x0002a304                uerrapi0
+                0x0002a340                uerrapi0x
+                0x0002a378                uerrapi1t
+                0x0002a3e8                uerrapi1nt
+                0x0002a43c                uerrapi1tx
+                0x0002a4a8                uerrapi0t
+                0x0002a510                uerrapi0tx
+                0x0002a574                uerrnotsupported
+                0x0002a5b8                uerrmsg_initstart
+                0x0002a67c                uerrmsg_initstack
+                0x0002a6e0                uerrmsg_initcomp
+ *fill*         0x0002a7b4        0x4 
+ .text          0x0002a7b8      0xec0 ../ulib/libuserxe.a(libuserxe_a-ufemsg.o)
+                0x0002a7b8                ufemsg
+                0x0002a7d0                ufilenotfound
+                0x0002a80c                ufilenotfoundotherexist
+                0x0002a848                ufilepatherr
+                0x0002a884                ufileapierr
+                0x0002a8cc                ufileapierr_str
+                0x0002a924                ufiledelpath
+                0x0002a960                ufilereadonly
+                0x0002a99c                ufilereadonly2
+                0x0002a9dc                ufiledeleted
+                0x0002ab0c                ufileshare
+                0x0002ab48                ufileexist
+                0x0002ab84                ufileexistcopy
+                0x0002abc0                ufileexist2
+                0x0002ac04                ufileexistdir
+                0x0002ac40                ufilenotdir
+                0x0002ac7c                ufilediskfull
+                0x0002acc0                ufilewildtarget
+                0x0002acf4                ufilewildcarderr
+                0x0002ad28                ufilewildpatherr
+                0x0002ad5c                ufileroot
+                0x0002ad98                ufileapierr2
+                0x0002adec                ufiledirna
+                0x0002ae38                ufileerrdir
+                0x0002ae74                ufilenotvfat
+                0x0002ae9c                ufilenopermission
+                0x0002aee0                ufileslinkloop
+                0x0002af38                ufileerrspecialfile
+                0x0002af74                ufileerrnotnormal
+                0x0002afb0                ufileerrdir2file
+                0x0002afe0                ufileerrnoentry
+                0x0002b018                ufileerrnofileentry
+                0x0002b050                ufileTooLongFullpathName
+                0x0002b0a8                ufileTooLongFullpathName2
+                0x0002b208                ufileeditsz
+                0x0002b5a0                ufileslinktargeterr
+                0x0002b5e4                ufileopenerrInvalidargument
+                0x0002b640                ufileErrInvalidName
+ .text          0x0002b678     0x3508 ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+                0x0002b678                ufile
+                0x0002b690                ufullpathwildexp
+                0x0002bd44                ufullpathresolvespecialdirid
+                0x0002bf00                ufilegetpathdir
+                0x0002c0ec                udirlistnomsg
+                0x0002c14c                udirlist
+                0x0002c300                udirlistsub
+                0x0002c7f4                udirlist_set_slinkname
+                0x0002c948                ufile_udirlist_copy
+                0x0002cba4                ufile_udirlist_swap
+                0x0002cd88                ufile_udirlist_alloc1
+                0x0002ce1c                ufile_udirlist_free
+                0x0002cf18                udircompare_pointer
+                0x0002cf88                udirlistsort
+                0x0002d14c                udircomp
+                0x0002d190                udircompare
+                0x0002dc10                udircompsub
+                0x0002dd38                uredirect
+                0x0002e180                uredirectrestore
+                0x0002e29c                ufdateedit
+                0x0002e5dc                uftimeedit
+                0x0002e814                uftimeedit_1sec
+                0x0002e870                udirlist_chk_max_entry
+                0x0002e8d8                udirlist_setname
+                0x0002eab4                udirlist_setname_cat
+ .text          0x0002eb80     0x1b00 ../ulib/libuserxe.a(libuserxe_a-ufile1f.o)
+                0x0002eb80                uftpfstat
+                0x0002eea0                uftpwinchk
+                0x0002efcc                uftpfullpathnorid
+                0x0002f02c                uftpfullpath
+                0x0002f6f4                uftppathlen
+                0x0002f744                uftpgetcwd
+                0x0002f844                uftpgethome
+                0x0002f8c4                uftpgethomesub
+                0x0002fa98                uftpchdir
+                0x0002fc64                uftpchdirsub
+                0x0002fe34                uftplchdirrespchk
+                0x00030040                uftpdirlistsub
+                0x00030420                uftpfindfirst
+                0x00030570                uftpfindfirstfile
+                0x000305f8                uftpfindnext
+ .text          0x00030680     0x4344 ../ulib/libuserxe.a(libuserxe_a-ufile1l.o)
+                0x00030680                ufstat
+                0x00030ef0                ufilechkwildmultiple
+                0x0003118c                ufstat_wild
+                0x0003121c                ufilefscomp
+                0x00031294                ufilegetfsid
+                0x00031374                ufilegetftime
+                0x00031484                ufullpath
+                0x00031e8c                upathlen
+                0x00031edc                ugetcwd
+                0x00031f08                uchdir
+                0x00032034                udosfindfirstnomsg
+                0x000320a4                udosfindfirst
+                0x00032820                udosfindnext
+                0x00032890                udosfindnextmsg
+                0x00032c94                ufilelnxwildselect
+                0x00032d00                ufilelnxattrselect
+                0x00032ed8                ufilelnxgetmembfstat
+                0x00033104                ufilelnxsavehdir
+                0x00033234                ufilelnxsrchhdir
+                0x0003333c                ufilelnxclosehdir
+                0x0003347c                ufilemode2attr
+                0x00033628                ufilemktime
+                0x000336e0                ufilerepwildname
+                0x000337e0                errwildname
+                0x000339e8                filesrchmountpoint
+                0x00033bc0                filegetdevt
+                0x00033e44                filegetdevicename
+                0x00033ff0                filegetdevicemntent
+                0x00034110                filegetmntent
+                0x000342e4                filegetmntoption
+                0x00034448                ufilegetiocharset
+                0x0003454c                ufilefnmcvcs
+                0x00034790                ufullpathCP
+ .text          0x000349c4     0x1f08 ../ulib/libuserxe.a(libuserxe_a-ufile1l2.o)
+                0x000349c4                mtoolsinit
+                0x000349f0                ufstat_mdos
+                0x00034f3c                ufilegetmdosattr
+                0x00035040                uopendir_mdos
+                0x0003533c                ureaddir_mdos
+                0x00035580                ufilegetmdosdl
+                0x00035ae0                ufilegetmdosattrlist
+                0x00035cd8                ugetcwd_mdos
+                0x00035e54                uchdir_mdos
+                0x00035ef0                ustatfs_mdos
+                0x00036130                uminfo
+                0x0003640c                ufilegetnum
+                0x00036510                ufilemdoscmd
+                0x00036768                ufilemdoserrchk
+ .text          0x000368cc     0x4588 ../ulib/libuserxe.a(libuserxe_a-ufile2.o)
+                0x000368cc                ufile2
+                0x000368e4                uxddpchk
+                0x00036d34                uxddsub
+                0x00037584                uxdelete
+                0x00038304                ufilewildxdel
+                0x00038538                uxdelsub
+                0x00038ee0                uremovenomsg
+                0x00038f34                uremove
+                0x00039194                urenamenomsg
+                0x000391ec                urename2
+                0x00039244                urename
+                0x00039948                ufilewildrename
+                0x00039980                uwildfunc
+                0x00039d7c                ufilecdirchk
+                0x0003a114                ufilespfnchk
+                0x0003a13c                wildchk
+                0x0003a2d4                ufilechkwildmemb
+                0x0003a404                ufilechkwildname
+                0x0003a598                ufileopenexclusivewrite
+                0x0003a654                ufiledelifnotopened
+                0x0003a730                ufile2quietmsg
+                0x0003a860                ugetmoveavailablepath
+                0x0003ad4c                uwildfunc_LongName
+ .text          0x0003ae54     0x47cc ../ulib/libuserxe.a(libuserxe_a-ufile2f.o)
+                0x0003ae54                uftpmkdir
+                0x0003b44c                uftprmdir
+                0x0003b858                uftpremove
+                0x0003bc9c                uftprename
+                0x0003c048                uftprenamesub
+                0x0003c41c                uftpwildrename
+                0x0003c46c                uftpattrib
+                0x0003c778                uftpattrxon
+                0x0003c7c0                uftpattrxchk
+                0x0003c998                uftpgetftime
+                0x0003caec                uftpgetftime_1sec
+                0x0003cc64                uftpsetftime
+                0x0003ccdc                uftpsetftime2
+                0x0003cd54                uftpcopypathinfo
+                0x0003ce7c                uftpsetown
+                0x0003cef4                uftpsetmod
+                0x0003d3d4                uftpwildfunc
+                0x0003d600                uftpwildfunc2
+                0x0003d978                uftpmultidel
+                0x0003da90                uftpmultirename
+                0x0003dba8                uftpwildxdel
+                0x0003dee4                uftpmultidelsub
+                0x0003e070                uftpmultirenamesub
+                0x0003e2b0                uftpbypassreason
+                0x0003e33c                uftpxdelrchk
+                0x0003e748                uftpmultidelrchk
+                0x0003e9e4                uftpmultirenamerchk
+                0x0003ec8c                ufile2putstmt
+                0x0003edcc                uftpnotsupported
+                0x0003ee24                uftpnotsupportedforlocal
+                0x0003ee7c                uftpdelsubdir
+                0x0003f0fc                ufile3xdeleteinit
+                0x0003f188                uxdelsubftp
+                0x0003f5d8                errtoolongname
+ .text          0x0003f620     0x19d8 ../ulib/libuserxe.a(libuserxe_a-ufile2l.o)
+                0x0003f620                umkdir
+                0x0003f68c                umkdirmode
+                0x0003f9c0                urmdir
+                0x0003fe64                uattrib
+                0x000401b0                uattrxon
+                0x00040228                uattrxchk
+                0x00040408                ugetftime
+                0x00040540                ugetftime_1sec
+                0x000406c0                usetftime
+                0x0004083c                usetftime_1sec
+                0x00040898                usetftime2
+                0x000409f4                ucopypathinfo
+                0x00040e00                ufilesetown
+                0x00040ef8                ufilesetmod
+ .text          0x00040ff8      0xbc8 ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o)
+                0x00040ff8                umkdir_mdos
+                0x000410c4                urmdir_mdos
+                0x000411d8                uattrib_mdos
+                0x000413dc                uremove_mdos
+                0x000414f0                urename_mdos
+                0x00041588                ucopy_mdos
+                0x0004181c                uappend_mdos
+                0x00041b64                ufilemdoscopyerr
+ .text          0x00041bc0     0x4dd0 ../ulib/libuserxe.a(libuserxe_a-ufile3.o)
+                0x00041bc0                ufile3
+                0x00041bd8                invalidtargetfilename
+                0x00041c10                uxcopy
+                0x00042b00                ufilecreateparmproc
+                0x0004326c                ufilecpymvflags
+                0x00043538                ufilewildcopy
+                0x000437d8                ucopysub_slinktarget
+                0x00043978                ucopysub_slink
+                0x00043c70                ucopysub
+                0x00044394                udoscopy
+                0x0004474c                uxmove
+                0x00045164                ufilewildmove
+                0x000452f4                umovesub_slink
+                0x00045a30                umovesub
+                0x00046160                ufilecopytschk
+                0x00046278                ufilechkslinkpath
+                0x000464c0                ufilegetslinkfinaltarget
+                0x00046648                ufilesymlink
+                0x000466cc                ufilesymlink_copyfiletime
+                0x000467c4                ufilesymlink_copy
+                0x00046870                ufileerrdirandfile
+                0x000468b0                ufileerrslinktarget
+                0x000468f4                ufileerrslinkappend
+                0x00046934                ufileerrnotargetslink
+ .text          0x00046990     0x539c ../ulib/libuserxe.a(libuserxe_a-ufile3f.o)
+                0x00046990                uftpxmove
+                0x00046b58                uftpxcopy
+                0x00046e50                uftpxcopyr2r
+                0x000470d4                uftpupload
+                0x00047774                uftpdownload
+                0x00047dc4                uftptargetflag
+                0x0004814c                uftpsourceflag
+                0x00048504                uftps2tchk
+                0x00048af8                uftpcreateparmproc
+                0x00048f3c                uftpmoveparmproc
+                0x000491f0                uftpupdownctl
+                0x00049af4                uftpgetdirlist
+                0x00049bc8                uftpexistchk1
+                0x00049e24                uftpexistchkm
+                0x0004a384                uftpcopycallback
+                0x0004aba8                uftpcopyrchk
+                0x0004b33c                uftpputstmt
+                0x0004b480                uftpputstmt2
+                0x0004b620                uftpcopyftime
+                0x0004b96c                ufileftpcopytschk
+                0x0004bba8                uftpmktdir
+                0x0004bc08                uftperrsourceisroot
+                0x0004bc30                uftperrtargetisnotdir
+                0x0004bc64                uftperrdir2file
+                0x0004bca4                uftpfileanddir
+                0x0004bcf0                uftpappenddir2dir
+ .text          0x0004bd2c     0x2acc ../ulib/libuserxe.a(libuserxe_a-ufile4.o)
+                0x0004bd2c                ufile4
+                0x0004bd44                utempnam
+                0x0004c024                utempnamd
+                0x0004c07c                ufgetpos
+                0x0004c0ac                udirwalk
+                0x0004c7e4                udirwalksub
+                0x0004d894                ufileslinkoutoflinkchk
+                0x0004dd34                ufileslinkloopchk
+                0x0004e1d8                ufileslinkloopchk2
+                0x0004e2e8                ugetdiskfree
+                0x0004e47c                ufileisvfat
+                0x0004e4b0                ufileisntfs
+                0x0004e4d4                ufileisvfatMounted
+                0x0004e554                ufileisntfsMounted
+                0x0004e5d4                ufileisMSMounted
+                0x0004e680                ufsetlock
+                0x0004e6e8                uflock
+ .text          0x0004e7f8     0x4e20 ../ulib/libuserxe.a(libuserxe_a-ufile5.o)
+                0x0004e7f8                ufile5
+                0x0004e810                ufgetsinit
+                0x0004ec2c                ufgetscurpos
+                0x0004ec54                ufgets_setcurpos
+                0x0004ecd8                ufgets
+                0x0004f09c                ufgetssub
+                0x0004f684                ufgetsbinchk_utf8
+                0x0004f95c                ufgetsbinchk_ebc
+                0x0004fb7c                ufgetsbinchk
+                0x00050034                isSameU8c
+                0x0005027c                udoseditname
+                0x00050b40                ufileeditname
+                0x00051008                ufilewildcomp
+                0x00051388                ufilewildcompsub
+                0x00051558                ufilecomp
+                0x00051a30                ufilecomptextmode
+                0x00051dd8                ufilecomptextmodefixed
+                0x00052064                ufilecomptextmodesub
+                0x000521a8                ufreads
+                0x00052488                ufgetsVHeader
+                0x00052710                ufgetsVRecord
+                0x00052a08                ufgetsV
+                0x00052c88                ufile5chkvfmt
+                0x00052de8                ufile5getVfmtstr
+                0x00052eac                ufseek
+                0x00052ee8                uftell
+                0x00052f18                fileeditname_copypath
+                0x00053534                fileeditname_copypath_err
+                0x00053598                filetouch
+ .text          0x00053618     0x4f50 ../ulib/libuserxe.a(libuserxe_a-uftp.o)
+                0x00053618                uftpfstatroot
+                0x000536c0                uftplshome
+                0x00053828                uftpfstatudl
+                0x00053b6c                uftpisexist
+                0x00053c88                uftpopendir
+                0x00054260                uftpreaddir
+                0x000543c4                uftpattrselect
+                0x0005458c                uftpgetslinkattr
+                0x0005496c                uftpdirlistslink
+                0x00054f5c                uftpsortslink
+                0x00054fb4                uftpslinkcomp
+                0x00055038                uftpslinklscmd
+                0x00055370                uftplsoutchk
+                0x000556e4                uftpmodtimerchk
+                0x00055bc0                uftpmodtimeerr
+                0x00055c14                uftplsoutchkslinkerrskip
+                0x00055d40                uftplsoutchkslink
+                0x00055e40                uftpsavehdir
+                0x00055f88                uftpsrchhdir
+                0x00056034                uftpclosehdir
+                0x00056098                uftpmode2attr
+                0x00056214                uftpudl2ffb3
+                0x000563c4                uftpgetpathname
+                0x0005648c                uftpnodesrch
+                0x0005653c                uftpnodeadd
+                0x000565f4                uftpnodedel
+                0x00056650                uftpnodeclear
+                0x0005666c                uftpgethostqhaddr
+                0x0005668c                uftphoststbinit
+                0x000569ac                uftpgethostsdata
+                0x00057a18                uftgetstringopd
+                0x00057c98                uftpipachk
+                0x00057eb8                uftpgetportno
+                0x00057f44                uftpisremote
+                0x000580d0                uftpisrootdir
+                0x00058154                uftphostscrypt
+                0x00058430                uftptempnam
+                0x0005848c                uftp_mempswd
+                0x00058524                uftp_udirlist_setname
+ .text          0x00058568     0x2c2c ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+                0x00058568                uftpinit
+                0x000586b8                uftpterm
+                0x00058700                uftplog
+                0x00058ad4                uftpnodeinit
+                0x00058cbc                uftpcmd
+                0x000593f4                uftpcmdrespchk
+                0x00059500                uftpcmdresphdrchk
+                0x00059628                uftpcmdsrchrespid
+                0x00059888                uftpsimplerespchk
+                0x00059960                uftpnextstdo
+                0x00059a30                uftpsrchfname
+                0x00059bf8                uftpsrchfnameslink
+                0x00059e80                uftpgetdl
+                0x0005a1a0                uftpgetdl1
+                0x0005a8a8                uftpgetmode
+                0x0005abf0                uftpgetdlftime
+                0x0005ad94                uftpgetmonth
+                0x0005ae10                uftpgetwday
+                0x0005ae88                uftpajustjst
+                0x0005b0e4                uftpmktempwd
+                0x0005b130                uftpdeltempwd
+ .text          0x0005b194     0x5ab0 ../ulib/libuserxe.a(libuserxe_a-uftp3.o)
+                0x0005b194                uftp3setssh
+                0x0005b454                uftp3editpsftpcmd
+                0x0005b594                uftp3cmdrespchk
+                0x0005b6b0                uftp3cmdresphdrchk
+                0x0005b804                uftp3srchcmdecho
+                0x0005b958                uftp3gethomesub
+                0x0005bab8                uftp3simplerespchk
+                0x0005bc24                uftp3simplerespchkOK
+                0x0005bdc0                uftp3simplerespchkCHNG
+                0x0005bf50                uftp3lchdirrespchk
+                0x0005bfbc                uftp3getputrespchk
+                0x0005c0d8                uftp3cdrespchk
+                0x0005c214                uftp3setsmb
+                0x0005c2d0                uftp3smb_setcmd
+                0x0005c750                uftp3smb_editcmdline
+                0x0005ca08                uftp3smb_nodeinit
+                0x0005cab4                uftp3smbcmd
+                0x0005cb38                uftp3smb_cmd
+                0x0005d040                uftp3smb_chkstatuserr
+                0x0005d288                uftp3smb_srchresp
+                0x0005d4b0                uftp3smb_stderrlog
+                0x0005d528                uftp3smb_getdltime
+                0x0005d6cc                uftp3smb_getdltimestat
+                0x0005d81c                uftp3smb_setdltime
+                0x0005d94c                uftp3smb_getmode
+                0x0005db7c                uftp3smb_getdirlistctr
+                0x0005dbc4                uftp3smb_getdl1
+                0x0005de38                uftp3smb_fstatudl
+                0x0005e148                uftp3smb_fstatudl_byls
+                0x0005e378                uftp3smb_fstatudl_byls_root
+                0x0005e614                uftp3smb_lsoutchk
+                0x0005e798                uftp3smb_getdlattr
+                0x0005e890                uftp3smb_fstatdircallback
+                0x0005eb30                uftp3smb_fstatdirrchk
+                0x0005ef78                uftp3smb_fstatoutchk
+                0x0005f47c                uftp3smb_putstmt
+                0x0005fa24                uftp3smb_respchk_srchnext
+                0x0005fd5c                uftp3smb_respchk
+                0x00060184                uftp3smb_lchdirrespchk
+                0x000601d4                uftp3smb_strfname
+                0x00060484                uftp3smb_enclosefnm
+                0x000605c4                uftp3smb_editcmdparm
+                0x00060764                uftp3smb_dirnameforlist
+                0x00060834                uftp3smb_mode2attr_winsub
+                0x000608c4                uftp3smb_mode2attr_win
+                0x00060914                uftp3smb_strattr
+                0x000609fc                uftp3smb_setmod_win
+ .text          0x00060c44      0x4b0 ../ulib/libuserxe.a(libuserxe_a-ugcclib.o)
+                0x00060c44                strupr
+                0x00060cac                strlwr
+                0x00060d14                memicmp
+                0x00060de0                stricmp
+                0x00060e70                itoa
+                0x00060f04                kbhit
+                0x00060f1c                getch_nc
+                0x00060f3c                getche
+                0x00060f5c                spawnvp
+                0x00060fb4                spawnv
+ .text          0x000610f4     0x1d30 ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+                0x000610f4                ukbdpeek
+                0x00061120                ukbdcharin
+                0x000612c8                ukbdl_init
+                0x000613b4                ukbdl_term
+                0x000613cc                ukbdl_setkbmode
+                0x00061454                ukbdl_shellmode
+                0x00061560                ukbdl_setgetchmode
+                0x00061620                ukbdl_tcgetattr
+                0x000616c0                ukbdl_tcsetattr
+                0x00061764                ukbdl_getch_init
+                0x000617b8                ukbdl_getche_init
+                0x0006180c                ukbdl_getch_term
+                0x00061858                ukbdl_getche_term
+                0x000618a4                ukbdl_kbhit
+                0x000618f4                ukbdl_getch
+                0x00061994                ukbdl_getche
+                0x00061a34                ukbdl_gettermid
+                0x00061b78                ukbdl_gettermsim
+                0x000620b0                ukbdl_editstring
+                0x00062178                ukbdsetstatus
+                0x00062230                ukbdl_wcinit
+                0x00062330                ukbdl_readutf8
+                0x00062924                ukbdl_readdbcs
+                0x00062c2c                ukbd_simutf8_f2l
+ .text          0x00062e24     0x8020 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o)
+                0x00062e24                ukbdlnxc_gettbl
+                0x00062ec0                ukbdlnxc_init
+                0x00063070                ukbdlnxc_term
+                0x000630ec                ukbdlnxc_getnext
+                0x00063174                ukbdlnxc_read
+                0x00063328                ukbdlnxc_readkbd
+                0x000641bc                ukbdlnxc_optproc
+                0x00064338                ukbdlnxc_setupckt
+                0x000649fc                ukbdlnxc_setupcktsub
+                0x00064c68                ukbdlnxc_setupcktx
+                0x00067324                cktovferr
+                0x000673a0                ukbdlnxc_addstrtbl
+                0x00067678                ukbdlnxc_dupstrchk
+                0x000679d4                ukbdlnxc_cleanup
+                0x00067a5c                ukbdlnxc_termexit
+                0x00067a90                ukbdlnxc_getplainsym
+                0x00067d64                ukbdlnxc_chkothersym
+                0x00067dd0                ukbdlnxc_xbsdel
+                0x00067ed4                ukbdlnxc_delopt
+                0x00067fb8                ukbdlnxc_setfunckey
+                0x0006819c                ukbdlnxc_setfuncstr
+                0x00068580                ukbdlnxc_setcompose
+                0x00068618                ukbdlnxc_getkeysym
+                0x000686f8                ukbdlnxc_setkeysym
+                0x000687d8                ukbdlnxc_getstring
+                0x000688a8                ukbdlnxc_setstring
+                0x000689a0                ukbdlnxc_getdiacr
+                0x00068a4c                ukbdlnxc_setdiacr
+                0x00068af8                ukbdlnxc_setmetamode
+                0x00068d04                ukbdlnxc_getconsole
+                0x00068e88                ukbdlnxc_getptty
+                0x00068fc4                ukbdlnxc_open
+                0x0006904c                ukbdlnxc_chkconsole
+                0x00069074                ukbdlnxc_save1st
+                0x00069410                ukbdlnxc_restorelast
+                0x000699cc                ukbdlnxc_lockfwrite
+                0x00069a50                ukbdlnxc_lockfread
+                0x00069ad4                ukbdlnxc_pidsetlock
+                0x00069bc0                ukbdlnxc_pidresetlock
+                0x00069c60                ukbdlnxc_pidchklock
+                0x00069d18                ukbdlnxc_chngttkey
+                0x0006a8e4                ukbdlnxc_setrctl
+                0x0006aa18                ukbdlnxc_setrctlstr
+                0x0006ae1c                uttyname
+ .text          0x0006ae44      0x848 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxm.o)
+                0x0006ae44                ukbdlnxm_mouseopt
+                0x0006af54                ukbdlnxm_mouseinit
+                0x0006afbc                ukbdlnxm_mouseterm
+                0x0006b01c                ukbdlnxm_getmouse
+                0x0006b474                clickchk
+ .text          0x0006b68c     0x22e0 ../ulib/libuserxe.a(libuserxe_a-uparse.o)
+                0x0006b68c                uparsein
+                0x0006b934                uparseindir
+                0x0006baa8                uparsev
+                0x0006bc70                uparse2
+                0x0006bdac                uparse
+                0x0006cab4                uparsefname
+                0x0006cc40                uparsecmd
+                0x0006d3b0                uparsecmdin
+                0x0006d608                uparsegetopt
+ .text          0x0006d96c     0x3754 ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+                0x0006d96c                usystem2
+                0x0006daa8                usystem
+                0x0006dbbc                uspawnl
+                0x0006dce8                uspawnlp
+                0x0006de14                uspawnvp
+                0x0006df10                uprocopt
+                0x0006dfdc                uspawnrc
+                0x0006e204                uprocerrmem
+                0x0006e240                uprocerrnotf
+                0x0006e27c                uexecchk
+                0x0006e684                uextdirsrch
+                0x0006e6c4                ucmdnmcomp
+                0x0006e840                ugetexepath
+                0x0006e864                uproc_getpsinfo
+                0x0006edbc                uproc_srchpsinfo
+                0x0006ef4c                uproc_freepsinfo
+                0x0006efbc                usystem_redirect
+                0x0006f2a4                uspawn_redirect
+                0x0006f67c                uproc_redirectoutchk
+                0x0006fff8                uspawnvp_pipe
+                0x0007044c                uspawnvp_pipeclose
+                0x00070518                usystem_cmdserverinit
+                0x000705bc                usystem_cmdserverterm
+                0x000706f8                usystem_cmdserversetup
+                0x00070b68                usystem_cmdtocmdserver
+                0x00070bf4                usystem_cmdserverreq
+                0x00071000                usystem_cmdserverreqwithoutbuff
+                0x00071094                usystem_pidalivechk
+ .text          0x000710c0     0x142c ../ulib/libuserxe.a(libuserxe_a-uproc2.o)
+                0x000710c0                uprocparseredirect
+                0x000714c8                uproc_rsh
+                0x00071be8                uproc_redirectrewrite
+                0x00071d10                uproc_rshlog
+                0x00071de0                ugetpid
+                0x00071e2c                uprocredirectchk
+                0x00071e7c                uproc_loaddllpath
+                0x000720e4                uproc_loaddll
+                0x00072294                uproc_getdllproc
+                0x00072380                uproc_freedll
+                0x000723dc                uproc_getprocaddr
+ .text          0x000724ec     0x11dc ../ulib/libuserxe.a(libuserxe_a-uproc4.o)
+                0x000724ec                uproc_shcmd
+                0x000725f4                uproc_shserverinit
+                0x00072698                uproc_shserverterm
+                0x00072770                uproc_shserversetup
+                0x00072c30                uproc_shserverreq
+                0x00073074                uproc_srchprocessw
+                0x00073138                uproc_srchprocess
+                0x0007321c                uproc_select
+                0x000735e0                uproc4_fdset
+                0x00073650                uproc4_fdisset
+ .text          0x000736c8      0x9d4 ../ulib/libuserxe.a(libuserxe_a-uque.o)
+                0x000736c8                uque
+                0x000736e0                uenq
+                0x000739b4                udeq
+                0x00073c90                uqscan
+                0x00073db4                uqfree
+                0x00073e0c                uqufree
+                0x00073e64                uenqchain
+                0x00073f7c                uenqent
+                0x0007401c                uqhmove
+ .text          0x0007409c      0x274 ../ulib/libuserxe.a(libuserxe_a-ustrcpy.o)
+                0x0007409c                ustring_memcpy
+                0x00074158                ustring_strncpy
+                0x00074278                ustring_strcpy
+ .text          0x00074310     0x2778 ../ulib/libuserxe.a(libuserxe_a-ustring.o)
+                0x00074310                ustring
+                0x00074328                ustrnchr
+                0x000743b0                ustrnpbrk
+                0x0007448c                ustrnspn
+                0x00074588                ustrrspn
+                0x00074628                ustrnrspn
+                0x000746d8                umemrspn
+                0x00074790                umemspnc
+                0x0007481c                umemspn_spacetab
+                0x000748ac                umemrspnc
+                0x0007493c                ustrnstr
+                0x00074a44                ustrrstr
+                0x00074ad4                ustrnrstr
+                0x00074bc0                ustrstri
+                0x00074d18                ustrnstri
+                0x00074e0c                ustrrstri
+                0x00074e9c                ustrnrstri
+                0x00074f88                ustrnrchr
+                0x0007507c                umemchr_utf
+                0x00075218                ustrchr2
+                0x00075360                ustrnchr2
+                0x000753ac                umemchr2
+                0x000754ec                ustrrchr2
+                0x0007562c                ustrnrchr2
+                0x00075678                umemrchr2
+                0x0007578c                umemrchr
+                0x0007580c                umempbrk
+                0x000758d8                umemrpbrk
+                0x000759a8                ustrnlen
+                0x000759fc                umemstr
+                0x00075a40                umemstri
+                0x00075a84                umemrstr
+                0x00075ac8                umemrstri
+                0x00075b0c                umemmem
+                0x00075bfc                umemmemi
+                0x00075dfc                umemrmem
+                0x00075ef4                umemrmemi
+                0x000760d8                ustrncpyz
+                0x0007617c                uispunct
+                0x00076244                uispunctdbcs
+                0x00076450                ustrdup
+                0x0007651c                umemtrim
+                0x00076768                umemicmpdbcs
+                0x00076864                umemstridbcs
+                0x00076984                umemrstridbcs
+ .text          0x00076a88       0x70 ../ulib/libuserxe.a(libuserxe_a-utf.o)
+                0x00076a88                utf_init
+ .text          0x00076af8     0x5ba0 ../ulib/libuserxe.a(libuserxe_a-utf2.o)
+                0x00076af8                umbtowc
+                0x00076bb4                utfpos2offs
+                0x00076e44                utfctr2offs
+                0x0007715c                utfstrchkmbr2wc
+                0x000775dc                utfcvf2u
+                0x00077ae4                utfcvl2fmix
+                0x00077dbc                utfcvl2f
+                0x00078488                utfcvl2ftab
+                0x00078644                utfsetdbcstbl
+                0x00078948                utfisvalidutf8
+                0x00078a4c                utfgetstrwidth
+                0x00078b14                utfisvalidutf8char
+                0x00078ca4                utfstrvalidate
+                0x00078e10                utfgetutf8strlen
+                0x00078f88                utfsplitchk
+                0x000791ac                utfcvl2fany
+                0x00079a34                utfcvf2l1
+                0x00079c1c                utfcvf2l
+                0x0007a0b8                utfcvf2lany
+                0x0007a654                utfcvl2fany1
+                0x0007a8b8                utfcvl2fany1mb
+                0x0007aa1c                utfcvl2uany1mb
+                0x0007abc0                utfcvf2lany1
+                0x0007afd0                utfcvf2lany1mb
+                0x0007b154                utfcvu2lany1mb
+                0x0007b2b8                utfcvlocaleinit
+                0x0007b4e4                utfcvsetdefaultlocale
+                0x0007b654                utfcvsetparmlocale
+                0x0007b7b0                utfgetcharset_std
+                0x0007badc                utfgetcharset
+                0x0007bd00                utflocalechk
+                0x0007bd80                utfcvlocaleopen
+                0x0007be98                utfcvlocaleclose
+                0x0007bec4                utfcvlocaletclose
+                0x0007bf04                utfcviconvdbcschk_topbyte
+                0x0007c040                utfcviconvdbcschk1
+                0x0007c1ac                utfcvlocaleinitICU
+                0x0007c214                utfcvf2lany1ICU
+                0x0007c390                utfcvl2fany1ICU
+                0x0007c534                utfcvsetdefaultlocaleICU
+                0x0007c578                utflocalechkICU
+                0x0007c5e0                utfgetstrlenHK
+ .text          0x0007c698     0x7bb0 ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+                0x0007c698                utfwwapichk
+                0x0007c900                utfddflag2sbcsid
+                0x0007c998                utfddgetlenflag
+                0x0007cc58                utf22_mapwidth0_rounddown
+                0x0007cd94                utf22_mapwidth0
+                0x0007cfac                utfucsmapinit
+                0x0007d4bc                utf22setworkdir
+                0x0007d654                utf22versionchk
+                0x0007d84c                utfucsloadmap
+                0x0007da44                utfucssavemap
+                0x0007dbd8                utfucsmapinit_remap
+                0x0007df68                utfucsmapmodify
+                0x0007e0e0                utfmapucs2dd
+                0x0007e198                utfmapdd2ucs
+                0x0007e21c                utfddsetsbcs
+                0x0007e2e4                utfddgetsbcs
+                0x0007e348                utfgetwcw
+                0x0007e488                utfcvu2dd1w
+                0x0007e754                utfcvu2dd1
+                0x0007e850                utfcvf2dd
+                0x0007eb3c                utfdd2u1
+                0x0007eba8                utfdd2u1vio
+                0x0007ec84                utfdd2u1chsz
+                0x0007ee78                utfdd2u
+                0x0007f3a4                utfucs42utf16
+                0x0007f570                utfddgetucsctr
+                0x0007f6ec                utfu2dd
+                0x0007f900                utfddcmp
+                0x000801fc                utfddicmp
+                0x00080340                utfcvdd2f
+                0x000809d4                utfchkdd
+                0x00080abc                utfddisasciistr
+                0x00080c30                utfddissbcsstr
+                0x00080ce8                utfddasciilen
+                0x00080d30                utfddpos2offs
+                0x00080f68                utfddoffs2pos
+                0x0008129c                utfddispunct
+                0x00081494                utfddmemspnc
+                0x00081598                utfddmemrspnc
+                0x000816b8                utfddstrnlen
+                0x000817a0                utfddstrlen
+                0x00081850                utfddstrnspn
+                0x000818d8                utfddmemspn
+                0x00081a0c                utfddmemrspn
+                0x00081b44                utfddmemchr
+                0x00081c74                utfddmemchr_nonascii
+                0x00081d68                utfddmemrchr
+                0x00081e50                utfddmemrchr_nonascii
+                0x00081f00                utfddmempbrk
+                0x00081fe0                utfddmempbrk_nonascii
+                0x000820e4                utfddmemrpbrk
+                0x000821e0                utfddmemrpbrk_nonascii
+                0x00082300                utfddcmpdbcstab
+                0x00082410                utfddmemmem
+                0x00082694                utfddmemrmem
+                0x00082780                utfddnumlen
+                0x00082a44                utfddgetdbcslr
+                0x00082b84                utfddgetcsrposbca
+                0x00082f18                utfgetvisiblealtch
+                0x000832dc                utfgetvisiblealtchprint
+                0x00083378                utf_setsubchar_dbcs
+                0x0008357c                utf_subcharcmp
+                0x000836f8                utfmemrchrDD
+                0x000837b4                utfmemchrDD
+                0x00083890                isASCIIstr
+                0x000838f8                isPrintableASCIIstr
+                0x00083970                isPrintableASCIImem
+                0x000839fc                utf22_setunpucsvio
+                0x00083b38                utf22_setdbcsspacealt
+                0x00083bf4                utfsetvisiblealtch
+                0x00083d4c                utf22_iswidth0Ovf
+                0x00083e40                utf22_iswidth0DBCS
+                0x00083f18                utf_iswidth0
+                0x00084058                utf_iscombinable
+                0x00084194                utf_iscombining
+ .text          0x00084248     0x178c ../ulib/libuserxe.a(libuserxe_a-utf3.o)
+                0x00084248                utfmb2wc
+                0x000844a4                utfwcwidth
+                0x00084730                utfwcwidthNoMap
+                0x000848d0                utfwcwidthsub
+                0x00084b10                utfwcwidthsubNoMap
+                0x00084d3c                utfiswide
+                0x00084d74                utfisprint
+                0x00084f78                utfgetwc
+                0x00085014                utftbinit
+                0x0008558c                utftbfhelp
+                0x000855ac                utftbterm
+                0x00085600                utftbsrch
+                0x0008577c                utftbsrch_jeuc
+                0x000857e8                utftbsrch_cjk
+                0x00085930                utf3_wcwidthXXE
+ .text          0x000859d4      0xad0 ../ulib/libuserxe.a(libuserxe_a-utf4.o)
+                0x00085ad8                mk_wcwidth_combining
+                0x00085b24                mk_wcwidth
+                0x00085de8                mk_wcwidth_cjk
+                0x00085f24                mk_wcswidth_cjk
+                0x00085fbc                mk_wcwidth_adjsbcs
+                0x000861bc                utf4_isSpacingCombiningMark
+                0x00086278                utf4_isAmbiguous
+                0x00086384                utf4_isAmbiguous_XXE
+                0x00086404                utf4_isFormat
+                0x00086458                mk_wcwidth_combining2SCM
+ .text          0x000864a4     0x1754 ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+                0x000864a4                utrace_initmt
+                0x00086500                utrace_init
+                0x00086764                utracepop
+                0x000868d0                utracepopf
+                0x00086a84                utracepnop
+                0x00086aa4                utrace_ebc
+                0x00086b9c                utrace
+                0x00086f80                utracectime
+                0x000871a4                utraceopen_force
+                0x00087374                utraceocmsg_force
+                0x00087b18                utrace_term
+ .text          0x00087bf8      0x5b8 ../ulib/libuserxe.a(libuserxe_a-uunxsub.o)
+                0x00087bf8                ugetugid
+                0x00087c9c                ugetusername
+                0x00087d34                ugetgroupname
+                0x00087dcc                usrchugname
+                0x00087e38                uaddugname
+                0x00087f2c                unc_setupterm
+                0x00087fa0                unx_fsetlock
+                0x00088064                unx_fresetlock
+                0x000880c0                unx_fchklock
+                0x0008817c                ugethostname
+ .text          0x000881b0     0x3914 ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+                0x000881b0                uviol_cell2attr
+                0x000882f0                uviol_attr2cell
+                0x000883cc                uviol_repfg
+                0x0008844c                uviol_altcharset
+                0x00088594                uvio_initparm
+                0x000885ec                uviogetmode
+                0x00088780                uviol_init
+                0x00088cbc                uviol_acssetup
+                0x00088e0c                uviol_init2
+                0x00088e3c                uviol_konchk
+                0x00088f30                uviol_konchk2
+                0x00088fa0                uviol_colorinit
+                0x000891b8                uviol_termexit
+                0x000891e8                uviol_cleanup
+                0x000892f8                uviol_term
+                0x0008937c                uviol_beep
+                0x000893b8                uviosetmode
+                0x000893f0                uvioreadcellstr
+                0x00089584                uviowrtcellstr
+                0x000897b0                uvioreadcharstr
+                0x000898cc                uviowrtcharstr
+                0x000899d4                uviowrtcharstratt
+                0x00089bd0                uviowrtnattr
+                0x00089de0                uviowrtncell
+                0x00089f3c                uviowrtnchar
+                0x0008a09c                uviogetcurpos
+                0x0008a188                uviosetcurpos
+                0x0008a2e4                uviogetcurtype
+                0x0008a394                uviosetcurtype
+                0x0008a4c8                uviowrttty
+                0x0008a508                uviol_rgb2colorno
+                0x0008a720                uviol_colorno2rgb
+                0x0008a878                uviogetstate
+                0x0008ab2c                uviosetstate
+                0x0008ad0c                uvioscrolldn
+                0x0008b038                uvioscrollup
+                0x0008b364                uviol_clear
+                0x0008b39c                uviol_clearok
+                0x0008b3e8                uviol_refresh
+                0x0008b410                uviol_mvaddchnstr
+                0x0008b5ac                uviol_attrupdate
+                0x0008ba44                uviol_set_padattrsub
+ .text          0x0008bac4     0x3778 ../ulib/libuserxe.a(libuserxe_a-u3270.o)
+                0x0008bac4                u3270init
+                0x0008bb2c                u3270fstat
+                0x0008c120                u3270findfile
+                0x0008c354                u3270fullpathistso
+                0x0008c3e0                u3270getcwd
+                0x0008c468                u3270chdir
+                0x0008c504                u3270fullpath
+                0x0008c7e0                u3270fullpathwildexp
+                0x0008ccfc                u3270getmembname
+                0x0008cea0                u3270chkmembname
+                0x0008cfe8                u3270getlastname
+                0x0008d0c0                u3270getnthname
+                0x0008d1c8                u3270concatfilename
+                0x0008d4b0                u3270editname
+                0x0008d858                u3270parsedsn
+                0x0008d8f4                u3270parentdsn
+                0x0008da94                u3270getsetdsnwild
+                0x0008ddb4                u3270pathlen
+                0x0008df04                u3270sethostuser
+                0x0008dfb8                u3270cmdrequest
+                0x0008e230                u3270editrespmsg
+                0x0008e348                u3270dirlistsub
+                0x0008e604                u3270setdirlist
+                0x0008eac4                u3270srchdirlist
+                0x0008eb90                u3270setdirlistdsn
+                0x0008ee5c                u3270setattr
+                0x0008ef78                u3270getattrstr
+                0x0008f204                u3270errdsnpath
+ .text          0x0008f23c     0x152c ../ulib/libuserxe.a(libuserxe_a-u32702.o)
+                0x0008f23c                u3270mkdir
+                0x0008f274                u3270rmdir
+                0x0008f2a4                u3270xddsub
+                0x0008f424                u3270xdelete
+                0x0008f634                u3270wildxdel
+                0x0008f66c                u3270xdelsub
+                0x0008f774                u3270remove
+                0x0008f8d8                u3270rename
+                0x0008fb28                u3270renamesub
+                0x0008fbfc                u3270wildrename
+                0x0008fc4c                u3270spfupdate
+                0x0008fe1c                u3270spfsetparm
+                0x00090358                u3270attrib
+                0x00090390                u3270attrxchk
+                0x000903c4                u3270getftime
+                0x000903fc                u3270setftime
+                0x00090434                u3270setftime2
+                0x0009046c                u3270copypathinfo
+                0x000904a4                u3270setown
+                0x000904dc                u3270setmod
+                0x00090510                u3270wildfunc
+                0x00090718                u3270errnotsupported
+ .text          0x00090768     0x3ab0 ../ulib/libuserxe.a(libuserxe_a-u32703.o)
+                0x00090768                u3270xmove
+                0x000908d8                u3270xcopyr2r
+                0x00090ba0                u3270xcopy
+                0x00090d68                u3270xcopyget
+                0x00091824                u3270xcopyput
+                0x000922d8                u3270filecreateparmproc
+                0x0009257c                u3270filecpymvflags
+                0x00092ad0                u3270filewildcopyget
+                0x00092d18                u3270filewildcopyput
+                0x00093058                u3270copysubget
+                0x000932b4                u3270copysubput
+                0x00093740                u3270transfer
+                0x00093ca4                u3270srcdupchk
+                0x00093ee8                u3270copyspfupdate
+                0x0009418c                u3270setftpparm
+ .text          0x00094218       0x40 ../ulib/libuserxe.a(libuserxe_a-uabend.o)
+                0x00094218                uabend
+ .text          0x00094258     0x1ad0 ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+                0x00094258                ucvebcinite2uJ
+                0x000943ac                ucvebc
+                0x000943c4                ucvebc_gettrte2a
+                0x000943e4                ucvebc2asc_handle
+                0x00094484                ucvasc2ebc_handle
+                0x00094524                ucvebc2asc
+                0x0009493c                ucvebc2asc1sbcsJ
+                0x00094abc                ucvebc2ucs1sbcsJ
+                0x00094c50                ucvasc2ebc
+                0x000951f8                ucvebc_defaultremap
+                0x000954d8                ucvebcinita2e
+                0x00095644                ucvkandl
+                0x00095834                ucvebcinitkandl
+                0x00095958                ucvebc2_chkprintsbcs
+                0x00095c34                ucvebc_chkeolopt
+ .text          0x00095d28     0x1718 ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+                0x00095d28                ucvebc2
+                0x00095d40                ucvebc2_init
+                0x00095db0                ucvebc2_codecomp
+                0x00095df8                ucvebc2_s2e
+                0x00095e94                ucvebc2_e2s
+                0x00095f2c                ucvebc2_chkprint
+                0x000961f4                ucvebc2_chkprintnewold
+                0x0009646c                ucvebc2_chkprintdup
+                0x00096618                ucvebc2_e2ssub
+                0x00096858                ucvebc2_s2esub
+                0x00096910                ucvebc2_stre2s
+                0x00096bc0                ucvebc2_ebc2asc1dbcsJ
+                0x00096c5c                ucvebc2_strs2e
+                0x00097210                ucvebc2_setsi
+                0x00097334                ucvebc2_setso
+ .text          0x00097440       0xa8 ../ulib/libuserxe.a(libuserxe_a-ucvebct.o)
+                0x00097440                ucvebc2gettbl
+ .text          0x000974e8     0x6c18 ../ulib/libuserxe.a(libuserxe_a-ucvext.o)
+                0x000974e8                ucvext_cfglineerr
+                0x00097524                ucvext_cfgdupoption
+                0x00097560                ucvext_ux2s
+                0x00097648                ucvext_cfgmap
+                0x000977c0                ucvext_getcfg
+                0x000985b4                ucvext_setdefaultlocalcv
+                0x000986f8                ucvext_getarmso1
+                0x00098958                ucvext_getarmso
+                0x00098be4                ucvext_getarmdata1
+                0x00098d54                ucvext_getarmdata
+                0x00098f04                chkapiver
+                0x000990c0                ucvext_icuinit_env
+                0x0009935c                setdatadir
+                0x00099428                ucvext_mapinit
+                0x00099e0c                ucvext_setupsubch
+                0x0009a3e0                ucvext_loaddll_icudata
+                0x0009a674                ucvext_loaddll
+                0x0009a724                ucvext_icuinit
+                0x0009ae48                ucvext_icuenumcvname
+                0x0009b218                ucvext_icuuerrname
+                0x0009b288                ucvext_icugetdefaultconvertername2
+                0x0009b3a4                ucvext_getstdcharset
+                0x0009b77c                ucvext_icugetdefaultconvertername
+                0x0009b8bc                ucvext_icugetconvertertype
+                0x0009bae0                ucvext_icugetsubchars
+                0x0009bc64                ucvext_icusetsubchars
+                0x0009bd58                ucvext_icugetstarter
+                0x0009bee4                ucvext_icugetconverter
+                0x0009c4f4                ucvext_getparmconverter
+                0x0009c778                ucvext_openparmconverter
+                0x0009c8f8                ucvext_getcvoption
+                0x0009cc64                set_internal_CP037
+                0x0009cd4c                ucvext_mapinitsetdefault
+                0x0009cf88                ucvext_setlocalconverter
+                0x0009d084                ucvext_icusubcharchk
+                0x0009d438                ucvext_isdbcs1st
+                0x0009d4bc                chk_converter_is_ebcdic
+                0x0009d5b0                ucvext_handle0init
+                0x0009d7f4                ucvext_icuclose
+                0x0009d85c                ucvext_icureset
+                0x0009d8c4                ucvext_icugetmbconverter
+                0x0009d9a4                ucvext_icumbinit12
+                0x0009da04                ucvext_icumbinit
+                0x0009dcd0                ucvext_setdefaultlocale
+                0x0009ddc0                chkicuversion
+                0x0009e04c                ucvext_getConverterCfg
+ .text          0x0009e100     0x49f4 ../ulib/libuserxe.a(libuserxe_a-ucvext12.o)
+                0x0009e100                ucvext12_init
+                0x0009e264                ucvext_icuebc2ucs1
+                0x0009e520                ucvext_iculocal2ucs1
+                0x0009e814                ucvext_icuucs2ebc1
+                0x0009eb2c                ucvext_icuucs2local1
+                0x0009edf8                ucvext_icuebc2mb1
+                0x0009f258                ucvext_icumb2ebc1
+                0x0009f718                ucvext_icuebc2mbs_handle
+                0x0009f798                ucvext_icuebc2mbs
+                0x0009faa0                ucvext_icumb2ebcdbcs
+                0x000a0060                ucvext_icumb2ebcs_handle
+                0x000a00e0                ucvext_icumb2ebcs
+                0x000a05e0                ucvext_icuebc2mbf
+                0x000a0ac8                ucvext_icumb2ebcf
+                0x000a1264                ucvext_icumb2ucs1
+                0x000a1470                ucvext_icuucs2mb1
+                0x000a1698                ucvext_icuutf2mb1
+                0x000a1844                ucvext_icumb2utf1
+                0x000a1a40                ucvext_icumb2utf
+                0x000a1ce8                ucvext_icuisprint
+                0x000a1d88                ucvext_locale1ICU
+                0x000a1e6c                ucvext_getparmconvertermbICU
+                0x000a22a4                ucvext_icua2ainit
+                0x000a2368                ucvext_icua2aterm
+                0x000a23e0                ucvext_icua2as
+                0x000a2aa0                ucvext_icusubcharchk_handle
+ .text          0x000a2af4     0x1ec0 ../ulib/libuserxe.a(libuserxe_a-ucvext2.o)
+                0x000a2af4                ucvext_iconvmapinit
+                0x000a2b40                ucvext_iconvgetstarter
+                0x000a2ca4                ucvext_iconvgetconvertertype
+                0x000a2d20                ucvext_iconvgetconverter
+                0x000a2e64                ucvext_iconvgetparmconverter
+                0x000a306c                ucvext_iconvebc2ucs1
+                0x000a31dc                ucvext_iconvlocal2ucs1
+                0x000a349c                ucvext_iconvucs2ebc1
+                0x000a3610                ucvext_iconvucs2local1
+                0x000a3778                ucvext_iconva2as
+                0x000a3d8c                ucvext_iconvb2bs
+                0x000a3f38                ucvext_iconva2af
+                0x000a4648                ucvext_iconva2ainit
+                0x000a4768                ucvext_iconva2acont
+ .text          0x000a49b4     0x4f64 ../ulib/libuserxe.a(libuserxe_a-ucvucs.o)
+                0x000a49b4                ucp932init
+                0x000a4f3c                ucp932term
+                0x000a4fe4                ucp932sjis2ucs
+                0x000a50b4                ucp932ucs2sjis
+                0x000a5238                uccvsjis2ucs
+                0x000a536c                uccvucs2sjis
+                0x000a539c                uccvucs2utf
+                0x000a55d0                uccvutf2ucs
+                0x000a5974                uccvucss2utf
+                0x000a5a58                uccvutf2ucss
+                0x000a5c24                uccvsjis2ucss
+                0x000a5ca4                uccvucss2sjis
+                0x000a5ce8                uccvsjis2utf
+                0x000a5dcc                uccvutf2sjis
+                0x000a5e98                ucvsucs2utf
+                0x000a623c                ucvsescucs2utf
+                0x000a6600                ucvssjis2utf
+                0x000a69cc                ucvsmb2utf
+                0x000a6d2c                ucvsutf2ucs
+                0x000a7090                ucvsutf2sjis
+                0x000a752c                ucvsutf2mb
+                0x000a790c                ucvssjis2ucs
+                0x000a7c30                ucvsucs2sjis
+                0x000a7fd0                ucvsescucs2sjis
+                0x000a8354                ucvfsjis2ucs
+                0x000a8574                ucvfucs2sjis
+                0x000a8778                ucvfutf2ucs
+                0x000a8a14                ucvfucs2utf
+                0x000a8c80                ucvfsjis2utf
+                0x000a8eec                ucvfutf2sjis
+                0x000a9188                ucvbomchk
+                0x000a9330                ucvbomset
+                0x000a948c                ucvsetucss
+                0x000a96bc                ucvgetucss
+                0x000a97f8                ucverrutf
+                0x000a9858                ucverrucs
+                0x000a98b8                ucverrsjis
+ .text          0x000a9918       0x38 ../ulib/libuserxe.a(libuserxe_a-ucvucst.o)
+                0x000a9918                ugetcp932tbl
+ .text          0x000a9950     0x3084 ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+                0x000a9950                udbcschk_wcinit
+                0x000a9cf0                udbcschk_getbaseconverter
+                0x000a9d98                udbcschk_setunprintable
+                0x000a9f30                udbcschk_wclocaleinit
+                0x000aa09c                udbcschk_wclocalereset
+                0x000aa4b0                udbcschk_chklocale
+                0x000aa570                udbcschk_getlinuxleadbyte
+                0x000aa6d8                udbcschk
+                0x000aa864                udbcschk_hk
+                0x000aa950                udbcschk_getmblen
+                0x000aac10                udbcschk_mblen
+                0x000aace0                udbcschk_mb2nd
+                0x000aae68                udbcschk_isvalidmbchar
+                0x000aaf4c                udbcschk_locale_topbyte
+                0x000ab050                udbcschk_getdbcs1st
+                0x000ab144                udbcschk_ismbdbcs1st
+                0x000ab1a4                udbcschk_locale1
+                0x000ab490                udbcschk_mb2ucs1
+                0x000ab5fc                udbcschk_ucs2mb1
+                0x000ab728                udbcschk_forceenglish
+                0x000ab794                udbcschkcp
+                0x000ab900                ugetcp
+                0x000ab9e4                udbcsenv
+                0x000aba24                udosquerydbcsenv
+                0x000abb98                udbcschk2
+                0x000abc5c                udbcschk_pos2offs
+                0x000abe38                usetdbcstbl
+                0x000ac19c                usetdbcstblmb
+                0x000ac60c                udbcschk_setlocale
+                0x000ac85c                udbcschk_setdbcstype
+                0x000ac974                udbcschk_icugetlocalconverter
+ .text          0x000ac9d4     0x2e38 ../ulib/libuserxe.a(libuserxe_a-udbcsck2.o)
+                0x000ac9d4                ujischkx208
+                0x000acaa4                usjischkx208
+                0x000acb84                usjis2jis
+                0x000acc8c                ujis2sjis
+                0x000acd7c                ustrjis2sjis
+                0x000ad294                ustrsjis2jis
+                0x000ad79c                ushift2euc
+                0x000adcd4                ushift2euc1
+                0x000adeb0                ushift2euccount
+                0x000ae0f0                usjischk
+                0x000ae3a4                ueuc2shift1SS3
+                0x000ae3d4                ueuc2shift
+                0x000aeb60                ueucchk
+                0x000aef9c                ueuc2shift1
+                0x000af210                ueuc2shift1c
+                0x000af3c4                uhan2zen
+                0x000af688                udbcschktty
+                0x000af70c                udbcschk_srchSS2
+ .text          0x000af80c      0x3dc ../ulib/libuserxe.a(libuserxe_a-udos2.o)
+                0x000af80c                udos2
+                0x000af824                ugetdriveidlist
+                0x000af918                ugetdrivelist
+                0x000af9b8                ugetdrivetype
+                0x000afae0                udos_setenv
+ .text          0x000afbe8     0x2890 ../ulib/libuserxe.a(libuserxe_a-uedit2.o)
+                0x000afbe8                uedit2
+                0x000afc00                uasciidump
+                0x000afe1c                uasciidump_utf
+                0x000b00d4                uucsdump
+                0x000b0420                ub2x
+                0x000b0550                ueditfattr
+                0x000b0928                ueditfattrspf
+                0x000b09fc                ueditfattr_mdos
+                0x000b0b7c                uxdumpline
+                0x000b157c                xdlputs
+                0x000b1628                ugetdtparm
+                0x000b1724                ugetdateparm
+                0x000b1798                ugettimeparm
+                0x000b180c                ueditgetftnum
+                0x000b1adc                ueditsetfdateUSHORT
+                0x000b1b70                ueditsetfdate
+                0x000b1c50                ueditsetftimeUSHORT
+                0x000b1ce4                ueditsetftime
+                0x000b1ddc                uxdumpstr
+                0x000b2004                ueditNowFileTime
+                0x000b2134                ueditescrep
+ .text          0x000b2478      0x354 ../ulib/libuserxe.a(libuserxe_a-uehl.o)
+                0x000b2478                useteh
+                0x000b2544                uehl_setsh
+                0x000b2598                ureseteh
+                0x000b2660                uehl_resetsh
+                0x000b269c                usighandler
+ .text          0x000b27cc      0xd74 ../ulib/libuserxe.a(libuserxe_a-uproc22.o)
+                0x000b27cc                ukillpid
+                0x000b2868                uthread
+                0x000b28e0                uevent
+                0x000b2b4c                uevent_wait1
+                0x000b2d18                uevent_post1
+                0x000b2e1c                uevent_waitm
+                0x000b3000                uevent_postm
+                0x000b3140                uevent_reset1
+                0x000b31d4                uevent_setuplist
+                0x000b3368                uevent_resetlist
+                0x000b3418                ucriticalsection
+ .text          0x000b3540     0x19c4 ../ulib/libuserxe.a(libuserxe_a-uproc3.o)
+                0x000b3540                uproc_gvfsinit
+                0x000b35a4                ushellexec
+                0x000b3a58                ushellexecsub
+                0x000b3d2c                ulnxlgettermpgmopt
+                0x000b3eb0                ulnxlgetshellpgm
+                0x000b3f7c                ulnxxgettermpgmopt
+                0x000b4290                uproc3pgmchk
+                0x000b4334                usystemlnxterm
+                0x000b4410                usleepms
+                0x000b44b4                uprocconnect
+                0x000b4770                uprocdisconnect
+                0x000b481c                uprocpipeio
+                0x000b4a28                startserver
+                0x000b4aa4                uprocpiperead
+                0x000b4b38                uprocpiperecevmsg
+                0x000b4cb4                uprocpipeiodata
+ .text          0x000b4f04     0x65fc ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+                0x000b4f04                uviom_init
+                0x000b519c                uviom_setopt2
+                0x000b5498                uviom_notify
+                0x000b5560                uvio_wcinit
+                0x000b55c0                uviom_savecell
+                0x000b5668                uviom_readcell
+                0x000b5710                uvio_mvaddchnstrF
+                0x000b5dbc                uviom_mvaddwchnstr
+                0x000b5e2c                uvio_mvaddchnstrW_ligature
+                0x000b6180                uvio_mvaddchnstrW_combine
+                0x000b6780                uvio_mvaddchnstrW
+                0x000b6a44                uviom_cht2cchar
+                0x000b7a40                uviom_setcchar_itself
+                0x000b7ac8                uviom_setcchar_shadow
+                0x000b7ba0                uviom_setcombine1
+                0x000b8000                uviom_setcombine
+                0x000b8818                uviom_setcombineSCM
+                0x000b8a38                uvio_ddcht2cchar
+                0x000b9764                uvio_ddcht2cchar_ligature
+                0x000ba4f8                uvio_getcombinectr
+                0x000ba65c                uviom_escrep
+                0x000ba848                uviom_set_padattr
+                0x000ba8ac                uviom_fillattrspace
+                0x000ba9c8                uviom_setunpucs
+                0x000bad98                uviom_attr_itself
+                0x000bae3c                uviom_ISUCSWIDTH0
+                0x000bafbc                uviom_iscombining
+                0x000bb1a4                uviom_spaceclear
+                0x000bb1fc                uviom_clearscr
+                0x000bb29c                uviom_getcombaltchUcs
+                0x000bb324                uviom_getcombaltchU8
+ .text          0x000bb500     0x54c8 ../ulib/libuserxe.a(libuserxe_a-ucvebc3.o)
+                0x000bb500                ucvebc3_getcfgparmconverter
+                0x000bb704                ucvebc3_init_xcv
+                0x000bb744                ucvebc3_getconvertersubchar
+                0x000bb7b8                ucvebc3_setletter
+                0x000bc0ec                ucvebc3_init
+                0x000bc360                ucvebc3_cfgerr
+                0x000bc388                ucvebc3_b2uSbcs1
+                0x000bc670                ucvebc3_b2ddSbcs1
+                0x000bc860                ucvebc3_b2ddSbcs
+                0x000bcd20                ucvebc3_b2uDbcs1
+                0x000bcf3c                ucvebc3_b2ddDbcs1
+                0x000bd15c                ucvebc3_b2ddDbcsstr
+                0x000bd35c                ucvebc3_b2ddDbcs
+                0x000bda88                ucvebc3_b2dd
+                0x000bdb7c                ucvebc3_u2b1map
+                0x000bdcbc                ucvebc3_u2b1
+                0x000be060                ucvebc3_m2b1Sbcs1
+                0x000be21c                ucvebc3_m2b1
+                0x000be554                ucvebc3_m2b
+                0x000bea64                ucvebc3_f2b
+                0x000bf0fc                ucvebc3_dd2b
+                0x000bf7cc                ucvebc3_b2mSbcs
+                0x000bfe98                ucvebc3_b2mDbcsstr
+                0x000c0138                ucvebc3_b2m
+                0x000c0610                ucvebc3_setdbcstbl
+                0x000c07b0                ucvebc3_getebc3opt
+                0x000c08a0                ucvebc3_b2f
+                0x000c093c                ucvebc3_f2bcmd
+ .text          0x000c09c8     0x1c0c ../ulib/libuserxe.a(libuserxe_a-ucvebc4.o)
+                0x000c09c8                ucvebc4_init
+                0x000c0a54                ucvebc4_compbyname
+                0x000c0aac                ucvebc4_compbyhandle
+                0x000c0afc                ucvebc4_srchcveh
+                0x000c0c50                ucvebc4_gethandle
+                0x000c0d40                ucvebc4_getpucveh
+                0x000c0dc0                ucvebc4_getcvname
+                0x000c0e24                ucvebc4_getcvtype
+                0x000c0fa8                ucvebc4_createhandle
+                0x000c10e4                ucvebc4_getparmconverter
+                0x000c1214                ucvebc4_chkdbcsconverter
+                0x000c132c                ucvebc4_setuphandle
+                0x000c143c                ucvebc4_setletter
+                0x000c1b98                ucvebc4_b2uSbcs1
+                0x000c1cb4                ucvebc4_b2mSbcs
+                0x000c20e0                ucvebc4_setupsubch
+ .text          0x000c25d4      0x240 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_divsi3.o)
+                0x000c25d4                __divsi3
+                0x000c25d4                __aeabi_idiv
+                0x000c27f4                __aeabi_idivmod
+ .text          0x000c2814       0xd4 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_aeabi_ldivmod.o)
+                0x000c2814                __aeabi_ldivmod
+ .text          0x000c28e8       0x10 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_dvmd_lnx.o)
+                0x000c28e8                __aeabi_idiv0
+                0x000c28e8                __aeabi_ldiv0
+ .text          0x000c28f8      0x128 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_udivmoddi4.o)
+                0x000c28f8                __udivmoddi4
+ .text          0x000c2a20       0x64 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+                0x000c2a20                __libc_csu_init
+                0x000c2a80                __libc_csu_fini
+ .text          0x000c2a84       0x10 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat64.oS)
+                0x000c2a84                stat64
+ .text          0x000c2a94       0x10 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(lstat64.oS)
+                0x000c2a94                lstat64
+ .text          0x000c2aa4        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .text          0x000c2aa4        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x000c2aa4        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000c2aa4        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x000c2aa4        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x000c2aa4        0x0 linker stubs
+
+.fini           0x000c2aa4        0x8
+ *(SORT_NONE(.fini))
+ .fini          0x000c2aa4        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+                0x000c2aa4                _fini
+ .fini          0x000c2aa8        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+                [!provide]                PROVIDE (__etext = .)
+                [!provide]                PROVIDE (_etext = .)
+                [!provide]                PROVIDE (etext = .)
+
+.rodata         0x000c2aac     0xdd68
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x000c2aac        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x000c2aac                _IO_stdin_used
+ .rodata        0x000c2ab0     0x24fc xfmt.o
+ .rodata        0x000c4fac      0x571 ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+ *fill*         0x000c551d        0x3 
+ .rodata        0x000c5520      0x4ad ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+ *fill*         0x000c59cd        0x3 
+ .rodata        0x000c59d0      0x7c3 ../ulib/libuserxe.a(libuserxe_a-ucalc2.o)
+ *fill*         0x000c6193        0x1 
+ .rodata        0x000c6194       0xed ../ulib/libuserxe.a(libuserxe_a-uedit.o)
+ *fill*         0x000c6281        0x3 
+ .rodata        0x000c6284      0x30d ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+ *fill*         0x000c6591        0x3 
+ .rodata        0x000c6594      0x8b9 ../ulib/libuserxe.a(libuserxe_a-ufemsg.o)
+ *fill*         0x000c6e4d        0x3 
+ .rodata        0x000c6e50      0x113 ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+ *fill*         0x000c6f63        0x1 
+ .rodata        0x000c6f64      0x12b ../ulib/libuserxe.a(libuserxe_a-ufile1f.o)
+ *fill*         0x000c708f        0x1 
+ .rodata        0x000c7090      0x6a3 ../ulib/libuserxe.a(libuserxe_a-ufile1l.o)
+ *fill*         0x000c7733        0x1 
+ .rodata        0x000c7734      0x10f ../ulib/libuserxe.a(libuserxe_a-ufile1l2.o)
+ *fill*         0x000c7843        0x1 
+ .rodata        0x000c7844      0x7e4 ../ulib/libuserxe.a(libuserxe_a-ufile2.o)
+ .rodata        0x000c8028      0x357 ../ulib/libuserxe.a(libuserxe_a-ufile2f.o)
+ *fill*         0x000c837f        0x1 
+ .rodata        0x000c8380       0xf6 ../ulib/libuserxe.a(libuserxe_a-ufile2l.o)
+ *fill*         0x000c8476        0x2 
+ .rodata        0x000c8478       0xfc ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o)
+ .rodata        0x000c8574      0x4da ../ulib/libuserxe.a(libuserxe_a-ufile3.o)
+ *fill*         0x000c8a4e        0x2 
+ .rodata        0x000c8a50      0x476 ../ulib/libuserxe.a(libuserxe_a-ufile3f.o)
+ *fill*         0x000c8ec6        0x2 
+ .rodata        0x000c8ec8      0x234 ../ulib/libuserxe.a(libuserxe_a-ufile4.o)
+ .rodata        0x000c90fc      0x1a6 ../ulib/libuserxe.a(libuserxe_a-ufile5.o)
+ *fill*         0x000c92a2        0x2 
+ .rodata        0x000c92a4      0x619 ../ulib/libuserxe.a(libuserxe_a-uftp.o)
+ *fill*         0x000c98bd        0x3 
+ .rodata        0x000c98c0      0x45c ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+ .rodata        0x000c9d1c      0x512 ../ulib/libuserxe.a(libuserxe_a-uftp3.o)
+ *fill*         0x000ca22e        0x2 
+ .rodata        0x000ca230        0xb ../ulib/libuserxe.a(libuserxe_a-ugcclib.o)
+ *fill*         0x000ca23b        0x1 
+ .rodata        0x000ca23c       0xef ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+ *fill*         0x000ca32b        0x1 
+ .rodata        0x000ca32c      0xf2a ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o)
+ *fill*         0x000cb256        0x2 
+ .rodata        0x000cb258       0x2d ../ulib/libuserxe.a(libuserxe_a-uparse.o)
+ *fill*         0x000cb285        0x3 
+ .rodata        0x000cb288      0x4fd ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+ *fill*         0x000cb785        0x3 
+ .rodata        0x000cb788      0x168 ../ulib/libuserxe.a(libuserxe_a-uproc2.o)
+ .rodata        0x000cb8f0      0x341 ../ulib/libuserxe.a(libuserxe_a-uproc4.o)
+ *fill*         0x000cbc31        0x3 
+ .rodata        0x000cbc34      0x384 ../ulib/libuserxe.a(libuserxe_a-uque.o)
+ .rodata        0x000cbfb8       0x7e ../ulib/libuserxe.a(libuserxe_a-ustrcpy.o)
+ *fill*         0x000cc036        0x2 
+ .rodata        0x000cc038        0x4 ../ulib/libuserxe.a(libuserxe_a-ustring.o)
+ .rodata        0x000cc03c      0x1cc ../ulib/libuserxe.a(libuserxe_a-utf2.o)
+ .rodata        0x000cc208      0x325 ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+ *fill*         0x000cc52d        0x3 
+ .rodata        0x000cc530      0x133 ../ulib/libuserxe.a(libuserxe_a-utf3.o)
+ *fill*         0x000cc663        0x1 
+ .rodata        0x000cc664     0x19d0 ../ulib/libuserxe.a(libuserxe_a-utf4.o)
+ .rodata        0x000ce034      0x161 ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+ *fill*         0x000ce195        0x3 
+ .rodata        0x000ce198       0x98 ../ulib/libuserxe.a(libuserxe_a-uunxsub.o)
+ .rodata        0x000ce230       0x7a ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+ *fill*         0x000ce2aa        0x2 
+ .rodata        0x000ce2ac      0x161 ../ulib/libuserxe.a(libuserxe_a-u3270.o)
+ *fill*         0x000ce40d        0x3 
+ .rodata        0x000ce410      0x1ad ../ulib/libuserxe.a(libuserxe_a-u32702.o)
+ *fill*         0x000ce5bd        0x3 
+ .rodata        0x000ce5c0      0x395 ../ulib/libuserxe.a(libuserxe_a-u32703.o)
+ *fill*         0x000ce955        0x3 
+ .rodata        0x000ce958       0x30 ../ulib/libuserxe.a(libuserxe_a-uabend.o)
+ .rodata        0x000ce988      0x88e ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+ *fill*         0x000cf216        0x2 
+ .rodata        0x000cf218      0x221 ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+ *fill*         0x000cf439        0x3 
+ .rodata        0x000cf43c      0x8e8 ../ulib/libuserxe.a(libuserxe_a-ucvext.o)
+ .rodata        0x000cfd24       0xca ../ulib/libuserxe.a(libuserxe_a-ucvext12.o)
+ *fill*         0x000cfdee        0x2 
+ .rodata        0x000cfdf0      0x172 ../ulib/libuserxe.a(libuserxe_a-ucvext2.o)
+ *fill*         0x000cff62        0x2 
+ .rodata        0x000cff64       0xa2 ../ulib/libuserxe.a(libuserxe_a-ucvucs.o)
+ *fill*         0x000d0006        0x2 
+ .rodata        0x000d0008      0x10c ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+ .rodata        0x000d0114        0xc ../ulib/libuserxe.a(libuserxe_a-udbcsck2.o)
+ .rodata        0x000d0120       0x47 ../ulib/libuserxe.a(libuserxe_a-udos2.o)
+ *fill*         0x000d0167        0x1 
+ .rodata        0x000d0168       0xbd ../ulib/libuserxe.a(libuserxe_a-uedit2.o)
+ *fill*         0x000d0225        0x3 
+ .rodata        0x000d0228       0x33 ../ulib/libuserxe.a(libuserxe_a-uehl.o)
+ *fill*         0x000d025b        0x1 
+ .rodata        0x000d025c       0x66 ../ulib/libuserxe.a(libuserxe_a-uproc22.o)
+ *fill*         0x000d02c2        0x2 
+ .rodata        0x000d02c4      0x410 ../ulib/libuserxe.a(libuserxe_a-uproc3.o)
+ .rodata        0x000d06d4        0x2 ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+ *fill*         0x000d06d6        0x2 
+ .rodata        0x000d06d8       0x8f ../ulib/libuserxe.a(libuserxe_a-ucvebc3.o)
+ *fill*         0x000d0767        0x1 
+ .rodata        0x000d0768       0xac ../ulib/libuserxe.a(libuserxe_a-ucvebc4.o)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x000d0814        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x000d0814        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .ARM.extab     0x000d0814        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_udivmoddi4.o)
+                [!provide]                PROVIDE (__exidx_start = .)
+
+.ARM.exidx      0x000d0814        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000d0814        0x8 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .ARM.exidx     0x000d081c        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_udivmoddi4.o)
+                                  0x8 (size before relaxing)
+                [!provide]                PROVIDE (__exidx_end = .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000d081c        0x4
+ *(.eh_frame)
+ .eh_frame      0x000d081c        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000e0e08                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata          0x000e0e08        0x0
+                [!provide]                PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000e0e08        0x0
+                [!provide]                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000e0e08        0x4
+                0x000e0e08                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000e0e08        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+                0x000e0e0c                PROVIDE (__init_array_end = .)
+
+.fini_array     0x000e0e0c        0x4
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000e0e0c        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000e0e10        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000e0e10        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.dynamic        0x000e0e10      0x1f0
+ *(.dynamic)
+ .dynamic       0x000e0e10      0x1f0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x000e0e10                _DYNAMIC
+                0x000e1000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x000e1000      0x2e0
+ *(.got.plt)
+ .got.plt       0x000e1000      0x2dc /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x000e1000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x000e12dc        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.got)
+ .got           0x000e12dc        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.igot)
+
+.data           0x000e12e0    0x27668
+                [!provide]                PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000e12e0        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x000e12e0                __data_start
+                0x000e12e0                data_start
+ .data          0x000e12e4        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .data          0x000e12e4        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+                0x000e12e4                __dso_handle
+ .data          0x000e12e8       0x2c xfmt.o
+ .data          0x000e1314     0x1000 ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+ .data          0x000e2314       0x54 ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+ .data          0x000e2368      0x24c ../ulib/libuserxe.a(libuserxe_a-ucalc2.o)
+ .data          0x000e25b4        0x0 ../ulib/libuserxe.a(libuserxe_a-uedit.o)
+ .data          0x000e25b4        0xd ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+ .data          0x000e25c1        0x0 ../ulib/libuserxe.a(libuserxe_a-ufemsg.o)
+ *fill*         0x000e25c1        0x3 
+ .data          0x000e25c4        0xc ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+ .data          0x000e25d0        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile1f.o)
+ .data          0x000e25d0        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile1l.o)
+ .data          0x000e25d0       0x2c ../ulib/libuserxe.a(libuserxe_a-ufile1l2.o)
+ .data          0x000e25fc        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2.o)
+ .data          0x000e25fc        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2f.o)
+ .data          0x000e25fc        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2l.o)
+ .data          0x000e25fc        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o)
+ .data          0x000e25fc        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile3.o)
+ .data          0x000e25fc        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile3f.o)
+ .data          0x000e25fc        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile4.o)
+ .data          0x000e25fc        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile5.o)
+ .data          0x000e25fc       0x10 ../ulib/libuserxe.a(libuserxe_a-uftp.o)
+ .data          0x000e260c       0x50 ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+ .data          0x000e265c        0x4 ../ulib/libuserxe.a(libuserxe_a-uftp3.o)
+ .data          0x000e2660        0x0 ../ulib/libuserxe.a(libuserxe_a-ugcclib.o)
+ .data          0x000e2660        0x0 ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+ .data          0x000e2660     0xb6bc ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o)
+ .data          0x000edd1c       0x10 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxm.o)
+ .data          0x000edd2c        0x0 ../ulib/libuserxe.a(libuserxe_a-uparse.o)
+ .data          0x000edd2c       0x20 ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+ .data          0x000edd4c        0x0 ../ulib/libuserxe.a(libuserxe_a-uproc2.o)
+ .data          0x000edd4c        0x0 ../ulib/libuserxe.a(libuserxe_a-uproc4.o)
+ .data          0x000edd4c        0x0 ../ulib/libuserxe.a(libuserxe_a-uque.o)
+ .data          0x000edd4c        0x0 ../ulib/libuserxe.a(libuserxe_a-ustrcpy.o)
+ .data          0x000edd4c       0xfb ../ulib/libuserxe.a(libuserxe_a-ustring.o)
+ .data          0x000ede47        0x0 ../ulib/libuserxe.a(libuserxe_a-utf.o)
+ .data          0x000ede47        0x0 ../ulib/libuserxe.a(libuserxe_a-utf2.o)
+ *fill*         0x000ede47        0x1 
+ .data          0x000ede48      0x164 ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+ .data          0x000edfac      0xe98 ../ulib/libuserxe.a(libuserxe_a-utf3.o)
+ .data          0x000eee44        0x0 ../ulib/libuserxe.a(libuserxe_a-utf4.o)
+ .data          0x000eee44     0x1928 ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+ .data          0x000f076c        0x0 ../ulib/libuserxe.a(libuserxe_a-uunxsub.o)
+ .data          0x000f076c        0xc ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+ .data          0x000f0778        0x4 ../ulib/libuserxe.a(libuserxe_a-u3270.o)
+ .data          0x000f077c        0x0 ../ulib/libuserxe.a(libuserxe_a-u32702.o)
+ .data          0x000f077c        0x0 ../ulib/libuserxe.a(libuserxe_a-u32703.o)
+ .data          0x000f077c        0x0 ../ulib/libuserxe.a(libuserxe_a-uabend.o)
+ .data          0x000f077c      0x248 ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+ .data          0x000f09c4        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+ .data          0x000f09c4     0xed30 ../ulib/libuserxe.a(libuserxe_a-ucvebct.o)
+ .data          0x000ff6f4      0x316 ../ulib/libuserxe.a(libuserxe_a-ucvext.o)
+ .data          0x000ffa0a        0x6 ../ulib/libuserxe.a(libuserxe_a-ucvext12.o)
+ .data          0x000ffa10        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvext2.o)
+ .data          0x000ffa10       0x28 ../ulib/libuserxe.a(libuserxe_a-ucvucs.o)
+ .data          0x000ffa38     0x7cb0 ../ulib/libuserxe.a(libuserxe_a-ucvucst.o)
+                0x000ffa38                Scp932tb
+ .data          0x001076e8        0x8 ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+                0x001076e8                Gpdbcstbl
+ .data          0x001076f0     0x1148 ../ulib/libuserxe.a(libuserxe_a-udbcsck2.o)
+ .data          0x00108838        0x0 ../ulib/libuserxe.a(libuserxe_a-udos2.o)
+ .data          0x00108838       0x78 ../ulib/libuserxe.a(libuserxe_a-uedit2.o)
+ .data          0x001088b0       0x38 ../ulib/libuserxe.a(libuserxe_a-uehl.o)
+ .data          0x001088e8        0x0 ../ulib/libuserxe.a(libuserxe_a-uproc22.o)
+ .data          0x001088e8       0x54 ../ulib/libuserxe.a(libuserxe_a-uproc3.o)
+ .data          0x0010893c        0x4 ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+                0x0010893c                Guviomdbcspad
+ .data          0x00108940        0x8 ../ulib/libuserxe.a(libuserxe_a-ucvebc3.o)
+ .data          0x00108948        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvebc4.o)
+ .data          0x00108948        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_divsi3.o)
+ .data          0x00108948        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00108948        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_dvmd_lnx.o)
+ .data          0x00108948        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_udivmoddi4.o)
+ .data          0x00108948        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .data          0x00108948        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat64.oS)
+ .data          0x00108948        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(lstat64.oS)
+ .data          0x00108948        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .data          0x00108948        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+
+.tm_clone_table
+                0x00108948        0x0
+ .tm_clone_table
+                0x00108948        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .tm_clone_table
+                0x00108948        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+
+.data1
+ *(.data1)
+                0x00108948                _edata = .
+                [!provide]                PROVIDE (edata = .)
+                0x00108948                . = .
+                0x00108948                __bss_start = .
+                0x00108948                __bss_start__ = .
+
+.bss            0x00108948   0x147fdc
+ *(.dynbss)
+ .dynbss        0x00108948      0x230 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x00108948                COLORS@@NCURSESW6_5.1.20000708
+                0x0010894c                LINES@@NCURSES6_TINFO_5.0.19991023
+                0x00108950                acs_map@@NCURSES6_TINFO_5.0.19991023
+                0x00108b50                stdscr@@NCURSES6_TINFO_5.0.19991023
+                0x00108b54                cur_term@@NCURSES6_TINFO_5.0.19991023
+                0x00108b58                COLS@@NCURSES6_TINFO_5.0.19991023
+                0x00108b5c                stdout@@GLIBC_2.4
+                0x00108b60                COLOR_PAIRS@@NCURSESW6_5.1.20000708
+                0x00108b68                stdin@@GLIBC_2.4
+                0x00108b70                stderr@@GLIBC_2.4
+                0x00108b74                newscr@@NCURSES6_TINFO_5.0.19991023
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00108b78        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .bss           0x00108b78        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .bss           0x00108b78        0x1 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ *fill*         0x00108b79        0x3 
+ .bss           0x00108b7c     0x362c xfmt.o
+ .bss           0x0010c1a8       0x84 ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+ .bss           0x0010c22c      0x114 ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+ .bss           0x0010c340        0x0 ../ulib/libuserxe.a(libuserxe_a-ucalc2.o)
+ .bss           0x0010c340       0xd8 ../ulib/libuserxe.a(libuserxe_a-uedit.o)
+ .bss           0x0010c418     0x40e4 ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+ .bss           0x001104fc       0x20 ../ulib/libuserxe.a(libuserxe_a-ufemsg.o)
+ .bss           0x0011051c       0x18 ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+ .bss           0x00110534        0x4 ../ulib/libuserxe.a(libuserxe_a-ufile1f.o)
+ .bss           0x00110538    0x64658 ../ulib/libuserxe.a(libuserxe_a-ufile1l.o)
+ .bss           0x00174b90        0x4 ../ulib/libuserxe.a(libuserxe_a-ufile1l2.o)
+ *fill*         0x00174b94        0x4 
+ .bss           0x00174b98       0x34 ../ulib/libuserxe.a(libuserxe_a-ufile2.o)
+ .bss           0x00174bcc       0x20 ../ulib/libuserxe.a(libuserxe_a-ufile2f.o)
+ .bss           0x00174bec        0x4 ../ulib/libuserxe.a(libuserxe_a-ufile2l.o)
+ .bss           0x00174bf0        0x0 ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o)
+ .bss           0x00174bf0        0x8 ../ulib/libuserxe.a(libuserxe_a-ufile3.o)
+ .bss           0x00174bf8     0x100d ../ulib/libuserxe.a(libuserxe_a-ufile3f.o)
+ *fill*         0x00175c05        0x3 
+ .bss           0x00175c08     0x1034 ../ulib/libuserxe.a(libuserxe_a-ufile4.o)
+ *fill*         0x00176c3c        0x4 
+ .bss           0x00176c40       0x5d ../ulib/libuserxe.a(libuserxe_a-ufile5.o)
+ *fill*         0x00176c9d        0x3 
+ .bss           0x00176ca0    0x64d00 ../ulib/libuserxe.a(libuserxe_a-uftp.o)
+ .bss           0x001db9a0        0x8 ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+ .bss           0x001db9a8        0x0 ../ulib/libuserxe.a(libuserxe_a-uftp3.o)
+ .bss           0x001db9a8        0x4 ../ulib/libuserxe.a(libuserxe_a-ugcclib.o)
+ .bss           0x001db9ac       0xf4 ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+                0x001db9ac                Swcstat
+ .bss           0x001dbaa0     0x5808 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o)
+ .bss           0x001e12a8        0x8 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxm.o)
+ .bss           0x001e12b0      0x205 ../ulib/libuserxe.a(libuserxe_a-uparse.o)
+ *fill*         0x001e14b5        0x3 
+ .bss           0x001e14b8       0x1c ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+                0x001e14b8                Sserverstat
+                0x001e14bc                Scmdservercallback
+                0x001e14c0                Scallbackparm
+                0x001e14c4                Scmdserverchildpid
+ .bss           0x001e14d4        0x4 ../ulib/libuserxe.a(libuserxe_a-uproc2.o)
+ .bss           0x001e14d8       0x1c ../ulib/libuserxe.a(libuserxe_a-uproc4.o)
+ .bss           0x001e14f4        0x0 ../ulib/libuserxe.a(libuserxe_a-uque.o)
+ .bss           0x001e14f4        0x0 ../ulib/libuserxe.a(libuserxe_a-ustrcpy.o)
+ .bss           0x001e14f4        0x0 ../ulib/libuserxe.a(libuserxe_a-ustring.o)
+ .bss           0x001e14f4        0x0 ../ulib/libuserxe.a(libuserxe_a-utf.o)
+ .bss           0x001e14f4       0x98 ../ulib/libuserxe.a(libuserxe_a-utf2.o)
+ .bss           0x001e158c       0x14 ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+ .bss           0x001e15a0        0x8 ../ulib/libuserxe.a(libuserxe_a-utf3.o)
+ .bss           0x001e15a8        0x4 ../ulib/libuserxe.a(libuserxe_a-utf4.o)
+ .bss           0x001e15ac     0x1170 ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+ .bss           0x001e271c       0x20 ../ulib/libuserxe.a(libuserxe_a-uunxsub.o)
+ .bss           0x001e273c      0x508 ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+ .bss           0x001e2c44        0xc ../ulib/libuserxe.a(libuserxe_a-u3270.o)
+ .bss           0x001e2c50       0x10 ../ulib/libuserxe.a(libuserxe_a-u32702.o)
+ .bss           0x001e2c60     0x1208 ../ulib/libuserxe.a(libuserxe_a-u32703.o)
+ .bss           0x001e3e68        0x0 ../ulib/libuserxe.a(libuserxe_a-uabend.o)
+ .bss           0x001e3e68      0x790 ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+ .bss           0x001e45f8       0x10 ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+ .bss           0x001e4608        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvebct.o)
+ .bss           0x001e4608     0x1cd4 ../ulib/libuserxe.a(libuserxe_a-ucvext.o)
+ .bss           0x001e62dc       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvext12.o)
+ .bss           0x001e6300        0xc ../ulib/libuserxe.a(libuserxe_a-ucvext2.o)
+ .bss           0x001e630c        0xc ../ulib/libuserxe.a(libuserxe_a-ucvucs.o)
+ .bss           0x001e6318        0x0 ../ulib/libuserxe.a(libuserxe_a-ucvucst.o)
+ .bss           0x001e6318      0x2f9 ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+ .bss           0x001e6611        0x0 ../ulib/libuserxe.a(libuserxe_a-udbcsck2.o)
+ .bss           0x001e6611        0x0 ../ulib/libuserxe.a(libuserxe_a-udos2.o)
+ *fill*         0x001e6611        0x3 
+ .bss           0x001e6614      0x268 ../ulib/libuserxe.a(libuserxe_a-uedit2.o)
+ .bss           0x001e687c       0x64 ../ulib/libuserxe.a(libuserxe_a-uehl.o)
+ .bss           0x001e68e0       0x18 ../ulib/libuserxe.a(libuserxe_a-uproc22.o)
+ .bss           0x001e68f8       0x10 ../ulib/libuserxe.a(libuserxe_a-uproc3.o)
+ .bss           0x001e6908       0x58 ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+ .bss           0x001e6960       0x34 ../ulib/libuserxe.a(libuserxe_a-ucvebc3.o)
+ .bss           0x001e6994        0x4 ../ulib/libuserxe.a(libuserxe_a-ucvebc4.o)
+ .bss           0x001e6998        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_divsi3.o)
+ .bss           0x001e6998        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x001e6998        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_dvmd_lnx.o)
+ .bss           0x001e6998        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_udivmoddi4.o)
+ .bss           0x001e6998        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .bss           0x001e6998        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat64.oS)
+ .bss           0x001e6998        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(lstat64.oS)
+ .bss           0x001e6998        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .bss           0x001e6998        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+ *(COMMON)
+ COMMON         0x001e6998        0x8 ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+                0x001e6998                Gualloc_amount
+                0x001e699c                Gualloc16_amount
+ COMMON         0x001e69a0      0x140 ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+                0x001e69a0                Gucalc_result
+ COMMON         0x001e6ae0        0x5 ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+                0x001e6ae0                Guerropt2
+                0x001e6ae4                Guerropt
+ *fill*         0x001e6ae5        0x3 
+ COMMON         0x001e6ae8        0x8 ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+                0x001e6ae8                Gufile_opt
+                0x001e6aec                Gufile_nomsg
+ COMMON         0x001e6af0       0x88 ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+                0x001e6af0                Gftperr
+                0x001e6af4                Gftpopt
+                0x001e6af8                Gftpclient
+ COMMON         0x001e6b78        0x8 ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+                0x001e6b78                Sphiconv
+                0x001e6b7c                Gukbdl_flag
+ COMMON         0x001e6b80        0x8 ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+                0x001e6b80                Sfdpiper
+                0x001e6b84                Sfdpipew
+ COMMON         0x001e6b88        0xc ../ulib/libuserxe.a(libuserxe_a-utf.o)
+                0x001e6b88                Gulibutfmode
+                0x001e6b8c                Gutfrc
+                0x001e6b90                Gutfcombaltch
+ COMMON         0x001e6b94    0x60000 ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+                0x001e6b94                Gucs2ddmap_i2u
+                0x00206b94                Gucs2ddmap
+ COMMON         0x00246b94      0x104 ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+                0x00246b94                Gtracehdr
+                0x00246c94                Slockhandle
+ COMMON         0x00246c98        0x4 ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+                0x00246c98                Guviol_flag
+ COMMON         0x00246c9c     0x9c48 ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+                0x00246c9c                Gucvebchctr
+                0x00246ca0                Gucvebch
+                0x002508e0                Gucvebc_stat
+ COMMON         0x002508e4       0x10 ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+                0x002508e4                Snewoldctr
+                0x002508e8                Se2stctr
+                0x002508ec                Sduptctr
+                0x002508f0                Ss2etctr
+ COMMON         0x002508f4        0xc ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+                0x002508f4                Gudbcschk_flag
+                0x002508f8                Gudbcschk_width0top
+                0x002508fc                Sdbcschk_hkopt
+ COMMON         0x00250900       0x24 ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+                0x00250900                Guviombuffu
+                0x00250904                Guviomopt
+                0x00250908                Guviomoptstr
+                0x0025090c                Guviomopt2
+                0x00250910                Gw95buffopt
+                0x00250914                Guviomoptstrucs
+                0x00250924                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00250924                _bss_end__ = .
+                0x00250924                __bss_end__ = .
+                0x00250924                . = ALIGN (0x4)
+                0x00250924                . = SEGMENT_START ("ldata-segment", .)
+                0x00250924                . = ALIGN (0x4)
+                0x00250924                __end__ = .
+                0x00250924                _end = .
+                [!provide]                PROVIDE (end = .)
+                0x00250924                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000023       0x24 xfmt.o
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucalc2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uedit.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufemsg.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile1f.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile1l.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile1l2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile2f.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile2l.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile3.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile3f.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile4.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ufile5.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uftp.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uftp3.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ugcclib.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ukbdlnxm.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uparse.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uproc2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uproc4.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uque.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ustrcpy.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ustring.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-utf.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-utf2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-utf3.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-utf4.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uunxsub.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-u3270.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-u32702.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-u32703.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uabend.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvebct.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvext.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvext12.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvext2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvucs.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvucst.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-udbcsck2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-udos2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uedit2.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uehl.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uproc22.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uproc3.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvebc3.o)
+ .comment       0x00000023       0x24 ../ulib/libuserxe.a(libuserxe_a-ucvebc4.o)
+ .comment       0x00000023       0x24 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x2f /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .ARM.attributes
+                0x0000002f       0x23 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .ARM.attributes
+                0x00000052       0x2f /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .ARM.attributes
+                0x00000081       0x2f xfmt.o
+ .ARM.attributes
+                0x000000b0       0x2f ../ulib/libuserxe.a(libuserxe_a-uallocl.o)
+ .ARM.attributes
+                0x000000df       0x2f ../ulib/libuserxe.a(libuserxe_a-ucalc.o)
+ .ARM.attributes
+                0x0000010e       0x2f ../ulib/libuserxe.a(libuserxe_a-ucalc2.o)
+ .ARM.attributes
+                0x0000013d       0x2f ../ulib/libuserxe.a(libuserxe_a-uedit.o)
+ .ARM.attributes
+                0x0000016c       0x2f ../ulib/libuserxe.a(libuserxe_a-uerr.o)
+ .ARM.attributes
+                0x0000019b       0x2f ../ulib/libuserxe.a(libuserxe_a-ufemsg.o)
+ .ARM.attributes
+                0x000001ca       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile.o)
+ .ARM.attributes
+                0x000001f9       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile1f.o)
+ .ARM.attributes
+                0x00000228       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile1l.o)
+ .ARM.attributes
+                0x00000257       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile1l2.o)
+ .ARM.attributes
+                0x00000286       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile2.o)
+ .ARM.attributes
+                0x000002b5       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile2f.o)
+ .ARM.attributes
+                0x000002e4       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile2l.o)
+ .ARM.attributes
+                0x00000313       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile2l2.o)
+ .ARM.attributes
+                0x00000342       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile3.o)
+ .ARM.attributes
+                0x00000371       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile3f.o)
+ .ARM.attributes
+                0x000003a0       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile4.o)
+ .ARM.attributes
+                0x000003cf       0x2f ../ulib/libuserxe.a(libuserxe_a-ufile5.o)
+ .ARM.attributes
+                0x000003fe       0x2f ../ulib/libuserxe.a(libuserxe_a-uftp.o)
+ .ARM.attributes
+                0x0000042d       0x2f ../ulib/libuserxe.a(libuserxe_a-uftp2.o)
+ .ARM.attributes
+                0x0000045c       0x2f ../ulib/libuserxe.a(libuserxe_a-uftp3.o)
+ .ARM.attributes
+                0x0000048b       0x2f ../ulib/libuserxe.a(libuserxe_a-ugcclib.o)
+ .ARM.attributes
+                0x000004ba       0x2f ../ulib/libuserxe.a(libuserxe_a-ukbdl.o)
+ .ARM.attributes
+                0x000004e9       0x2f ../ulib/libuserxe.a(libuserxe_a-ukbdlnxc.o)
+ .ARM.attributes
+                0x00000518       0x2f ../ulib/libuserxe.a(libuserxe_a-ukbdlnxm.o)
+ .ARM.attributes
+                0x00000547       0x2f ../ulib/libuserxe.a(libuserxe_a-uparse.o)
+ .ARM.attributes
+                0x00000576       0x2f ../ulib/libuserxe.a(libuserxe_a-uproc.o)
+ .ARM.attributes
+                0x000005a5       0x2f ../ulib/libuserxe.a(libuserxe_a-uproc2.o)
+ .ARM.attributes
+                0x000005d4       0x2f ../ulib/libuserxe.a(libuserxe_a-uproc4.o)
+ .ARM.attributes
+                0x00000603       0x2f ../ulib/libuserxe.a(libuserxe_a-uque.o)
+ .ARM.attributes
+                0x00000632       0x2f ../ulib/libuserxe.a(libuserxe_a-ustrcpy.o)
+ .ARM.attributes
+                0x00000661       0x2f ../ulib/libuserxe.a(libuserxe_a-ustring.o)
+ .ARM.attributes
+                0x00000690       0x2f ../ulib/libuserxe.a(libuserxe_a-utf.o)
+ .ARM.attributes
+                0x000006bf       0x2f ../ulib/libuserxe.a(libuserxe_a-utf2.o)
+ .ARM.attributes
+                0x000006ee       0x2f ../ulib/libuserxe.a(libuserxe_a-utf22.o)
+ .ARM.attributes
+                0x0000071d       0x2f ../ulib/libuserxe.a(libuserxe_a-utf3.o)
+ .ARM.attributes
+                0x0000074c       0x2f ../ulib/libuserxe.a(libuserxe_a-utf4.o)
+ .ARM.attributes
+                0x0000077b       0x2f ../ulib/libuserxe.a(libuserxe_a-utrace.o)
+ .ARM.attributes
+                0x000007aa       0x2f ../ulib/libuserxe.a(libuserxe_a-uunxsub.o)
+ .ARM.attributes
+                0x000007d9       0x2f ../ulib/libuserxe.a(libuserxe_a-uviol.o)
+ .ARM.attributes
+                0x00000808       0x2f ../ulib/libuserxe.a(libuserxe_a-u3270.o)
+ .ARM.attributes
+                0x00000837       0x2f ../ulib/libuserxe.a(libuserxe_a-u32702.o)
+ .ARM.attributes
+                0x00000866       0x2f ../ulib/libuserxe.a(libuserxe_a-u32703.o)
+ .ARM.attributes
+                0x00000895       0x2f ../ulib/libuserxe.a(libuserxe_a-uabend.o)
+ .ARM.attributes
+                0x000008c4       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvebc.o)
+ .ARM.attributes
+                0x000008f3       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvebc2.o)
+ .ARM.attributes
+                0x00000922       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvebct.o)
+ .ARM.attributes
+                0x00000951       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvext.o)
+ .ARM.attributes
+                0x00000980       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvext12.o)
+ .ARM.attributes
+                0x000009af       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvext2.o)
+ .ARM.attributes
+                0x000009de       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvucs.o)
+ .ARM.attributes
+                0x00000a0d       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvucst.o)
+ .ARM.attributes
+                0x00000a3c       0x2f ../ulib/libuserxe.a(libuserxe_a-udbcschk.o)
+ .ARM.attributes
+                0x00000a6b       0x2f ../ulib/libuserxe.a(libuserxe_a-udbcsck2.o)
+ .ARM.attributes
+                0x00000a9a       0x2f ../ulib/libuserxe.a(libuserxe_a-udos2.o)
+ .ARM.attributes
+                0x00000ac9       0x2f ../ulib/libuserxe.a(libuserxe_a-uedit2.o)
+ .ARM.attributes
+                0x00000af8       0x2f ../ulib/libuserxe.a(libuserxe_a-uehl.o)
+ .ARM.attributes
+                0x00000b27       0x2f ../ulib/libuserxe.a(libuserxe_a-uproc22.o)
+ .ARM.attributes
+                0x00000b56       0x2f ../ulib/libuserxe.a(libuserxe_a-uproc3.o)
+ .ARM.attributes
+                0x00000b85       0x2f ../ulib/libuserxe.a(libuserxe_a-uviom.o)
+ .ARM.attributes
+                0x00000bb4       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvebc3.o)
+ .ARM.attributes
+                0x00000be3       0x2f ../ulib/libuserxe.a(libuserxe_a-ucvebc4.o)
+ .ARM.attributes
+                0x00000c12       0x1d /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000c2f       0x1d /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x00000c4c       0x1d /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x00000c69       0x2f /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000c98       0x31 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x00000cc9       0x31 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat64.oS)
+ .ARM.attributes
+                0x00000cfa       0x31 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(lstat64.oS)
+ .ARM.attributes
+                0x00000d2b       0x2f /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .ARM.attributes
+                0x00000d5a       0x23 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(xfmt elf32-littlearm)

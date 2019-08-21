@@ -1,0 +1,27 @@
+080702 (ubuntu7)
+  hercules install
+    sudo apt-get install hercules
+    cp /rh9j/etc/hercules/sample.cnd /etc/hercules/hercules.cnf 
+  sudo /home2/mvsr38j/xstartmvs
+  -->x3270 not found
+     -->sudo apt-get install x3270
+  xstartmvs  parameter /home2/hercules/conf/turnkey2-mvs.conf
+  add a line
+    193 3390 /l/hercures/mvsr38j/dasd/userv1.193 
+
+  HASP479 unable to allocate chkpt lock
+  -->r,xx,y  -->jes2 stop
+     s jes2
+     r xx,format,noreq
+  rpf 3.3 VOL not found
+    -->m 193,vol=(sl,userv1),use=private  
+    and for next ipl
+       sys1.parmlib(vatlist)
+         userv1,0,1,3390,n            0:resident,1:public
+    catalog by sak01.jcl.asm(alloc)  (iefbr14)
+       --> r xx,secret        (password required for master catalog)
+  ftp wait(ind$file not installed)
+    v 480,online
+    devinit 00c ____.jcl eof
+    r xx,480
+    devinit 480 ____.het

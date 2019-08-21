@@ -1,0 +1,138 @@
+!! ****************************************************************
+!! key binding definition for xe.(defines all DOS keys.)
+!!     copy and select lines which xe use and terminal simulater
+!!     genarating string is not match to xe.
+!! usage: xrdb -merge xelnxres.xxx (execute once after reboot)
+!! ****************************************************************
+xeterm*background:	Black
+xeterm*cursorColor:	blue
+xeterm*font:	fixed
+xeterm*foreground:	Wheat
+xeterm*fullCursor:	true
+xeterm*reverseVideo:	false
+xeterm*reverseWrap:	true
+xeterm*scrollBar:	true
+xeterm*scrollKey:	on
+xeterm*scrollTtyOutput:	off
+xeterm*titleBar:	true
+xeterm*vt100.Translations:	#override \n\
+	Shift<Key>space:     begin-conversion(_JAPANESE_CONVERSION)\n\
+			     <Key>F1:	string(\033~3B000)\n\
+			     <Key>F2:	string(\033~3C000)\n\
+			     <Key>F3:	string(\033~3D000)\n\
+			     <Key>F4:	string(\033~3E000)\n\
+			     <Key>F5:	string(\033~3F000)\n\
+			     <Key>F6:	string(\033~40000)\n\
+			     <Key>F7:	string(\033~41000)\n\
+			     <Key>F8:	string(\033~42000)\n\
+			     <Key>F9:	string(\033~43000)\n\
+			     <Key>F10:	string(\033~44000)\n\
+			     <Key>F11:	string(\033~85000)\n\
+			     <Key>F12:	string(\033~86000)\n\
+			Shift<Key>F1:	string(\033~54001)\n\
+			Shift<Key>F2:	string(\033~55001)\n\
+			Shift<Key>F3:	string(\033~56001)\n\
+			Shift<Key>F4:	string(\033~57001)\n\
+			Shift<Key>F5:	string(\033~58001)\n\
+			Shift<Key>F6:	string(\033~59001)\n\
+			Shift<Key>F7:	string(\033~5A001)\n\
+			Shift<Key>F8:	string(\033~5B001)\n\
+			Shift<Key>F9:	string(\033~5C001)\n\
+			Shift<Key>F10:	string(\033~5D001)\n\
+			Shift<Key>F11:	string(\033~87001)\n\
+			Shift<Key>F12:	string(\033~88001)\n\
+			Ctrl<Key>F1:	string(\033~5E002)\n\
+			Ctrl<Key>F2:	string(\033~5F002)\n\
+			Ctrl<Key>F3:	string(\033~60002)\n\
+			Ctrl<Key>F4:	string(\033~61002)\n\
+			Ctrl<Key>F5:	string(\033~62002)\n\
+			Ctrl<Key>F6:	string(\033~63002)\n\
+			Ctrl<Key>F7:	string(\033~64002)\n\
+			Ctrl<Key>F8:	string(\033~65002)\n\
+			Ctrl<Key>F9:	string(\033~66002)\n\
+			Ctrl<Key>F10:   string(\033~67002)\n\
+			Ctrl<Key>F11:   string(\033~89002)\n\
+			Ctrl<Key>F12:   string(\033~8a002)\n\
+			Alt<Key>F1:		string(\033~68003)\n\
+			Alt<Key>F2:		string(\033~69003)\n\
+			Alt<Key>F3:		string(\033~6a003)\n\
+			Alt<Key>F4:		string(\033~6b003)\n\
+			Alt<Key>F5:		string(\033~6c003)\n\
+			Alt<Key>F6:		string(\033~6d003)\n\
+			Alt<Key>F7:		string(\033~6e003)\n\
+			Alt<Key>F8:		string(\033~6f003)\n\
+			Alt<Key>F9:		string(\033~70003)\n\
+			Alt<Key>F10:   	string(\033~71003)\n\
+			Alt<Key>F11:   	string(\033~8b003)\n\
+			Alt<Key>F12:   	string(\033~8c003)\n\
+			<Key>Prior:			string(\033~49000)\n\
+			Shift<Key>Prior:	string(\033~49001)\n\
+			Ctrl<Key>Prior:		string(\033~84002)\n\
+			Alt<Key>Prior:		string(\033~99003)\n\
+			     <Key>Next:		string(\033~51000)\n\
+			Shift<Key>Next:		string(\033~51001)\n\
+			Ctrl<Key>Next:		string(\033~76002)\n\
+			Alt<Key>Next:		string(\033~A1003)\n\
+			     <Key>Insert:	string(\033~52000)\n\
+			Shift<Key>Insert:	string(\033~52001)\n\
+			Ctrl<Key>Insert:	string(\033~92002)\n\
+			Alt<Key>Insert:		string(\033~A2003)\n\
+			     <Key>Delete:	string(\033~53000)\n\
+			Shift<Key>Delete:	string(\033~53001)\n\
+			Ctrl<Key>Delete:	string(\033~93002)\n\
+			Alt<Key>Delete:		string(\033~A3003)\n\
+			     <Key>Up:		string(\033~48000)\n\
+			Shift<Key>Up:		string(\033~48001)\n\
+			Ctrl<Key>Up:		string(\033~8D002)\n\
+			Alt<Key>Up:			string(\033~98003)\n\
+			     <Key>Down:		string(\033~50000)\n\
+			Shift<Key>Down:		string(\033~50001)\n\
+			Ctrl<Key>Down:		string(\033~91002)\n\
+			Alt<Key>Down:		string(\033~A0003)\n\
+			     <Key>Left:		string(\033~4B000)\n\
+			Shift<Key>Left:		string(\033~4B001)\n\
+			Ctrl<Key>Left:		string(\033~73002)\n\
+			Alt<Key>Left:		string(\033~9B003)\n\
+			     <Key>Right:	string(\033~4D000)\n\
+			Shift<Key>Right:	string(\033~4D001)\n\
+			Ctrl<Key>Right:		string(\033~74002)\n\
+			Alt<Key>Right:		string(\033~9D003)\n\
+			     <Key>Home:		string(\033~47000)\n\
+			Shift<Key>Home:		string(\033~47001)\n\
+			Ctrl<Key>Home:		string(\033~77002)\n\
+			Alt<Key>Home:		string(\033~97003)\n\
+			     <Key>End:		string(\033~4F000)\n\
+			Shift<Key>End:		string(\033~4F001)\n\
+			Ctrl<Key>End:		string(\033~75002)\n\
+			Alt<Key>End:		string(\033~9F003)\n\
+			Shift<Key>Escape:	string(\033~011B1)\n\
+			Ctrl<Key>Escape:	string(\033~011B2)\n\
+			Alt<Key>Escape:		string(\033~01003)\n\
+			Shift<Key>BackSpace:	string(\033~0E081)\n\
+			Ctrl<Key>BackSpace:		string(\033~0E7F2)\n\
+			Alt<Key>BackSpace:		string(\033~0E003)\n\
+			Shift<Key>Tab:			string(\033~0F001)\n\
+			Ctrl<Key>Tab:			string(\033~94002)\n\
+			Alt<Key>Tab:			string(\033~a5003)\n\
+			Shift<Key>Return:		string(\033~1C0D1)\n\
+			Ctrl<Key>Return:		string(\033~1C0A2)\n\
+			Alt<Key>Return:			string(\033~1C003)\n\
+			Ctrl<Key>KP_1:			string(\033~75002)\n\
+			Ctrl<Key>KP_2:			string(\033~91002)\n\
+			Ctrl<Key>KP_3:			string(\033~76002)\n\
+			Ctrl<Key>KP_4:			string(\033~73002)\n\
+			Ctrl<Key>KP_5:			string(\033~8f002)\n\
+			Ctrl<Key>KP_6:			string(\033~74002)\n\
+			Ctrl<Key>KP_7:			string(\033~77002)\n\
+			Ctrl<Key>KP_8:			string(\033~8d002)\n\
+			Ctrl<Key>KP_9:			string(\033~84002)\n\
+			Ctrl<Key>KP_0:			string(\033~92002)\n\
+			Ctrl<Key>KP_Decimal: 	string(\033~93002)\n\
+			Ctrl<Key>KP_Subtract: 	string(\033~8e002)\n\
+			Ctrl<Key>KP_Add:      	string(\033~90002)\n\
+			Ctrl<Key>KP_Multiply: 	string(\033~96002)\n\
+			Ctrl<Key>KP_Divide:   	string(\033~95002)\n\
+			     <Key>KP_Enter:		string(\033~E00D0)\n\
+			Shift<Key>KP_Enter:		string(\033~E00D1)\n\
+			Ctrl<Key>KP_Enter:		string(\033~E00A2)\n\
+			Alt<Key>KP_Enter:		string(\033~A6003)

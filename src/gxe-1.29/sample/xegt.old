@@ -1,0 +1,23 @@
+# kick xe under gnome-terminal
+. xegetdv        #get distribution id to DISTVER
+. xesetxenv $1   #setup environment variable 
+#
+CHKMAP=`xmodmap -pke|grep Return|grep F1`
+if [ x"$CHKMAP" = x ]; then
+	xmodmap $KEYMAP
+fi
+CURDIR=`pwd`
+CHKOPT=`gnome-terminal --help|grep working-directory`
+if [ x"$CHKOPT" != x ]; then
+	WKDIR="--working-directory=$CURDIR"	  #for RedHat8/9
+fi
+if [ x"$PGMP" != x ]; then 	#pgm= parm detected at xsetxenv
+	shift                   #drop parm1
+fi
+if [ x"$PGM" != x ]; then
+	echo gnome-terminal -t xe-gt $WKDIR -x $PGM --k$KEYF "$@"
+	gnome-terminal -t xe-gt $WKDIR -x $PGM --k$KEYF "$@"
+else
+	gnome-terminal -t xe-gt $WKDIR
+fi
+#xmodmap $KEYMAPRESTORE

@@ -1,0 +1,22 @@
+!***********************************************************************************
+!****** xexmap.rh8.0 *** xmodmap input to assing string to key event
+!****** usage under RedHat v8.0
+!******    "xmodmap xexmap.rh8.0"
+!***********************************************************************************
+!
+!keycode  23 = Tab       F14
+!keycode  22 = BackSpace F15
+!keycode  36 = Return    F16
+!keycode  99 = Prior     F17
+!keycode 103 = End       F18
+!keycode 105 = Next      F19
+!keycode 106 = Insert    F20
+!keycode 107 = Delete    F13
+keysym Tab       = Tab       F14
+keysym BackSpace = BackSpace F15
+keysym Return    = Return    F16
+keysym Prior     = Prior     F17
+keysym End       = End       F18
+keysym Next      = Next      F19
+keysym Insert    = Insert    F20
+keysym Delete    = Delete    F13

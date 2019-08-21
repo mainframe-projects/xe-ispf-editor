@@ -1,0 +1,40 @@
+##########################################################################
+# xelnxkey.rh8.0
+# Key & EscString mapping table for xe under "RedHat V8.0"
+#        Usage: xe --kthis.file
+#   for Console
+#   	xe chk terminfo Key,so specify only required.
+#       chk terminfo assignment by xekbchk utility.
+#   for X
+#   	xe defines default for gnome-terminal/xterm/kterm.
+#   	see it by xekbchk utility,then specify additional key-string conbination.
+#       for the key terminal emulator dose not generate,
+#       setup by xrdb linux utility.(see xelnxe.doc or xelnxj.doc for japanese) 
+#   [section]:section is terminal emulator name,[common] is for all type.
+#             XETERM environment valiable is used if it is set.
+#             Or,emulator anme is checked,gnome-terminal/xterm/kterm is supported.
+#             for others,it use terminal name of TERM environment variable
+#   Keyname: F1<-->F12, Home, End, Insert, Delete, PageUp, PageDown,
+#            Up, Down, Left, Right, Esc, BackSpace, Tab, Enter, 2, KP_Enter  
+##########################################################################
+[common]
+##########################################################################
+[gnome-terminal]
+# xmodmap issued for gnome-terminal to detect Shift+
+  KeyString:S+Tab       =^[[26~    #assigned F14 to S+Tab       by xmodmap
+  KeyString:S+BackSpace =^[[28~    #assigned F15 to S+BackSpace by xmodmap
+  KeyString:S+Enter     =^[[29~    #assigned F16 to S+Return    by xmodmap
+  KeyString:S+Insert    =^[[34~    #assigned F20 to S+Insert    by xmodmap
+  KeyString:S+Delete    =^[[25~    #assigned F13 to S+Delete    by xmodmap
+  KeyString:S+End       =^[[32~    #assigned F18 to S+End       by xmodmap
+  KeyString:S+PageUp    =^[[31~    #assigned F17 to S+Prior     by xmodmap
+  KeyString:S+PageDown  =^[[33~    #assigned F19 to S+Next      by xmodmap
+##########################################################################
+[xterm]
+  KeyString:S+End       =^[[32;2~    #assigned F18 to S+End       by xmodmap
+##########################################################################
+[kterm]
+  KeyString:End         =^[[\x00     #kterm generate,string assing by xrdb is effect on both w/o and with Shift+
+##########################################################################
+[xeterm]          # e.g for XETERM=xeterm case
+##########################################################################

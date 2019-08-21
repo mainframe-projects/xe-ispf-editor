@@ -1,0 +1,12 @@
+Package: gxe-ispf
+Version: 1.29
+Section: base
+Priority: optional
+Architecture:  armhf
+Depends: libxaw7-dev(>= 2:1.0.13-1), libxaw3dxft8-dev(>= 1.6.2e-2), ncurses-base(>= 6.1+20181013-2), libncurses6(>= 6.1+20181013-2), libcups2(>= 2.2.10-6), libcups2-dev(>= 2.2.10-6), libgnomeui-dev(>= 2.24.5-3.1)
+Maintainer: Ian Stanley <iandstanley@gmail.com>
+Homepage: https://github.com/pi-mainframes/xe-ispf-editor
+Description: XE & GXE ISPF Style editor for Linux
+ This is a small binary build of the XE and GXE editors snd tools
+ More details can be found at https://github.com/sakachin2/XE
+ This DEB file can be found at https://github.com/pi-mainframes/xe-ispf-editor

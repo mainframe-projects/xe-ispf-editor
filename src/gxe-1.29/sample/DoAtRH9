@@ -1,0 +1,8 @@
+fc5=`cat /proc/version|grep FC5`
+echo $fc5
+if [ x"$fc5" = x ]; then
+    echo "!!!!! RH9"
+else
+    echo "????? Not RH9"
+	exit
+fi

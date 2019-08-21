@@ -1,0 +1,109 @@
+######################################
+# for COBOL
+######################################
+#delm
+# minus"-" may be part of variable
+#
+#symbol = "~","!","%","^","*","(",")","-","+","=","[",
+symbol = "~","!","%","^","*","(",")","+","=","[",
+        "]","\\",":",";",",",".","/","?","&","<",">","\|"
+symbol = '[[:blank:]]+-[[:blank:]]+'
+
+######################################
+#data type to PICTURE
+######################################
+type="BINARY|PACKED-DECIMAL"
+type='(COMP|COMPUTATIONAL)-[123456XN]'
+type='(PIC|PICTURE)[[:blank:]]+X(\([[:digit:]]+\)|X*)'
+type='(PIC|PICTURE)[[:blank:]]+[S]?(9\([[:digit:]]+\)|9+)[V]?(9\([[:digit:]]+\)|9+)?'
+type='(PIC|PICTURE)[[:blank:]]+[+-]?([Z9]\([[:digit:]]+\)|[Z9]+)([\.,]?([Z9]\([[:digit:]]+\)|[Z9]+)?)*(E[+-]?9+)?'
+######################################
+# keyword from VIM  2008/02/26
+######################################
+keyword="DIVISION"
+keyword="IDENTIFICATION|ENVIRONMENT|DATA|PROCEDURE"
+keyword="PROGRAM-ID|SOURCE-COMPUTER|OBJECT-COMPUTER|SPECIAL-NAMES|FILE-CONTROL|I-O-CONTROL"
+keyword="CONFIGURATION|INPUT-OUTPUT|FILE|WORKING-STORAGE|LOCAL-STORAGE|LINKAGE"
+keyword="FUNCTION-POINTER|PROCEDURE-POINTER"
+keyword = "ACCEPT|ACCESS|ADD|ADDRESS|ADVANCING|AFTER|ALPHABET|ALPHABETIC",
+    "ALPHABETIC-LOWER|ALPHABETIC-UPPER|ALPHANUMERIC|ALPHANUMERIC-EDITED|ALS",
+    "ALTERNATE|AND|ANY|ARE|AREA|AREAS|ASCENDING|ASSIGN|AT|AUTHOR|BEFORE|BINARY",
+    "BLANK|BLOCK|BOTTOM|BY|CANCEL|CBLL|CD|CF|CH|CHARACTER|CHARACTERS|CLASS",
+    "CLOCK-UNITS|CLOSE|COBOL|CODE|CODE-SET|COLLATING|COLUMN|COMMA|COMMON",
+    "COMMUNICATIONS|COMPUTATIONAL|COMPUTE|CONTENT|CONTINUE",
+    "CONTROL|CONVERTING|CORR|CORRESPONDING|COUNT|CURRENCY|DATE|DATE-COMPILED",
+    "DATE-WRITTEN|DAY|DAY-OF-WEEK|DE|DEBUG-CONTENTS|DEBUG-ITEM|DEBUG-LINE",
+    "DEBUG-NAME|DEBUG-SUB-1|DEBUG-SUB-2|DEBUG-SUB-3|DEBUGGING|DECIMAL-POINT",
+    "DELARATIVES|DELETE|DELIMITED|DELIMITER|DEPENDING|DESCENDING|DESTINATION",
+    "DETAIL|DISABLE|DISPLAY|DIVIDE|DIVISION|DOWN|DUPLICATES|DYNAMIC|EGI|ELSE|EMI",
+    "ENABLE|END-ADD|END-COMPUTE|END-DELETE|END-DIVIDE|END-EVALUATE|END-IF",
+    "END-MULTIPLY|END-OF-PAGE|END-READ|END-RECEIVE|END-RETURN",
+    "END-REWRITE|END-SEARCH|END-START|END-STRING|END-SUBTRACT|END-UNSTRING",
+    "END-WRITE|EQUAL|ERROR|ESI|EVALUATE|EVERY|EXCEPTION|EXIT",
+    "EXTEND|EXTERNAL|FALSE|FD|FILLER|FINAL|FIRST|FOOTING|FOR|FROM",
+    "GENERATE|GIVING|GLOBAL|GREATER|GROUP|HEADING|HIGH-VALUE|HIGH-VALUES|I-O",
+    "IN|INDEX|INDEXED|INDICATE|INITIAL|INITIALIZE",
+    "INITIATE|INPUT|INSPECT|INSTALLATION|INTO|IS|JUST",
+    "JUSTIFIED|KEY|LABEL|LAST|LEADING|LEFT|LENGTH|LOCK|MEMORY",
+    "MERGE|MESSAGE|MODE|MODULES|MOVE|MULTIPLE|MULTIPLY|NATIVE|NEGATIVE|NEXT|NO|NOT",
+    "NUMBER|NUMERIC|NUMERIC-EDITED|OCCURS|OF|OFF|OMITTED|ON|OPEN",
+    "OPTIONAL|OR|ORDER|ORGANIZATION|OTHER|OUTPUT|OVERFLOW|PACKED-DECIMAL|PADDING",
+    "PAGE|PAGE-COUNTER|PERFORM|PF|PH|PIC|PICTURE|PLUS|POINTER|POSITION|POSITIVE",
+    "PRINTING|PROCEDURES|PROCEDD|PROGRAM|PURGE|QUEUE|QUOTES",
+    "RANDOM|RD|READ|RECEIVE|RECORD|RECORDS|REDEFINES|REEL|REFERENCE|REFERENCES",
+    "RELATIVE|RELEASE|REMAINDER|REMOVAL|REPLACE|REPLACING|REPORT|REPORTING",
+    "REPORTS|RERUN|RESERVE|RESET|RETURN|RETURNING|REVERSED|REWIND|REWRITE|RF|RH",
+    "RIGHT|ROUNDED|RUN|SAME|SD|SEARCH|SECTION|SECURITY|SEGMENT|SEGMENT-LIMITED",
+    "SELECT|SEND|SENTENCE|SEPARATE|SEQUENCE|SEQUENTIAL|SET|SIGN|SIZE|SORT",
+    "SORT-MERGE|SOURCE|STANDARD",
+    "STANDARD-1|STANDARD-2|START|STATUS|STOP|STRING|SUB-QUEUE-1|SUB-QUEUE-2",
+    "SUB-QUEUE-3|SUBTRACT|SUM|SUPPRESS|SYMBOLIC|SYNC|SYNCHRONIZED|TABLE|TALLYING",
+    "TAPE|TERMINAL|TERMINATE|TEST|TEXT|THAN|THEN|THROUGH|THRU|TIME|TIMES|TO|TOP",
+    "TRAILING|TRUE|TYPE|UNIT|UNSTRING|UNTIL|UP|UPON|USAGE|USE|USING|VALUE|VALUES",
+    "VARYING|WHEN|WITH|WORDS|WRITE"
+keyword="CONTAINS"
+keyword="IF|INVALID|END|EOP"
+keyword="ALL"
+keyword="SPACE|SPACES|NULL|ZERO|ZEROES|ZEROS|LOW-VALUE|LOW-VALUES"
+keyword="GO|GOTO"
+keyword="COPY"
+keyword="ALTER|ENTER|RENAMES"
+keyword="OCCURS|DEPENDING|VARYING|BINARY|COMP|REDEFINES"
+keyword="REPLACING|RUN"
+keyword="EXEC|END-EXEC"
+keyword="CALL|END-CALL|CANCEL|GOBACK|PERFORM|END-PERFORM|INVOKE"
+#keyword='(?=.*[[:lower:]])(?=.*[[:upper:]])(?=.*[[:punct:]]).+'
+#keyword='(?=.*[[:lower:]])A.*'
+#keyword='(?(?=.{80}).{8}$)'		//cond not support 
+#keyword='(?(?=xx)AAB|AAC)'		//cond not support 
+
+######################################
+#comment:no consideration of COL.1-6,73-
+######################################
+#comment start '^.{72}(?=.+)'
+comment start '^.{6}[*/C]'                     #*,/,C on col.7
+comment='^.{6}'                                #col.1-6:comment 
+#state comment start '^.{72}'    begin
+#	comment='.{8}'
+#end
+#environment comment start '^.' begin
+#	comment = '^.{6}' exitall
+#end
+#comment start `(?(?=^.{72}).{8}$)`
+#comment start '(^[[:blank:]]{72}).{8}$'
+######################################
+#string:no consideration of COL.1-6,73-
+######################################
+#string delim "\"" "\"" escape "\"\""
+#string delim "'"  "'"  escape "''"
+string delim '[X]?\"'  '(\"|.$)' 
+string delim '[X]?\''  '(\'|.$)' 
+######################################
+# numbers
+######################################
+number = '\<[+-]?(([[:digit:]]*\.)?[[:digit:]]+([eE][+-]?[[:digit:]]+)?)\>'
+
+######################################
+#include "function.lang"
+# no function definition
+######################################

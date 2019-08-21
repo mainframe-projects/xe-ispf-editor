@@ -1,0 +1,28 @@
+//TESTLKED  PROC MBR=                                                   00040000
+//********************************************************************//00050000
+//*            LKED                                                  *//00060000
+//********************************************************************//00070000
+//********************************************************************//00127000
+//*            LINK EDIT ( AMODE=31,RMODE=ANY )                      *//00128000
+//********************************************************************//00129000
+//LKED   EXEC  PGM=IEWL,                                                00130000
+//       PARM='LET,LIST,MAP,XREF,RENT'                                  00140001
+//*      PARM='LET,LIST,MAP,XREF,RENT,AMODE=31,RMODE=ANY',              00160000
+//SYSLMOD  DD  DISP=SHR,DSN=TEST.SAK.LOAD(&MBR)  /* APSL SINGL OBJECT   00170000
+//SYSUT1   DD  DSN=&&SYSUT1,UNIT=SYSDA,                                 00180000
+//             SPACE=(1024,(200,50),,CONTIG,ROUND),DCB=BLKSIZE=1024     00190000
+//SYSPRINT DD  SYSOUT=*                                                 00200000
+//SYSLIN   DD DISP=OLD,DSN=TEST.SAK.OBJ(&MBR)                           00211000
+//         PEND                                                         00220000
+//SS1 EXEC TESTLKED,MBR=XE4S001Z COND=ONLY                              00230000
+//*                                                                     00260000
+//SS3 EXEC PGM=XE4S001Z,                                               X00270000
+// PARM='1,TEST.SAK.TMP80(EBCCTL),00,01,,NOW,151617,NOW,0,TWGC002'      00280000
+//STEPLIB DD DISP=SHR,DSN=TEST.SAK.LOAD                                 00290000
+//SS3 EXEC PGM=XE4S001Z,                                               X00300000
+// PARM='TEST.SAK.TMP80'                                                00310000
+//STEPLIB DD DISP=SHR,DSN=TEST.SAK.LOAD                                 00310100
+//                                                                      00310200
+//SS2 EXEC PGM=XE4S001Z                                                 00310300
+//STEPLIB DD DISP=SHR,DSN=TEST.SAK.LOAD                                 00310400
+

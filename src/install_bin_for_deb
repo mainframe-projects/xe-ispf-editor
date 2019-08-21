@@ -1,0 +1,19 @@
+#!/bin/bash
+
+TARGET="../releases/gxe-ispf-1.29/usr/local/bin/"
+BASE="gxe-1.29/src"
+for files in gxe xe/xe xe/xe3270 xe/xekbchk xe/xeacb xp/gxp xsub/xbc xsub/xci xsub/xcv xsub/xcvsjisc xsub/xdc xsub/xdd xsub/xdig xsub/xds xsub/xfc xsub/xff xsub/xfg xsub/xfmt xsub/xfs xsub/xlow xsub/xmj xsub/xpe xsub/xutf8
+do
+ echo cp $BASE/$files $TARGET
+  cp $BASE/$files  $TARGET
+
+done
+
+cd ../releases
+
+echo
+echo "Now run build for .DEB package with the command"
+
+echo "cd ../releases"
+echo "dpkg-deb --build gxe-ispf-1.29-armhf/"
+echo
